@@ -1,0 +1,14 @@
+Discriminant: -1123 ideal_hnf: [4, 0, 2] weight: 0 mod_p: 53 runtime: 640 memory: 309 dimension: 146
+Discriminant: -1123 ideal_hnf: [4, 0, 2] weight: 0 mod_p: 59 runtime: 670 memory: 341 dimension: 144
+Discriminant: -1123 ideal_hnf: [7, 2, 1] weight: 0 mod_p: 53 runtime: 1791 memory: 554 dimension: 96
+Discriminant: -1123 ideal_hnf: [7, 4, 1] weight: 0 mod_p: 53 runtime: 1818 memory: 554 dimension: 96
+Discriminant: -1123 ideal_hnf: [9, 0, 3] weight: 0 mod_p: 53 runtime: 3102 memory: 755 dimension: 191
+Discriminant: -1123 ideal_hnf: [7, 2, 1] weight: 0 mod_p: 59 runtime: 1835 memory: 554 dimension: 96
+Discriminant: -1123 ideal_hnf: [7, 4, 1] weight: 0 mod_p: 59 runtime: 1844 memory: 554 dimension: 96
+Discriminant: -1123 ideal_hnf: [9, 0, 3] weight: 0 mod_p: 59 runtime: 3061 memory: 755 dimension: 191
+Discriminant: -1123 ideal_hnf: [4, 0, 2] weight: 1 mod_p: 59 runtime: 18033 memory: 2571 dimension: 285
+Discriminant: -1123 ideal_hnf: [4, 0, 2] weight: 1 mod_p: 53 runtime: 18170 memory: 2571 dimension: 285
+Discriminant: -1123 ideal_hnf: [7, 2, 1] weight: 1 mod_p: 53 runtime: 42569 memory: 6355 dimension: 191
+Discriminant: -1123 ideal_hnf: [7, 4, 1] weight: 1 mod_p: 53 runtime: 43354 memory: 6355 dimension: 191
+Discriminant: -1123 ideal_hnf: [7, 4, 1] weight: 1 mod_p: 59 runtime: 43401 memory: 6323 dimension: 191
+Discriminant: -1123 ideal_hnf: [7, 2, 1] weight: 1 mod_p: 59 runtime: 43668 memory: 6355 dimension: 191

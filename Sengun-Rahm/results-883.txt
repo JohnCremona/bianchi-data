@@ -1,0 +1,16 @@
+Discriminant: -883 ideal_hnf: [4, 0, 2] weight: 0 mod_p: 67 runtime: 181 memory: 209 dimension: 112
+Discriminant: -883 ideal_hnf: [4, 0, 2] weight: 0 mod_p: 71 runtime: 183 memory: 209 dimension: 112
+Discriminant: -883 ideal_hnf: [9, 0, 3] weight: 0 mod_p: 67 runtime: 968 memory: 369 dimension: 149
+Discriminant: -883 ideal_hnf: [13, 12, 1] weight: 0 mod_p: 67 runtime: 1855 memory: 624 dimension: 74
+Discriminant: -883 ideal_hnf: [13, 0, 1] weight: 0 mod_p: 67 runtime: 1858 memory: 656 dimension: 74
+Discriminant: -883 ideal_hnf: [9, 0, 3] weight: 0 mod_p: 71 runtime: 966 memory: 369 dimension: 149
+Discriminant: -883 ideal_hnf: [17, 16, 1] weight: 0 mod_p: 67 runtime: 3310 memory: 1014 dimension: 74
+Discriminant: -883 ideal_hnf: [17, 0, 1] weight: 0 mod_p: 67 runtime: 3485 memory: 1014 dimension: 74
+Discriminant: -883 ideal_hnf: [13, 12, 1] weight: 0 mod_p: 71 runtime: 1784 memory: 624 dimension: 74
+Discriminant: -883 ideal_hnf: [13, 0, 1] weight: 0 mod_p: 71 runtime: 1795 memory: 656 dimension: 74
+Discriminant: -883 ideal_hnf: [16, 0, 4] weight: 0 mod_p: 67 runtime: 4167 memory: 1205 dimension: 227
+Discriminant: -883 ideal_hnf: [17, 16, 1] weight: 0 mod_p: 71 runtime: 3358 memory: 1014 dimension: 74
+Discriminant: -883 ideal_hnf: [17, 0, 1] weight: 0 mod_p: 71 runtime: 3332 memory: 1014 dimension: 74
+Discriminant: -883 ideal_hnf: [16, 0, 4] weight: 0 mod_p: 71 runtime: 3899 memory: 1205 dimension: 227
+Discriminant: -883 ideal_hnf: [4, 0, 2] weight: 1 mod_p: 67 runtime: 4423 memory: 1237 dimension: 223
+Discriminant: -883 ideal_hnf: [4, 0, 2] weight: 1 mod_p: 71 runtime: 4469 memory: 1237 dimension: 223

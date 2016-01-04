@@ -1,0 +1,2144 @@
+Level = 32
+denominator = 2
+--
+Level = 32+4i
+denominator = 2
+--
+Level = 4+32i
+denominator = 2
+--
+Level = 25+21i
+denominator = 4
+--
+Level = 21+25i
+denominator = 4
+--
+Level = 33
+denominator = 2
+--
+Level = 32+9i
+denominator = 2
+--
+Level = 31+12i
+denominator = 2
+--
+Level = 12+31i
+denominator = 2
+--
+Level = 9+32i
+denominator = 2
+--
+Level = 28+18i
+denominator = 3
+--
+Level = 18+28i
+denominator = 3
+--
+Level = 31+13i
+denominator = 12
+--
+Level = 13+31i
+denominator = 12
+--
+Level = 32+14i
+denominator = 6
+--
+Level = 14+32i
+denominator = 6
+--
+Level = 27+23i
+denominator = 3
+--
+Level = 23+27i
+denominator = 3
+--
+Level = 29+22i
+denominator = 2
+--
+Level = 22+29i
+denominator = 2
+--
+Level = 10+35i
+denominator = 2
+--
+Level = 36+8i
+denominator = 2
+--
+Level = 28+24i
+denominator = 2
+--
+Level = 24+28i
+denominator = 2
+--
+Level = 8+36i
+denominator = 2
+--
+Level = 29+23i
+denominator = 2
+--
+Level = 23+29i
+denominator = 2
+--
+Level = 32+19i
+denominator = 2
+--
+Level = 19+32i
+denominator = 2
+--
+Level = 34+16i
+denominator = 3
+--
+Level = 37+7i
+denominator = 3
+--
+Level = 7+37i
+denominator = 3
+--
+Level = 36+12i
+denominator = 2
+--
+Level = 12+36i
+denominator = 2
+--
+Level = 38
+denominator = 2
+--
+Level = 2+38i
+denominator = 2
+--
+Level = 37+9i
+denominator = 2
+--
+Level = 35+15i
+denominator = 2
+--
+Level = 33+19i
+denominator = 2
+--
+Level = 19+33i
+denominator = 2
+--
+Level = 15+35i
+denominator = 2
+--
+Level = 9+37i
+denominator = 2
+--
+Level = 27+27i
+denominator = 2
+--
+Level = 28+26i
+denominator = 2
+--
+Level = 26+28i
+denominator = 2
+--
+Level = 32+21i
+denominator = 2
+--
+Level = 21+32i
+denominator = 2
+--
+Level = 36+14i
+denominator = 2
+--
+Level = 14+36i
+denominator = 2
+--
+Level = 32+22i
+denominator = 2
+--
+Level = 22+32i
+denominator = 2
+--
+Level = 35+17i
+denominator = 3
+--
+Level = 17+35i
+denominator = 3
+--
+Level = 39
+denominator = 2
+--
+Level = 36+16i
+denominator = 2
+--
+Level = 16+36i
+denominator = 4
+--
+Level = 39+7i
+denominator = 21
+--
+Level = 7+39i
+denominator = 21
+--
+Level = 33+22i
+denominator = 4
+--
+Level = 40+5i
+denominator = 3
+--
+Level = 29+28i
+denominator = 2
+--
+Level = 28+29i
+denominator = 2
+--
+Level = 20+35i
+denominator = 3
+--
+Level = 5+40i
+denominator = 4
+--
+Level = 40+6i
+denominator = 3
+--
+Level = 40+8i
+denominator = 2
+--
+Level = 8+40i
+denominator = 2
+--
+Level = 41
+denominator = 2
+--
+Level = 39+13i
+denominator = 6
+--
+Level = 13+39i
+denominator = 4
+--
+Level = 36+20i
+denominator = 2
+--
+Level = 20+36i
+denominator = 2
+--
+Level = 40+10i
+denominator = 2
+--
+Level = 38+16i
+denominator = 2
+--
+Level = 16+38i
+denominator = 2
+--
+Level = 10+40i
+denominator = 2
+--
+Level = 41+5i
+denominator = 5
+--
+Level = 5+41i
+denominator = 5
+--
+Level = 41+8i
+denominator = 4
+--
+Level = 8+41i
+denominator = 4
+--
+Level = 42+i
+denominator = 2
+--
+Level = 1+42i
+denominator = 2
+--
+Level = 39+16i
+denominator = 2
+--
+Level = 16+39i
+denominator = 2
+--
+Level = 42+6i
+denominator = 2
+--
+Level = 30+30i
+denominator = 2
+--
+Level = 6+42i
+denominator = 2
+--
+Level = 41+11i
+denominator = 3
+--
+Level = 31+29i
+denominator = 2
+--
+Level = 29+31i
+denominator = 2
+--
+Level = 11+41i
+denominator = 3
+--
+Level = 19+38i
+denominator = 2
+--
+Level = 39+17i
+denominator = 4
+--
+Level = 37+21i
+denominator = 2
+--
+Level = 21+37i
+denominator = 2
+--
+Level = 17+39i
+denominator = 4
+--
+Level = 8+42i
+denominator = 3
+--
+Level = 43
+denominator = 2
+--
+Level = 43+i
+denominator = 2
+--
+Level = 41+13i
+denominator = 2
+--
+Level = 13+41i
+denominator = 2
+--
+Level = 1+43i
+denominator = 2
+--
+Level = 42+10i
+denominator = 3
+--
+Level = 10+42i
+denominator = 4
+--
+Level = 36+24i
+denominator = 4
+--
+Level = 24+36i
+denominator = 4
+--
+Level = 38+21i
+denominator = 2
+--
+Level = 34+27i
+denominator = 2
+--
+Level = 27+34i
+denominator = 2
+--
+Level = 21+38i
+denominator = 2
+--
+Level = 33+29i
+denominator = 6
+--
+Level = 29+33i
+denominator = 6
+--
+Level = 43+11i
+denominator = 2
+--
+Level = 41+17i
+denominator = 2
+--
+Level = 17+41i
+denominator = 2
+--
+Level = 11+43i
+denominator = 2
+--
+Level = 36+26i
+denominator = 2
+--
+Level = 26+36i
+denominator = 2
+--
+Level = 38+24i
+denominator = 2
+--
+Level = 24+38i
+denominator = 2
+--
+Level = 44+10i
+denominator = 2
+--
+Level = 43+14i
+denominator = 5
+--
+Level = 14+43i
+denominator = 5
+--
+Level = 32+32i
+denominator = 8
+--
+Level = 45+5i
+denominator = 2
+--
+Level = 39+23i
+denominator = 2
+--
+Level = 33+31i
+denominator = 2
+--
+Level = 31+33i
+denominator = 2
+--
+Level = 23+39i
+denominator = 2
+--
+Level = 5+45i
+denominator = 4
+--
+Level = 34+30i
+denominator = 2
+--
+Level = 30+34i
+denominator = 2
+--
+Level = 44+12i
+denominator = 2
+--
+Level = 36+28i
+denominator = 2
+--
+Level = 28+36i
+denominator = 2
+--
+Level = 12+44i
+denominator = 2
+--
+Level = 46+2i
+denominator = 2
+--
+Level = 2+46i
+denominator = 2
+--
+Level = 46+3i
+denominator = 2
+--
+Level = 35+30i
+denominator = 10
+--
+Level = 30+35i
+denominator = 4
+--
+Level = 3+46i
+denominator = 2
+--
+Level = 46+4i
+denominator = 3
+--
+Level = 4+46i
+denominator = 3
+--
+Level = 45+11i
+denominator = 2
+--
+Level = 11+45i
+denominator = 2
+--
+Level = 46+6i
+denominator = 2
+--
+Level = 6+46i
+denominator = 2
+--
+Level = 24+40i
+denominator = 2
+--
+Level = 16+44i
+denominator = 2
+--
+Level = 47
+denominator = 2
+--
+Level = 43+19i
+denominator = 2
+--
+Level = 41+23i
+denominator = 12
+--
+Level = 37+29i
+denominator = 2
+--
+Level = 29+37i
+denominator = 2
+--
+Level = 23+41i
+denominator = 12
+--
+Level = 19+43i
+denominator = 2
+--
+Level = 47+4i
+denominator = 26
+--
+Level = 40+25i
+denominator = 2
+--
+Level = 4+47i
+denominator = 26
+--
+Level = 34+33i
+denominator = 3
+--
+Level = 33+34i
+denominator = 3
+--
+Level = 45+15i
+denominator = 6
+--
+Level = 15+45i
+denominator = 4
+--
+Level = 44+18i
+denominator = 6
+--
+Level = 18+44i
+denominator = 6
+--
+Level = 43+21i
+denominator = 8
+--
+Level = 21+43i
+denominator = 8
+--
+Level = 41+25i
+denominator = 8
+--
+Level = 25+41i
+denominator = 8
+--
+Level = 48+4i
+denominator = 2
+--
+Level = 36+32i
+denominator = 6
+--
+Level = 32+36i
+denominator = 6
+--
+Level = 4+48i
+denominator = 2
+--
+Level = 47+11i
+denominator = 3
+--
+Level = 11+47i
+denominator = 3
+--
+Level = 48+6i
+denominator = 2
+--
+Level = 6+48i
+denominator = 2
+--
+Level = 46+16i
+denominator = 4
+--
+Level = 16+46i
+denominator = 2
+--
+Level = 48+9i
+denominator = 3
+--
+Level = 9+48i
+denominator = 3
+--
+Level = 49
+denominator = 2
+--
+Level = 47+14i
+denominator = 2
+--
+Level = 46+17i
+denominator = 2
+--
+Level = 38+31i
+denominator = 2
+--
+Level = 31+38i
+denominator = 2
+--
+Level = 17+46i
+denominator = 2
+--
+Level = 14+47i
+denominator = 2
+--
+Level = 48+11i
+denominator = 2
+--
+Level = 45+20i
+denominator = 3
+--
+Level = 43+24i
+denominator = 2
+--
+Level = 24+43i
+denominator = 2
+--
+Level = 20+45i
+denominator = 5
+--
+Level = 11+48i
+denominator = 2
+--
+Level = 46+18i
+denominator = 2
+--
+Level = 18+46i
+denominator = 2
+--
+Level = 40+29i
+denominator = 2
+--
+Level = 29+40i
+denominator = 2
+--
+Level = 48+12i
+denominator = 4
+--
+Level = 12+48i
+denominator = 2
+--
+Level = 35+35i
+denominator = 2
+--
+Level = 41+28i
+denominator = 2
+--
+Level = 28+41i
+denominator = 2
+--
+Level = 50
+denominator = 2
+--
+Level = 44+24i
+denominator = 2
+--
+Level = 50+4i
+denominator = 7
+--
+Level = 4+50i
+denominator = 7
+--
+Level = 43+26i
+denominator = 2
+--
+Level = 37+34i
+denominator = 4
+--
+Level = 34+37i
+denominator = 4
+--
+Level = 26+43i
+denominator = 2
+--
+Level = 49+12i
+denominator = 2
+--
+Level = 39+32i
+denominator = 2
+--
+Level = 32+39i
+denominator = 2
+--
+Level = 12+49i
+denominator = 2
+--
+Level = 48+16i
+denominator = 4
+--
+Level = 16+48i
+denominator = 4
+--
+Level = 46+22i
+denominator = 2
+--
+Level = 38+34i
+denominator = 2
+--
+Level = 34+38i
+denominator = 2
+--
+Level = 22+46i
+denominator = 2
+--
+Level = 51
+denominator = 2
+--
+Level = 39+33i
+denominator = 2
+--
+Level = 33+39i
+denominator = 2
+--
+Level = 40+32i
+denominator = 5
+--
+Level = 32+40i
+denominator = 2
+--
+Level = 51+5i
+denominator = 36
+--
+Level = 5+51i
+denominator = 36
+--
+Level = 46+23i
+denominator = 2
+--
+Level = 23+46i
+denominator = 2
+--
+Level = 47+21i
+denominator = 2
+--
+Level = 45+25i
+denominator = 6
+--
+Level = 21+47i
+denominator = 2
+--
+Level = 51+8i
+denominator = 2
+--
+Level = 48+19i
+denominator = 2
+--
+Level = 19+48i
+denominator = 2
+--
+Level = 8+51i
+denominator = 2
+--
+Level = 49+17i
+denominator = 2
+--
+Level = 43+29i
+denominator = 2
+--
+Level = 29+43i
+denominator = 2
+--
+Level = 17+49i
+denominator = 2
+--
+Level = 46+24i
+denominator = 4
+--
+Level = 24+46i
+denominator = 2
+--
+Level = 52
+denominator = 4
+--
+Level = 48+20i
+denominator = 2
+--
+Level = 20+48i
+denominator = 2
+--
+Level = 52+2i
+denominator = 2
+--
+Level = 2+52i
+denominator = 2
+--
+Level = 52+4i
+denominator = 2
+--
+Level = 44+28i
+denominator = 4
+--
+Level = 28+44i
+denominator = 4
+--
+Level = 4+52i
+denominator = 2
+--
+Level = 50+15i
+denominator = 4
+--
+Level = 42+31i
+denominator = 4
+--
+Level = 31+42i
+denominator = 4
+--
+Level = 15+50i
+denominator = 4
+--
+Level = 52+6i
+denominator = 2
+--
+Level = 38+36i
+denominator = 2
+--
+Level = 36+38i
+denominator = 2
+--
+Level = 6+52i
+denominator = 2
+--
+Level = 53
+denominator = 2
+--
+Level = 44+30i
+denominator = 3
+--
+Level = 30+44i
+denominator = 3
+--
+Level = 48+24i
+denominator = 4
+--
+Level = 24+48i
+denominator = 4
+--
+Level = 38+38i
+denominator = 2
+--
+Level = 39+37i
+denominator = 10
+--
+Level = 37+39i
+denominator = 10
+--
+Level = 52+14i
+denominator = 6
+--
+Level = 50+20i
+denominator = 14
+--
+Level = 46+28i
+denominator = 5
+--
+Level = 28+46i
+denominator = 5
+--
+Level = 20+50i
+denominator = 12
+--
+Level = 14+52i
+denominator = 6
+--
+Level = 54
+denominator = 6
+--
+Level = 54+2i
+denominator = 4
+--
+Level = 2+54i
+denominator = 4
+--
+Level = 54+3i
+denominator = 2
+--
+Level = 51+18i
+denominator = 10
+--
+Level = 18+51i
+denominator = 10
+--
+Level = 3+54i
+denominator = 2
+--
+Level = 53+11i
+denominator = 7
+--
+Level = 49+23i
+denominator = 16
+--
+Level = 23+49i
+denominator = 16
+--
+Level = 11+53i
+denominator = 7
+--
+Level = 52+16i
+denominator = 4
+--
+Level = 16+52i
+denominator = 4
+--
+Level = 50+22i
+denominator = 2
+--
+Level = 22+50i
+denominator = 2
+--
+Level = 45+31i
+denominator = 2
+--
+Level = 31+45i
+denominator = 2
+--
+Level = 54+9i
+denominator = 2
+--
+Level = 9+54i
+denominator = 2
+--
+Level = 54+10i
+denominator = 2
+--
+Level = 10+54i
+denominator = 2
+--
+Level = 55
+denominator = 2
+--
+Level = 52+18i
+denominator = 6
+--
+Level = 18+52i
+denominator = 6
+--
+Level = 39+39i
+denominator = 2
+--
+Level = 55+5i
+denominator = 3
+--
+Level = 41+37i
+denominator = 8
+--
+Level = 37+41i
+denominator = 8
+--
+Level = 5+55i
+denominator = 3
+--
+Level = 54+12i
+denominator = 2
+--
+Level = 42+36i
+denominator = 2
+--
+Level = 36+42i
+denominator = 2
+--
+Level = 12+54i
+denominator = 2
+--
+Level = 43+35i
+denominator = 3
+--
+Level = 35+43i
+denominator = 3
+--
+Level = 28+48i
+denominator = 2
+--
+Level = 53+17i
+denominator = 2
+--
+Level = 17+53i
+denominator = 2
+--
+Level = 50+25i
+denominator = 3
+--
+Level = 25+50i
+denominator = 2
+--
+Level = 56
+denominator = 2
+--
+Level = 46+32i
+denominator = 12
+--
+Level = 32+46i
+denominator = 12
+--
+Level = 56+3i
+denominator = 6
+--
+Level = 52+21i
+denominator = 2
+--
+Level = 48+29i
+denominator = 6
+--
+Level = 29+48i
+denominator = 6
+--
+Level = 21+52i
+denominator = 2
+--
+Level = 3+56i
+denominator = 6
+--
+Level = 54+16i
+denominator = 6
+--
+Level = 16+54i
+denominator = 6
+--
+Level = 51+24i
+denominator = 2
+--
+Level = 56+8i
+denominator = 2
+--
+Level = 40+40i
+denominator = 2
+--
+Level = 8+56i
+denominator = 2
+--
+Level = 56+10i
+denominator = 2
+--
+Level = 10+56i
+denominator = 2
+--
+Level = 18+54i
+denominator = 2
+--
+Level = 57+i
+denominator = 6
+--
+Level = 55+15i
+denominator = 36
+--
+Level = 45+35i
+denominator = 32
+--
+Level = 35+45i
+denominator = 6
+--
+Level = 15+55i
+denominator = 4
+--
+Level = 1+57i
+denominator = 6
+--
+Level = 57+3i
+denominator = 4
+--
+Level = 3+57i
+denominator = 4
+--
+Level = 56+12i
+denominator = 6
+--
+Level = 52+24i
+denominator = 2
+--
+Level = 24+52i
+denominator = 2
+--
+Level = 12+56i
+denominator = 6
+--
+Level = 57+7i
+denominator = 2
+--
+Level = 47+33i
+denominator = 2
+--
+Level = 33+47i
+denominator = 2
+--
+Level = 7+57i
+denominator = 2
+--
+Level = 36+45i
+denominator = 2
+--
+Level = 48+32i
+denominator = 2
+--
+Level = 32+48i
+denominator = 2
+--
+Level = 56+15i
+denominator = 2
+--
+Level = 15+56i
+denominator = 2
+--
+Level = 58
+denominator = 2
+--
+Level = 52+26i
+denominator = 18
+--
+Level = 44+38i
+denominator = 4
+--
+Level = 38+44i
+denominator = 4
+--
+Level = 26+52i
+denominator = 6
+--
+Level = 56+16i
+denominator = 4
+--
+Level = 16+56i
+denominator = 6
+--
+Level = 58+6i
+denominator = 2
+--
+Level = 54+22i
+denominator = 2
+--
+Level = 50+30i
+denominator = 16
+--
+Level = 30+50i
+denominator = 8
+--
+Level = 22+54i
+denominator = 2
+--
+Level = 6+58i
+denominator = 2
+--
+Level = 36+46i
+denominator = 3
+--
+Level = 49+32i
+denominator = 2
+--
+Level = 32+49i
+denominator = 2
+--
+Level = 54+23i
+denominator = 12
+--
+Level = 42+41i
+denominator = 4
+--
+Level = 41+42i
+denominator = 4
+--
+Level = 23+54i
+denominator = 12
+--
+Level = 56+18i
+denominator = 2
+--
+Level = 18+56i
+denominator = 2
+--
+Level = 59
+denominator = 6
+--
+Level = 49+33i
+denominator = 4
+--
+Level = 33+49i
+denominator = 4
+--
+Level = 56+19i
+denominator = 2
+--
+Level = 19+56i
+denominator = 2
+--
+Level = 59+5i
+denominator = 4
+--
+Level = 5+59i
+denominator = 4
+--
+Level = 55+22i
+denominator = 4
+--
+Level = 42+42i
+denominator = 2
+--
+Level = 48+35i
+denominator = 2
+--
+Level = 35+48i
+denominator = 2
+--
+Level = 43+41i
+denominator = 3
+--
+Level = 41+43i
+denominator = 3
+--
+Level = 56+20i
+denominator = 2
+--
+Level = 44+40i
+denominator = 2
+--
+Level = 40+44i
+denominator = 2
+--
+Level = 20+56i
+denominator = 2
+--
+Level = 58+14i
+denominator = 2
+--
+Level = 14+58i
+denominator = 2
+--
+Level = 60
+denominator = 8
+--
+Level = 48+36i
+denominator = 2
+--
+Level = 36+48i
+denominator = 4
+--
+Level = 52+30i
+denominator = 6
+--
+Level = 30+52i
+denominator = 6
+--
+Level = 57+19i
+denominator = 2
+--
+Level = 19+57i
+denominator = 2
+--
+Level = 60+4i
+denominator = 2
+--
+Level = 4+60i
+denominator = 2
+--
+Level = 58+16i
+denominator = 2
+--
+Level = 56+22i
+denominator = 2
+--
+Level = 22+56i
+denominator = 2
+--
+Level = 16+58i
+denominator = 2
+--
+Level = 60+5i
+denominator = 10
+--
+Level = 59+12i
+denominator = 6
+--
+Level = 51+32i
+denominator = 3
+--
+Level = 45+40i
+denominator = 2
+--
+Level = 40+45i
+denominator = 32
+--
+Level = 32+51i
+denominator = 3
+--
+Level = 12+59i
+denominator = 6
+--
+Level = 5+60i
+denominator = 6
+--
+Level = 54+27i
+denominator = 2
+--
+Level = 27+54i
+denominator = 2
+--
+Level = 55+25i
+denominator = 2
+--
+Level = 53+29i
+denominator = 10
+--
+Level = 29+53i
+denominator = 10
+--
+Level = 25+55i
+denominator = 2
+--
+Level = 8+60i
+denominator = 2
+--
+Level = 52+31i
+denominator = 2
+--
+Level = 31+52i
+denominator = 2
+--
+Level = 57+21i
+denominator = 3
+--
+Level = 21+57i
+denominator = 3
+--
+Level = 44+42i
+denominator = 22
+--
+Level = 42+44i
+denominator = 22
+--
+Level = 61
+denominator = 2
+--
+Level = 32+52i
+denominator = 8
+--
+Level = 61+3i
+denominator = 2
+--
+Level = 3+61i
+denominator = 2
+--
+Level = 60+12i
+denominator = 16
+--
+Level = 12+60i
+denominator = 16
+--
+Level = 61+7i
+denominator = 4
+--
+Level = 59+17i
+denominator = 18
+--
+Level = 49+37i
+denominator = 2
+--
+Level = 37+49i
+denominator = 2
+--
+Level = 17+59i
+denominator = 18
+--
+Level = 7+61i
+denominator = 4
+--
+Level = 61+8i
+denominator = 2
+--
+Level = 44+43i
+denominator = 4
+--
+Level = 43+44i
+denominator = 4
+--
+Level = 8+61i
+denominator = 2
+--
+Level = 26+56i
+denominator = 2
+--
+Level = 57+24i
+denominator = 15
+--
+Level = 48+39i
+denominator = 2
+--
+Level = 39+48i
+denominator = 2
+--
+Level = 24+57i
+denominator = 15
+--
+Level = 62+4i
+denominator = 3
+--
+Level = 4+62i
+denominator = 3
+--
+Level = 62+6i
+denominator = 3
+--
+Level = 46+42i
+denominator = 3
+--
+Level = 42+46i
+denominator = 3
+--
+Level = 6+62i
+denominator = 3
+--
+Level = 56+28i
+denominator = 6
+--
+Level = 28+56i
+denominator = 2
+--
+Level = 49+39i
+denominator = 2
+--
+Level = 39+49i
+denominator = 2
+--
+Level = 62+9i
+denominator = 10
+--
+Level = 55+30i
+denominator = 115
+--
+Level = 30+55i
+denominator = 18
+--
+Level = 9+62i
+denominator = 10
+--
+Level = 58+24i
+denominator = 6
+--
+Level = 54+32i
+denominator = 20
+--
+Level = 32+54i
+denominator = 20
+--
+Level = 24+58i
+denominator = 6
+--
+Level = 62+10i
+denominator = 2
+--
+Level = 10+62i
+denominator = 2
+--
+Level = 61+15i
+denominator = 2
+--
+Level = 15+61i
+denominator = 2
+--
+Level = 62+11i
+denominator = 2
+--
+Level = 11+62i
+denominator = 2
+--
+Level = 63
+denominator = 24
+--
+Level = 63+3i
+denominator = 2
+--
+Level = 3+63i
+denominator = 2
+--
+Level = 63+5i
+denominator = 3
+--
+Level = 5+63i
+denominator = 3
+--
+Level = 60+20i
+denominator = 2
+--
+Level = 52+36i
+denominator = 6
+--
+Level = 36+52i
+denominator = 6
+--
+Level = 20+60i
+denominator = 20
+--
+Level = 54+33i
+denominator = 2
+--
+Level = 33+54i
+denominator = 2
+--
+Level = 59+23i
+denominator = 10
+--
+Level = 23+59i
+denominator = 10
+--
+Level = 7+63i
+denominator = 2
+--
+Level = 53+35i
+denominator = 3
+--
+Level = 35+53i
+denominator = 3
+--
+Level = 62+14i
+denominator = 4
+--
+Level = 14+62i
+denominator = 4
+--
+Level = 63+9i
+denominator = 2
+--
+Level = 45+45i
+denominator = 42
+--
+Level = 9+63i
+denominator = 2
+--
+Level = 46+44i
+denominator = 2
+--
+Level = 48+42i
+denominator = 2
+--
+Level = 42+48i
+denominator = 2
+--
+Level = 61+19i
+denominator = 2
+--
+Level = 19+61i
+denominator = 2
+--
+Level = 63+11i
+denominator = 10
+--
+Level = 57+29i
+denominator = 2
+--
+Level = 29+57i
+denominator = 2
+--
+Level = 11+63i
+denominator = 10
+--
+Level = 64
+denominator = 4
+--
+Level = 56+31i
+denominator = 2
+--
+Level = 31+56i
+denominator = 2
+--
+Level = 62+16i
+denominator = 12
+--
+Level = 50+40i
+denominator = 16
+--
+Level = 40+50i
+denominator = 6
+--
+Level = 16+62i
+denominator = 12
+--
+Level = 59+25i
+denominator = 2
+--
+Level = 25+59i
+denominator = 2
+--
+Level = 63+13i
+denominator = 2
+--
+Level = 13+63i
+denominator = 2
+--
+Level = 64+8i
+denominator = 2
+--
+Level = 56+32i
+denominator = 2
+--
+Level = 32+56i
+denominator = 2
+--
+Level = 8+64i
+denominator = 6
+--
+Level = 49+42i
+denominator = 4
+--
+Level = 42+49i
+denominator = 4
+--
+Level = 62+18i
+denominator = 2
+--
+Level = 18+62i
+denominator = 2
+--
+Level = 53+37i
+denominator = 2
+--
+Level = 37+53i
+denominator = 2
+--
+Level = 63+15i
+denominator = 3
+--
+Level = 15+63i
+denominator = 3
+--
+Level = 62+19i
+denominator = 6
+--
+Level = 61+22i
+denominator = 2
+--
+Level = 22+61i
+denominator = 2
+--
+Level = 19+62i
+denominator = 6
+--
+Level = 59+27i
+denominator = 14
+--
+Level = 27+59i
+denominator = 14
+--
+Level = 65
+denominator = 2
+--
+Level = 63+16i
+denominator = 2
+--
+Level = 60+25i
+denominator = 2
+--
+Level = 56+33i
+denominator = 2
+--
+Level = 52+39i
+denominator = 4
+--
+Level = 39+52i
+denominator = 4
+--
+Level = 33+56i
+denominator = 2
+--
+Level = 25+60i
+denominator = 2
+--
+Level = 16+63i
+denominator = 2
+--
+Level = 46+46i
+denominator = 8
+--
+Level = 64+12i
+denominator = 2
+--
+Level = 48+44i
+denominator = 24
+--
+Level = 44+48i
+denominator = 2
+--
+Level = 12+64i
+denominator = 2
+--
+Level = 65+5i
+denominator = 144
+--
+Level = 55+35i
+denominator = 3
+--
+Level = 49+43i
+denominator = 60
+--
+Level = 43+49i
+denominator = 60
+--
+Level = 35+55i
+denominator = 6
+--
+Level = 5+65i
+denominator = 480
+--
+Level = 63+17i
+denominator = 6
+--
+Level = 17+63i
+denominator = 6
+--
+Level = 58+30i
+denominator = 2
+--
+Level = 50+42i
+denominator = 3
+--
+Level = 42+50i
+denominator = 3
+--
+Level = 30+58i
+denominator = 2
+--
+Level = 64+13i
+denominator = 3
+--
+Level = 13+64i
+denominator = 3
+--
+Level = 51+41i
+denominator = 3
+--
+Level = 41+51i
+denominator = 3
+--
+Level = 62+21i
+denominator = 3
+--
+Level = 21+62i
+denominator = 3
+--
+Level = 56+34i
+denominator = 2
+--
+Level = 52+40i
+denominator = 12
+--
+Level = 40+52i
+denominator = 4
+--
+Level = 65+10i
+denominator = 7
+--
+Level = 10+65i
+denominator = 7
+--
+Level = 63+19i
+denominator = 2
+--
+Level = 19+63i
+denominator = 2
+--
+Level = 57+33i
+denominator = 4
+--
+Level = 33+57i
+denominator = 4
+--
+Level = 64+16i
+denominator = 2
+--
+Level = 16+64i
+denominator = 2
+--
+Level = 51+42i
+denominator = 2
+--
+Level = 42+51i
+denominator = 2
+--
+Level = 60+28i
+denominator = 4
+--
+Level = 28+60i
+denominator = 6
+--
+Level = 65+13i
+denominator = 6
+--
+Level = 13+65i
+denominator = 14
+--
+Level = 47+47i
+denominator = 4
+--
+Level = 66+8i
+denominator = 2
+--
+Level = 64+18i
+denominator = 6
+--
+Level = 62+24i
+denominator = 4
+--
+Level = 48+46i
+denominator = 8
+--
+Level = 46+48i
+denominator = 12
+--
+Level = 24+62i
+denominator = 2
+--
+Level = 18+64i
+denominator = 24
+--
+Level = 8+66i
+denominator = 4
+--
+Level = 56+36i
+denominator = 6
+--
+Level = 36+56i
+denominator = 20
+--
+Level = 65+15i
+denominator = 2
+--
+Level = 61+27i
+denominator = 2
+--
+Level = 51+43i
+denominator = 810
+--
+Level = 43+51i
+denominator = 810
+--
+Level = 27+61i
+denominator = 2
+--
+Level = 15+65i
+denominator = 3
+--
+Level = 67
+denominator = 2
+--
+Level = 67+i
+denominator = 4
+--
+Level = 1+67i
+denominator = 4
+--
+Level = 67+3i
+denominator = 3
+--
+Level = 3+67i
+denominator = 3
+--
+Level = 60+30i
+denominator = 10
+--
+Level = 30+60i
+denominator = 6
+--
+Level = 67+4i
+denominator = 2
+--
+Level = 61+28i
+denominator = 3
+--
+Level = 28+61i
+denominator = 3
+--
+Level = 4+67i
+denominator = 2
+--
+Level = 40+54i
+denominator = 2
+--
+Level = 49+46i
+denominator = 2
+--
+Level = 46+49i
+denominator = 2
+--
+Level = 62+26i
+denominator = 9
+--
+Level = 58+34i
+denominator = 3
+--
+Level = 34+58i
+denominator = 3
+--
+Level = 26+62i
+denominator = 9
+--
+Level = 67+6i
+denominator = 2
+--
+Level = 50+45i
+denominator = 2
+--
+Level = 45+50i
+denominator = 4
+--
+Level = 6+67i
+denominator = 2
+--
+Level = 55+39i
+denominator = 2
+--
+Level = 39+55i
+denominator = 2
+--
+Level = 64+22i
+denominator = 38
+--
+Level = 22+64i
+denominator = 38
+--
+Level = 67+10i
+denominator = 2
+--
+Level = 10+67i
+denominator = 2
+--
+Level = 63+25i
+denominator = 3
+--
+Level = 25+63i
+denominator = 3
+--
+Level = 48+48i
+denominator = 2
+--
+Level = 49+47i
+denominator = 2
+--
+Level = 47+49i
+denominator = 2
+--
+Level = 66+16i
+denominator = 4
+--
+Level = 16+66i
+denominator = 12
+--
+Level = 68
+denominator = 2
+--
+Level = 60+32i
+denominator = 2
+--
+Level = 32+60i
+denominator = 2
+--
+Level = 65+20i
+denominator = 30
+--
+Level = 64+23i
+denominator = 2
+--
+Level = 55+40i
+denominator = 12
+--
+Level = 40+55i
+denominator = 3
+--
+Level = 23+64i
+denominator = 2
+--
+Level = 20+65i
+denominator = 2
+--
+Level = 51+45i
+denominator = 2
+--
+Level = 45+51i
+denominator = 2
+--
+Level = 68+4i
+denominator = 72
+--
+Level = 52+44i
+denominator = 4
+--
+Level = 4+68i
+denominator = 24
+--
+Level = 58+36i
+denominator = 12
+--
+Level = 36+58i
+denominator = 12
+--
+Level = 66+18i
+denominator = 24
+--
+Level = 54+42i
+denominator = 12
+--
+Level = 42+54i
+denominator = 12
+--
+Level = 18+66i
+denominator = 2
+--
+Level = 67+14i
+denominator = 2
+--
+Level = 14+67i
+denominator = 2
+--
+Level = 57+38i
+denominator = 2
+--
+Level = 59+35i
+denominator = 4
+--
+Level = 35+59i
+denominator = 4
+--
+Level = 64+25i
+denominator = 2
+--
+Level = 25+64i
+denominator = 2
+--
+Level = 62+30i
+denominator = 2
+--
+Level = 67+16i
+denominator = 2
+--
+Level = 16+67i
+denominator = 2
+--
+Level = 69
+denominator = 3
+--
+Level = 69+3i
+denominator = 8
+--
+Level = 57+39i
+denominator = 5
+--
+Level = 39+57i
+denominator = 5
+--
+Level = 3+69i
+denominator = 8
+--
+Level = 66+21i
+denominator = 10
+--
+Level = 21+66i
+denominator = 10
+--
+Level = 49+49i
+denominator = 6
+--
+Level = 62+31i
+denominator = 2
+--
+Level = 31+62i
+denominator = 2
+--
+Level = 58+38i
+denominator = 2
+--
+Level = 38+58i
+denominator = 2
+--
+Level = 69+7i
+denominator = 2
+--
+Level = 61+33i
+denominator = 1686391688
+--
+Level = 33+61i
+denominator = 1686391688
+--
+Level = 7+69i
+denominator = 2
+--
+Level = 64+27i
+denominator = 4
+--
+Level = 60+35i
+denominator = 6
+--
+Level = 35+60i
+denominator = 4
+--
+Level = 27+64i
+denominator = 4
+--
+Level = 66+22i
+denominator = 12
+--
+Level = 22+66i
+denominator = 6
+--
+Level = 59+37i
+denominator = 2
+--
+Level = 37+59i
+denominator = 2
+--
+Level = 25+65i
+denominator = 3
+--
+Level = 64+28i
+denominator = 42
+--
+Level = 28+64i
+denominator = 84
+--
+Level = 60+36i
+denominator = 36
+--
+Level = 36+60i
+denominator = 12
+--
+Level = 70
+denominator = 4
+--
+Level = 70+i
+denominator = 6
+--
+Level = 26+65i
+denominator = 2
+--
+Level = 1+70i
+denominator = 6
+--
+Level = 70+5i
+denominator = 2
+--
+Level = 59+38i
+denominator = 2
+--
+Level = 53+46i
+denominator = 2
+--
+Level = 46+53i
+denominator = 2
+--
+Level = 38+59i
+denominator = 2
+--
+Level = 69+13i
+denominator = 2
+--
+Level = 57+41i
+denominator = 6
+--
+Level = 41+57i
+denominator = 6
+--
+Level = 13+69i
+denominator = 2
+--
+Level = 66+24i
+denominator = 2
+--
+Level = 24+66i
+denominator = 2
+--
+Level = 65+27i
+denominator = 2
+--
+Level = 27+65i
+denominator = 2
+--
+Level = 58+40i
+denominator = 2
+--
+Level = 40+58i
+denominator = 2
+--
+Level = 69+15i
+denominator = 3
+--
+Level = 15+69i
+denominator = 3
+--
+Level = 50+50i
+denominator = 2
