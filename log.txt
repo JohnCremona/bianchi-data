@@ -1,0 +1,106 @@
+Log of systematic runs.
+
+=====================NEWFORMS====================================
+
+Running tmanin to find rational newforms for all levels (including
+conjugates).   One file per level in field_label/level_label
+
+1. (2014) All levels:
+          all fields, norms up to 10000, 25 eigenvalues.
+
+2. (2016) Prime levels:
+          all fields, primes only:
+          2.0.4.1: norms up to 300000
+          2.0.7.1, 2.0.11.1, 2.0.8.1, 2.0.3.1: norms up to 100000
+
+3. (2017) All levels:
+          2.0.4.1, norms 10001-50000 complete
+                         50001-100000 running: 73049...
+
+          2.0.8.1, norms 10001-30000 complete
+                         30001-40000 running: 37458...
+
+          2.0.3.1, norms 10001-100000 complete
+
+          2.0.7.1, norms 10001-30000 complete
+
+          2.0.11.1, norms 10001-30000 complete
+
+
+=====================NEWFORM COUNTS====================================
+
+nfcounts/nfcounts.*.1-1000: number of newforms.
+
+1.1-10000:     3160
+1.10001-20000: 3861
+1.20001-30000: 3937
+1.30001-40000: 4052
+1.40001-50000: 4140
+1.50001-60000: 4008
+
+2.1-10000:     6239
+2.10001-20000: 7120
+2.20001-30000: 7792
+
+3.1-10000:     2210
+3.10001-20000: 2593
+3.20001-30000: 2846
+3.30001-40000: 2684
+3.40001-50000: 2957
+3.50001-60000: 2830
+3.60001-70000: 2983
+3.70001-80000: 2624
+3.80001-90000: 3107
+3.90001-100000: 2901
+
+7.1-10000:     5923
+7.10001-20000: 7054
+7.20001-30000: 7296
+
+11.1-10000:     5203
+11.10001-20000: 6214
+11.20001-30000: 6415
+
+=====================NEWFORM LISTS====================================
+
+nflist/nflist.1.1-20000:     7021 newforms
+nflist/nflist.1.20001-40000: 7979 newforms
+nflist/nflist.1.40001-50000: 4140 newforms
+nflist/nflist.1.50001-60000: 4008 newforms
+
+nflist/nflist.2.1-20000:    13359 newforms
+nflist/nflist.2.20001-30000: 7780 newforms
+
+nflist/nflist.3.1-20000:      4803 newforms
+nflist/nflist.3.20001-40000:  5540 newforms
+nflist/nflist.3.40001-60000:  5787 newforms
+nflist/nflist.3.60001-80000:  5607 newforms
+nflist/nflist.3.80001-100000: 6008 newforms
+
+nflist/nflist.7.1-20000:     12977 newforms
+nflist/nflist.7.20001-30000:  7296 newforms
+
+nflist/nflist.11.1-20000:    11419 newform.
+nflist/nflist.11.20001-30000: 6415 newforms
+
+One newform per line:
+
+level_label level sfe loverp [aq] [ap]
+
+========================DIMENSION TABLES============================
+
+dimtable: table of all/plus/minus dimensions of weight 2 cusp forms
+
+dims/alldims.*.1-1000: output for level norms up to 1000
+
+dimtabeis: table of plus- dimensions only including eisenstein
+
+dims/dimtabeis.*.out.*: output in range
+                        1: 1-50000
+                        2: 1-20000
+                        3: 1-50000
+                        7: 1-20000
+                        11: 1-20000
+
+dims/dimtabeis.*.out.*.newdims: output including new cuspidal dimension in range
+
