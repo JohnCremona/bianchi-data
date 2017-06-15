@@ -1,5 +1,5 @@
-Table of dimensions of weight 2 Bianchi cuspidal and Eisenstein forms for GL2 over Q(sqrt(-11))
-Field	Weight	Level		all	cusp	cusp(new)	eis
+#Table of dimensions of weight 2 Bianchi cuspidal and Eisenstein forms for GL2 over Q(sqrt(-11))
+#Field	Weight	Level		all	cusp	cusp(new)	eis
 11 	2 	[1,0,1] 	0 	0 	0 	0
 11 	2 	[3,2,1] 	1 	0 	0 	1
 11 	2 	[3,0,1] 	1 	0 	0 	1
