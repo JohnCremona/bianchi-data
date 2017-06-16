@@ -15,10 +15,13 @@ conjugates).   One file per level in field_label/level_label
 
 3. (2017) All levels:
           2.0.4.1, norms 10001-50000 complete
-                         50001-100000 running: 73049...
+                         50001-100000 running: 76500...
 
-          2.0.8.1, norms 10001-30000 complete
-                         30001-40000 running: 37458...
+>>>> Level 76500.1410.30 = (270+60i), norm = 76500 <<<<
+Error in splitting eigenspaces: apparently found more 1D newforms (7)
+          than the total new-dimension (6).
+
+          2.0.8.1, norms 10001-40000 complete
 
           2.0.3.1, norms 10001-100000 complete
 
@@ -41,6 +44,7 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 2.1-10000:     6239
 2.10001-20000: 7120
 2.20001-30000: 7792
+2.30001-40000: 7757
 
 3.1-10000:     2210
 3.10001-20000: 2593
@@ -62,6 +66,39 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 11.20001-30000: 6415
 
 =====================NEWFORM LISTS====================================
+
+3160 newforms.1.1-10000
+3861 newforms.1.10001-20000
+3937 newforms.1.20001-30000
+4052 newforms.1.30001-40000
+4140 newforms.1.40001-50000
+4008 newforms.1.50001-60000
+4341 newforms.1.60001-70000
+
+6239 newforms.2.1-10000
+7120 newforms.2.10001-20000
+7792 newforms.2.20001-30000
+7757 newforms.2.30001-40000
+
+2210 newforms.3.1-10000
+2593 newforms.3.10001-20000
+2846 newforms.3.20001-30000
+2684 newforms.3.30001-40000
+2957 newforms.3.40001-50000
+2830 newforms.3.50001-60000
+2983 newforms.3.60001-70000
+2624 newforms.3.70001-80000
+3107 newforms.3.80001-90000
+2901 newforms.3.90001-100000
+
+5923 newforms.7.1-10000
+7054 newforms.7.10001-20000
+7296 newforms.7.20001-30000
+
+5205 newforms.11.1-10000
+6214 newforms.11.10001-20000
+6415 newforms.11.20001-30000
+
 
 nflist/nflist.1.1-20000:     7021 newforms
 nflist/nflist.1.20001-40000: 7979 newforms
