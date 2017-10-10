@@ -14,73 +14,11 @@ conjugates).   One file per level in field_label/level_label
           2.0.7.1, 2.0.11.1, 2.0.8.1, 2.0.3.1: norms up to 100000
 
 3. (2017) All levels:
-          2.0.4.1, norms 10001-100000 complete & uploaded
-
-          2.0.8.1, norms 10001-50000 complete & uploaded.
-
-          2.0.3.1, norms 10001-150000 complete & uploaded
-
-          2.0.7.1, norms 10001-40000 complete & uploaded
-                         40001-50000 complete
-
-          2.0.11.1, norms 10001-50000 complete & uploaded
-
-=====================NEWFORM COUNTS====================================
-
-nfcounts/nfcounts.*.1-1000: number of newforms.
-
-1.1-10000:     3160
-1.10001-20000: 3861
-1.20001-30000: 3937
-1.30001-40000: 4052
-1.40001-50000: 4140
-1.50001-60000: 4008
-1.60001-70000: 4341
-1.70001-80000: 4087
-
-2.1-10000:     6239
-2.10001-20000: 7120
-2.20001-30000: 7792
-2.30001-40000: 7757
-
-3.1-10000:     2210
-3.10001-20000: 2593
-3.20001-30000: 2846
-3.30001-40000: 2684
-3.40001-50000: 2957
-3.50001-60000: 2830
-3.60001-70000: 2983
-3.70001-80000: 2624
-3.80001-90000: 3107
-3.90001-100000: 2901
-
-7.1-10000:     5923
-7.10001-20000: 7054
-7.20001-30000: 7296
-
-11.1-10000:     5203
-11.10001-20000: 6214
-11.20001-30000: 6415
-
-For all these forms (level norm <=30000) we have an elliptic curve
-with the same label:
-
-sage: forms.count({'field_label':'2.0.4.1', 'dimension':int(1),
-'level_norm':{'$lte':int(30000)}})
-10958
-sage: forms.count({'field_label':'2.0.8.1', 'dimension':int(1),
-'level_norm':{'$lte':int(30000)}})
-21151
-sage: forms.count({'field_label':'2.0.3.1', 'dimension':int(1),
-'level_norm':{'$lte':int(30000)}})
-7649
-sage: forms.count({'field_label':'2.0.7.1', 'dimension':int(1),
-'level_norm':{'$lte':int(30000)}})
-20273
-sage: forms.count({'field_label':'2.0.11.1', 'dimension':int(1),
-'level_norm':{'$lte':int(30000)}})
-17834
-
+          2.0.4.1,  norms 10001-100000 complete & uploaded
+          2.0.8.1,  norms 10001-50000  complete & uploaded.
+          2.0.3.1,  norms 10001-150000 complete & uploaded
+          2.0.7.1,  norms 10001-50000  complete & uploaded
+          2.0.11.1, norms 10001-50000  complete & uploaded
 
 =====================NEWFORM LISTS====================================
 
