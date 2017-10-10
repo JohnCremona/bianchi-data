@@ -14,21 +14,16 @@ conjugates).   One file per level in field_label/level_label
           2.0.7.1, 2.0.11.1, 2.0.8.1, 2.0.3.1: norms up to 100000
 
 3. (2017) All levels:
-          2.0.4.1, norms 10001-50000 complete
-                         50001-100000 running: 76500...
+          2.0.4.1, norms 10001-100000 complete & uploaded
 
->>>> Level 76500.1410.30 = (270+60i), norm = 76500 <<<<
-Error in splitting eigenspaces: apparently found more 1D newforms (7)
-          than the total new-dimension (6).
+          2.0.8.1, norms 10001-50000 complete & uploaded.
 
-          2.0.8.1, norms 10001-40000 complete
+          2.0.3.1, norms 10001-150000 complete & uploaded
 
-          2.0.3.1, norms 10001-100000 complete
+          2.0.7.1, norms 10001-40000 complete & uploaded
+                         40001- reached 42044...
 
-          2.0.7.1, norms 10001-30000 complete
-
-          2.0.11.1, norms 10001-30000 complete
-
+          2.0.11.1, norms 10001-50000 complete & uploaded
 
 =====================NEWFORM COUNTS====================================
 
@@ -40,6 +35,8 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 1.30001-40000: 4052
 1.40001-50000: 4140
 1.50001-60000: 4008
+1.60001-70000: 4341
+1.70001-80000: 4087
 
 2.1-10000:     6239
 2.10001-20000: 7120
@@ -65,6 +62,26 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 11.10001-20000: 6214
 11.20001-30000: 6415
 
+For all these forms (level norm <=30000) we have an elliptic curve
+with the same label:
+
+sage: forms.count({'field_label':'2.0.4.1', 'dimension':int(1),
+'level_norm':{'$lte':int(30000)}})
+10958
+sage: forms.count({'field_label':'2.0.8.1', 'dimension':int(1),
+'level_norm':{'$lte':int(30000)}})
+21151
+sage: forms.count({'field_label':'2.0.3.1', 'dimension':int(1),
+'level_norm':{'$lte':int(30000)}})
+7649
+sage: forms.count({'field_label':'2.0.7.1', 'dimension':int(1),
+'level_norm':{'$lte':int(30000)}})
+20273
+sage: forms.count({'field_label':'2.0.11.1', 'dimension':int(1),
+'level_norm':{'$lte':int(30000)}})
+17834
+
+
 =====================NEWFORM LISTS====================================
 
 3160 newforms.1.1-10000
@@ -74,6 +91,7 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 4140 newforms.1.40001-50000
 4008 newforms.1.50001-60000
 4341 newforms.1.60001-70000
+4087 newforms 1.70001-80000
 
 6239 newforms.2.1-10000
 7120 newforms.2.10001-20000
@@ -90,6 +108,8 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 2624 newforms.3.70001-80000
 3107 newforms.3.80001-90000
 2901 newforms.3.90001-100000
+2838 newforms.3.100001-110000
+3090 newforms.3.110001-120000
 
 5923 newforms.7.1-10000
 7054 newforms.7.10001-20000
@@ -99,30 +119,9 @@ nfcounts/nfcounts.*.1-1000: number of newforms.
 6214 newforms.11.10001-20000
 6415 newforms.11.20001-30000
 
-
-nflist/nflist.1.1-20000:     7021 newforms
-nflist/nflist.1.20001-40000: 7979 newforms
-nflist/nflist.1.40001-50000: 4140 newforms
-nflist/nflist.1.50001-60000: 4008 newforms
-
-nflist/nflist.2.1-20000:    13359 newforms
-nflist/nflist.2.20001-30000: 7780 newforms
-
-nflist/nflist.3.1-20000:      4803 newforms
-nflist/nflist.3.20001-40000:  5540 newforms
-nflist/nflist.3.40001-60000:  5787 newforms
-nflist/nflist.3.60001-80000:  5607 newforms
-nflist/nflist.3.80001-100000: 6008 newforms
-
-nflist/nflist.7.1-20000:     12977 newforms
-nflist/nflist.7.20001-30000:  7296 newforms
-
-nflist/nflist.11.1-20000:    11419 newform.
-nflist/nflist.11.20001-30000: 6415 newforms
-
 One newform per line:
 
-level_label level sfe loverp [aq] [ap]
+field_label level_label suffix level wt bc cm sfe loverp [aq] poly [ap]
 
 ========================DIMENSION TABLES============================
 
