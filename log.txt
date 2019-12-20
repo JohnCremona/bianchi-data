@@ -84,3 +84,40 @@ dims/dimtabeis.*.out.*: output in range
 
 dims/dimtabeis.*.out.*.newdims: output including new cuspidal dimension in range
 
+
+======================== HOWTO ADD MORE COMPUTED DATA TO DATABASE ============================
+
+After computing Bianchi newforms for field d, levels from N1 to N2:
+
+1. In bianchi-progs directory:
+
+   echo d -1 N1 N2 | nflist_loop >  ~/bainchi-data/newforms/newforms.d.N1-N2
+
+and count using wc -l and check that "data" is not in that file.
+
+2. cd ~/bianchi-data
+   git add 2.0.d.1 # add the raw newform data files
+   git add newforms/newforms.d.N1-N2
+   git commit
+   git push origin master
+
+3. (Can be done on another machine, if so "git pull origin master" in bianchi-data first)
+
+   cd ecnf-data/sage
+   sage
+   sage: %runfile nfscripts
+   sage: # field: int
+   sage: magma_search(field_label,nf_filename="...", outfilename="...", verbose=False)
+
+4. (On original machine)
+
+   Using f = filename of console output of the original run:
+
+         grep DIM f | sed 's/DIMTAB //' > ~/bianchi-data/dims/dimtabeis.d.N1-N2
+         cd ~/bianchi-data/dims/
+         cat dimtabeis.d.N1-N2 >> dimtabeis.d.all
+         cd ~/bianchi-progs
+         sage
+         sage: %runfile bianchi.py
+         sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.d.all")
+
