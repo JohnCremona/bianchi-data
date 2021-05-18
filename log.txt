@@ -20,6 +20,15 @@ conjugates).   One file per level in field_label/level_label
           2.0.7.1,  norms 10001-50000  complete & uploaded
           2.0.11.1, norms 10001-50000  complete & uploaded
 
+4. (2021) Q(sqrt(-19))
+
+make tmanin_loop nflist_loop
+# 100 ap, level norms 1-1000:
+echo 19 0 1 100 1 1 1 1000 | ./tmanin_loop > tmanin.19.out &
+grep DIM tmanin.19.out | sed 's/DIMTAB //' > ~/bianchi-data/dims/dimtabeis.19.1-1000
+echo 19 -1 1 1000 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.19.1-1000
+# See further instructions below
+
 =====================NEWFORM LISTS====================================
 
 3160 newforms.1.1-10000
@@ -91,7 +100,7 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 
 1. In bianchi-progs directory:
 
-   echo d -1 N1 N2 | nflist_loop >  ~/bainchi-data/newforms/newforms.d.N1-N2
+   echo d -1 N1 N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.d.N1-N2
 
 and count using wc -l and check that "data" is not in that file.
 
@@ -105,9 +114,15 @@ and count using wc -l and check that "data" is not in that file.
 
    cd ecnf-data/sage
    sage
-   sage: %runfile nfscripts
+   sage: %runfile search
    sage: # field: int
    sage: magma_search(field_label,nf_filename="...", outfilename="...", verbose=False)
+   sage: # eg (with d=9)
+   sage: # magma_search(19, bmf_filename="/home/john/bianchi-data/newforms/newforms.19.1-1000", outfilename="curves.2.0.19.1", verbose=True)
+
+The raw curves file output has rows like
+
+
 
 4. (On original machine)
 
@@ -119,5 +134,7 @@ and count using wc -l and check that "data" is not in that file.
          cd ~/bianchi-progs
          sage
          sage: %runfile bianchi.py
-         sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.d.all")
+         sage: d=19
+         sage: # make dimtabeis.d.all.newdims
+         sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.{}.all".format(d))
 
