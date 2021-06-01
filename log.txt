@@ -20,7 +20,7 @@ conjugates).   One file per level in field_label/level_label
           2.0.7.1,  norms 10001-50000  complete & uploaded
           2.0.11.1, norms 10001-50000  complete & uploaded
 
-4. (2021) Q(sqrt(-19))
+4. (2021) Q(sqrt(-19)), Q(sqrt(-43))
 
 make tmanin_loop nflist_loop
 # 100 ap, level norms 1-1000:
@@ -28,6 +28,14 @@ echo 19 0 1 100 1 1 1 1000 | ./tmanin_loop > tmanin.19.out &
 grep DIM tmanin.19.out | sed 's/DIMTAB //' > ~/bianchi-data/dims/dimtabeis.19.1-1000
 echo 19 -1 1 1000 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.19.1-1000
 # See further instructions below
+
+Run 1: 1-1000 complete, 211 newforms, found all 211 curves
+Run 2: 1001-8427 complete, 1873 newforms, found 1871/1873 curves
+                           missing (44-3a), (41+3a) (these are conjugate)
+                           No elliptic curves have the specified 'Traces'
+Run 3: 8248-10000 complete, 462 newforms, found all 462 curves
+
+43: 1-10000 complete, 719 newforms
 
 =====================NEWFORM LISTS====================================
 
@@ -114,10 +122,10 @@ and count using wc -l and check that "data" is not in that file.
 
    cd ecnf-data/sage
    sage
-   sage: %runfile search
-   sage: # field: int
-   sage: magma_search(field_label,nf_filename="...", outfilename="...", verbose=False)
-   sage: # eg (with d=9)
+   sage: %runfile search.py
+   sage: # field: int, e.g. 19
+   sage: magma_search(field,nf_filename="...", outfilename="...", verbose=False)
+   sage: # eg (with d=19)
    sage: # magma_search(19, bmf_filename="/home/john/bianchi-data/newforms/newforms.19.1-1000", outfilename="curves.2.0.19.1", verbose=True)
 
 The raw curves file output has rows like
