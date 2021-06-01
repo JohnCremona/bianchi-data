@@ -36,6 +36,8 @@ Run 2: 1001-8427 complete, 1873 newforms, found 1871/1873 curves
 Run 3: 8248-10000 complete, 462 newforms, found all 462 curves
 
 43: 1-10000 complete, 719 newforms
+dimtabnew: running
+search:
 
 =====================NEWFORM LISTS====================================
 
