@@ -35,9 +35,93 @@ Run 2: 1001-8427 complete, 1873 newforms, found 1871/1873 curves
                            No elliptic curves have the specified 'Traces'
 Run 3: 8248-10000 complete, 462 newforms, found all 462 curves
 
-43: 1-10000 complete, 719 newforms
-dimtabnew: running
-search:
+Run 4: On Galois: 10000-15000 in batches of 500, combined output in
+tmanin.19.out.10001-15000, made dimtabeis and newforms files.
+Updating newdims file: done
+Curve search 10k-15k: done, all found: 1386 in IQF/rawcurves.2.0.19.1.10k-15k
+Curve processing:
+make_all_data_files(read_curves_magma("../IQF/rawcurves.2.0.19.1.10k-15k"),
+field_type="IQF", field_label="2.0.19.1.10k-15k", verbose=0) done (on galois).
+
+43: 1-10000 complete, 719 newforms, committed
+dimtabnew: done, committed
+search: run, 688 curves found, 31 "no curve found"
+
+No elliptic curves have the specified 'Traces' for 31 newforms.  These
+include all twists by an off quadratic character (chi(-1)=-1) of thr
+"minusform" at level 1.
+
+Curve processing...done
+
+Run 2: 10k-15k on galois in batches of 500.
+7 stopped before finishing (NB 19 in output filenames not 43 by mistake!)
+10001-10500: stopped at 10044, rerunning from start to tmanin.19.out.10001-10500
+12001-12500: stopped at 12032, rerunning from start to tmanin.19.out.12001-12500
+12501-13000: stopped in 12529, rerunning from start to tmanin.19.out.12501-13000
+13001-13500: stopped in 10039, rerunning from start to tmanin.19.out.13001-13500
+13501-14000: stopped in 13039, rerunning from start to tmanin.19.out.13001-13500
+14001-14500: stopped in 14053, rerunning from start to tmanin.43.out.14001-14500
+reruns:
+10001-10500: 10044 failed again
+12001-12500: 12032 failed again
+12501-13000: 12529 failed again
+13001-13500: 13039 failed again
+14001-14500: 14053 failed again
+5 running
+10501-11000: reached 10764
+11001-11500: reached 11132
+11501-12000: reached 11664
+13501-14000: reached 13568
+14501-15000: reached 14636
+
+2.0.43.1-121.1-a
+2.0.43.1-121.3-a
+2.0.43.1-256.1-c
+2.0.43.1-256.1-d
+2.0.43.1-256.1-e
+2.0.43.1-256.1-f
+2.0.43.1-529.3-a
+2.0.43.1-529.1-a
+2.0.43.1-961.3-a
+2.0.43.1-961.1-a
+2.0.43.1-1849.1-b
+2.0.43.1-1936.1-a
+2.0.43.1-1936.3-a
+2.0.43.1-2209.3-a
+2.0.43.1-2209.1-a
+2.0.43.1-3481.3-a
+2.0.43.1-3481.1-a
+2.0.43.1-4096.1-d
+2.0.43.1-4096.1-e
+2.0.43.1-4096.1-f
+2.0.43.1-4096.1-g
+2.0.43.1-4489.3-a
+2.0.43.1-4489.1-a
+2.0.43.1-6241.3-a
+2.0.43.1-6241.1-a
+2.0.43.1-6889.3-a
+2.0.43.1-6889.1-a
+2.0.43.1-8464.3-a
+2.0.43.1-8464.1-a
+2.0.43.1-9801.1-a
+2.0.43.1-9801.3-a
+
+67:
+first run output to tmanin.67.out.1-10000 stops at 6736
+second run to tmanin.67.out.6737-10000, crashed at 6768 (60+12a):
+Pseudo-Euclidean step fails for (297979475381578-84555935301269a, -27934616519871+6461798648986a)
+third run to tmanin.67.out.6768-10000, running, reached 8993...
+
+On galois
+1-10000 done, output in tmanin.67.out.1-10000
+newforms file: done (451)
+dims files: done
+curve search: done (all 451)
+curve processing: running (Sage-9.2)
+
+163: run to 1000 complete, 26 newforms, all curves found and processed.
+All bmf dims and forms and curves on LMFDB beta.
+On galois 1001-2000 r 1231
 
 =====================NEWFORM LISTS====================================
 
