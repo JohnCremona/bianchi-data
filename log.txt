@@ -117,11 +117,11 @@ On galois
 newforms file: done (451)
 dims files: done
 curve search: done (all 451)
-curve processing: running (Sage-9.2)
+curve processing: done, and all data uploaded
 
 163: run to 1000 complete, 26 newforms, all curves found and processed.
 All bmf dims and forms and curves on LMFDB beta.
-On galois 1001-2000 r 1231
+On galois 1001-2000 r 1468
 
 =====================NEWFORM LISTS====================================
 
