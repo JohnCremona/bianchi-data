@@ -54,6 +54,9 @@ include all twists by an off quadratic character (chi(-1)=-1) of thr
 Curve processing...done
 
 Run 2: 10k-15k on galois in batches of 500.
+
+1k-15k: complete tmanin.43.out.10001-11000
+
 7 stopped before finishing (NB 19 in output filenames not 43 by mistake!)
 10001-10500: stopped at 10044, rerunning from start to tmanin.19.out.10001-10500
 12001-12500: stopped at 12032, rerunning from start to tmanin.19.out.12001-12500
@@ -121,7 +124,8 @@ curve processing: done, and all data uploaded
 
 163: run to 1000 complete, 26 newforms, all curves found and processed.
 All bmf dims and forms and curves on LMFDB beta.
-On galois 1001-2000 r 1468
+On galois 1001-2000 done
+          2001-5000 running parallel*10
 
 =====================NEWFORM LISTS====================================
 
