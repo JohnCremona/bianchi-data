@@ -53,68 +53,37 @@ include all twists by an off quadratic character (chi(-1)=-1) of thr
 
 Curve processing...done
 
-Run 2: 10k-15k on galois in batches of 500.
+Run 2: 10k-15k on galois & lehner
 
-1k-15k: complete tmanin.43.out.10001-11000
+10k-11k: done tmanin.43.out.10001-11000 on galois
+11k-15k: done parallel*10 on lehner
 
-7 stopped before finishing (NB 19 in output filenames not 43 by mistake!)
-10001-10500: stopped at 10044, rerunning from start to tmanin.19.out.10001-10500
-12001-12500: stopped at 12032, rerunning from start to tmanin.19.out.12001-12500
-12501-13000: stopped in 12529, rerunning from start to tmanin.19.out.12501-13000
-13001-13500: stopped in 10039, rerunning from start to tmanin.19.out.13001-13500
-13501-14000: stopped in 13039, rerunning from start to tmanin.19.out.13001-13500
-14001-14500: stopped in 14053, rerunning from start to tmanin.43.out.14001-14500
-reruns:
-10001-10500: 10044 failed again
-12001-12500: 12032 failed again
-12501-13000: 12529 failed again
-13001-13500: 13039 failed again
-14001-14500: 14053 failed again
-5 running
-10501-11000: reached 10764
-11001-11500: reached 11132
-11501-12000: reached 11664
-13501-14000: reached 13568
-14501-15000: reached 14636
+10k-15k: 345 newforms
+10k-11k:  462 levels
+11k-15k: 1925 levels
+10k-15k: 2387 levels in bianchi-data/dims/dimtabeis.43.10001-15000
 
-2.0.43.1-121.1-a
-2.0.43.1-121.3-a
-2.0.43.1-256.1-c
-2.0.43.1-256.1-d
-2.0.43.1-256.1-e
-2.0.43.1-256.1-f
-2.0.43.1-529.3-a
-2.0.43.1-529.1-a
-2.0.43.1-961.3-a
-2.0.43.1-961.1-a
-2.0.43.1-1849.1-b
-2.0.43.1-1936.1-a
-2.0.43.1-1936.3-a
-2.0.43.1-2209.3-a
-2.0.43.1-2209.1-a
-2.0.43.1-3481.3-a
-2.0.43.1-3481.1-a
-2.0.43.1-4096.1-d
-2.0.43.1-4096.1-e
-2.0.43.1-4096.1-f
-2.0.43.1-4096.1-g
-2.0.43.1-4489.3-a
-2.0.43.1-4489.1-a
-2.0.43.1-6241.3-a
-2.0.43.1-6241.1-a
-2.0.43.1-6889.3-a
-2.0.43.1-6889.1-a
-2.0.43.1-8464.3-a
-2.0.43.1-8464.1-a
-2.0.43.1-9801.1-a
+Forms with no curve to 10k:
+
+2.0.43.1-121.1-a 2.0.43.1-121.3-a 2.0.43.1-256.1-c 2.0.43.1-256.1-d
+2.0.43.1-256.1-e 2.0.43.1-256.1-f 2.0.43.1-529.3-a 2.0.43.1-529.1-a
+2.0.43.1-961.3-a 2.0.43.1-961.1-a 2.0.43.1-1849.1-b 2.0.43.1-1936.1-a
+2.0.43.1-1936.3-a 2.0.43.1-2209.3-a 2.0.43.1-2209.1-a
+2.0.43.1-3481.3-a 2.0.43.1-3481.1-a 2.0.43.1-4096.1-d
+2.0.43.1-4096.1-e 2.0.43.1-4096.1-f 2.0.43.1-4096.1-g
+2.0.43.1-4489.3-a 2.0.43.1-4489.1-a 2.0.43.1-6241.3-a
+2.0.43.1-6241.1-a 2.0.43.1-6889.3-a 2.0.43.1-6889.1-a
+2.0.43.1-8464.3-a 2.0.43.1-8464.1-a 2.0.43.1-9801.1-a
 2.0.43.1-9801.3-a
 
-67:
-first run output to tmanin.67.out.1-10000 stops at 6736
-second run to tmanin.67.out.6737-10000, crashed at 6768 (60+12a):
-Pseudo-Euclidean step fails for (297979475381578-84555935301269a, -27934616519871+6461798648986a)
-third run to tmanin.67.out.6768-10000, running, reached 8993...
+10k-15k: 341 curves found; 4 newforms have no curve: 10609.3-a
+                                                     10609.1-a
+                                                     11449.1-a
+                                                     11449.3-a
 
+Processing curves on lehner...done
+
+67:
 On galois
 1-10000 done, output in tmanin.67.out.1-10000
 newforms file: done (451)
@@ -122,10 +91,16 @@ dims files: done
 curve search: done (all 451)
 curve processing: done, and all data uploaded
 
-163: run to 1000 complete, 26 newforms, all curves found and processed.
+163:
+1-1000 complete, 26 newforms, all curves found and processed.
 All bmf dims and forms and curves on LMFDB beta.
-On galois 1001-2000 done
-          2001-5000 running parallel*10
+1001-5000 complete, 85 newforms, 85 curves found, processing...
+
+23:
+1-1000 complete, 930 newforms, all curves found, processed.
+
+31:
+1-1000 complete, 811 newforms, all curves found, processed.
 
 =====================NEWFORM LISTS====================================
 
@@ -198,13 +173,16 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 
 1. In bianchi-progs directory:
 
-   echo d -1 N1 N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.d.N1-N2
+   export d=19
+   export N1=1
+   export N2=1000
+   echo $d -1 $N1 $N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.$d.$N1-$N2
 
 and count using wc -l and check that "data" is not in that file.
 
 2. cd ~/bianchi-data
-   git add 2.0.d.1 # add the raw newform data files
-   git add newforms/newforms.d.N1-N2
+   git add 2.0.$d.1 # add the raw newform data files
+   git add newforms/newforms.$d.$N1-$N2
    git commit
    git push origin master
 
@@ -214,21 +192,25 @@ and count using wc -l and check that "data" is not in that file.
    sage
    sage: %runfile search.py
    sage: # field: int, e.g. 19
-   sage: magma_search(field,nf_filename="...", outfilename="...", verbose=False)
+   sage: magma_search(field,bmf_filename="...", outfilename="...", verbose=False)
    sage: # eg (with d=19)
-   sage: # magma_search(19, bmf_filename="/home/john/bianchi-data/newforms/newforms.19.1-1000", outfilename="curves.2.0.19.1", verbose=True)
+   sage: # magma_search(19, bmf_filename="/home/jec/bianchi-data/newforms/newforms.19.1-1000", outfilename="curves.2.0.19.1", verbose=True)
 
-The raw curves file output has rows like
-
-
+   Process the raw curves file:
+   sage: %runfile files.py
+   sage: d=31
+   sage: field_label = '2.0.{}.1'.format(d)
+   sage: data = read_curves_magma(field_label)
+   sage: curves = make_all_data_files(data, field_type='IQF', field_label=field_label, prec=100)
 
 4. (On original machine)
 
-   Using f = filename of console output of the original run:
+   Assuming that we have used tmanin_loop on a range of levels N1-N2,
+   there will be an output file called dimtabeis.$d.$N1-$N2.
 
-         grep DIM f | sed 's/DIMTAB //' > ~/bianchi-data/dims/dimtabeis.d.N1-N2
+         mv ~/bianchi-progs/dimtabeis.$d.$N1-$N2 ~/bianchi-data/dims/
          cd ~/bianchi-data/dims/
-         cat dimtabeis.d.N1-N2 >> dimtabeis.d.all
+         cat dimtabeis.d.$N1-$N2 >> dimtabeis.d.all
          cd ~/bianchi-progs
          sage
          sage: %runfile bianchi.py
@@ -236,3 +218,5 @@ The raw curves file output has rows like
          sage: # make dimtabeis.d.all.newdims
          sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.{}.all".format(d))
 
+   Now follow instructions at the end of bianchi-progs/bianchi.py to
+   make the LMFDB upload files.
