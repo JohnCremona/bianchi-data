@@ -94,14 +94,18 @@ curve processing: done, and all data uploaded
 163:
 1-1000 complete, 26 newforms, all curves found and processed.
 All bmf dims and forms and curves on LMFDB beta.
-1001-5000 complete, 85 newforms, 85 curves found, processing...
+1001-5000 complete, 85 newforms, 85 curves found, processed.
 
 23:
-1-1000 complete, 930 newforms, all curves found, processed.
+1-1000 complete, 930 newforms, all curves found, processed, uploaded.
+ -2000 complete, 1384 more newforms, all curves found, processed, uploaded.
+ reached 2484.7,  2484.8- running, 54 more to get to 2500.
 
 31:
-1-1000 complete, 811 newforms, all curves found, processed.
-
+1-1000 complete, 811 newforms, all curves found, processed, uploaded.
+ -5000 complete, 4352 more newforms, all curves found, processed, uploaded.
+ reached 5120.19
+ 
 =====================NEWFORM LISTS====================================
 
 3160 newforms.1.1-10000
@@ -173,9 +177,9 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 
 1. In bianchi-progs directory:
 
-   export d=19
-   export N1=1
-   export N2=1000
+   export d=31
+   export N1=1001
+   export N2=5000
    echo $d -1 $N1 $N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.$d.$N1-$N2
 
 and count using wc -l and check that "data" is not in that file.
