@@ -20,6 +20,92 @@ conjugates).   One file per level in field_label/level_label
           2.0.7.1,  norms 10001-50000  complete & uploaded
           2.0.11.1, norms 10001-50000  complete & uploaded
 
+4. (2021) Q(sqrt(-19)), Q(sqrt(-43))
+
+make tmanin_loop nflist_loop
+# 100 ap, level norms 1-1000:
+echo 19 0 1 100 1 1 1 1000 | ./tmanin_loop > tmanin.19.out &
+grep DIM tmanin.19.out | sed 's/DIMTAB //' > ~/bianchi-data/dims/dimtabeis.19.1-1000
+echo 19 -1 1 1000 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.19.1-1000
+# See further instructions below
+
+Run 1: 1-1000 complete, 211 newforms, found all 211 curves
+Run 2: 1001-8427 complete, 1873 newforms, found 1871/1873 curves
+                           missing (44-3a), (41+3a) (these are conjugate)
+                           No elliptic curves have the specified 'Traces'
+Run 3: 8248-10000 complete, 462 newforms, found all 462 curves
+
+Run 4: On Galois: 10000-15000 in batches of 500, combined output in
+tmanin.19.out.10001-15000, made dimtabeis and newforms files.
+Updating newdims file: done
+Curve search 10k-15k: done, all found: 1386 in IQF/rawcurves.2.0.19.1.10k-15k
+Curve processing:
+make_all_data_files(read_curves_magma("../IQF/rawcurves.2.0.19.1.10k-15k"),
+field_type="IQF", field_label="2.0.19.1.10k-15k", verbose=0) done (on galois).
+
+43: 1-10000 complete, 719 newforms, committed
+dimtabnew: done, committed
+search: run, 688 curves found, 31 "no curve found"
+
+No elliptic curves have the specified 'Traces' for 31 newforms.  These
+include all twists by an off quadratic character (chi(-1)=-1) of thr
+"minusform" at level 1.
+
+Curve processing...done
+
+Run 2: 10k-15k on galois & lehner
+
+10k-11k: done tmanin.43.out.10001-11000 on galois
+11k-15k: done parallel*10 on lehner
+
+10k-15k: 345 newforms
+10k-11k:  462 levels
+11k-15k: 1925 levels
+10k-15k: 2387 levels in bianchi-data/dims/dimtabeis.43.10001-15000
+
+Forms with no curve to 10k:
+
+2.0.43.1-121.1-a 2.0.43.1-121.3-a 2.0.43.1-256.1-c 2.0.43.1-256.1-d
+2.0.43.1-256.1-e 2.0.43.1-256.1-f 2.0.43.1-529.3-a 2.0.43.1-529.1-a
+2.0.43.1-961.3-a 2.0.43.1-961.1-a 2.0.43.1-1849.1-b 2.0.43.1-1936.1-a
+2.0.43.1-1936.3-a 2.0.43.1-2209.3-a 2.0.43.1-2209.1-a
+2.0.43.1-3481.3-a 2.0.43.1-3481.1-a 2.0.43.1-4096.1-d
+2.0.43.1-4096.1-e 2.0.43.1-4096.1-f 2.0.43.1-4096.1-g
+2.0.43.1-4489.3-a 2.0.43.1-4489.1-a 2.0.43.1-6241.3-a
+2.0.43.1-6241.1-a 2.0.43.1-6889.3-a 2.0.43.1-6889.1-a
+2.0.43.1-8464.3-a 2.0.43.1-8464.1-a 2.0.43.1-9801.1-a
+2.0.43.1-9801.3-a
+
+10k-15k: 341 curves found; 4 newforms have no curve: 10609.3-a
+                                                     10609.1-a
+                                                     11449.1-a
+                                                     11449.3-a
+
+Processing curves on lehner...done
+
+67:
+On galois
+1-10000 done, output in tmanin.67.out.1-10000
+newforms file: done (451)
+dims files: done
+curve search: done (all 451)
+curve processing: done, and all data uploaded
+
+163:
+1-1000 complete, 26 newforms, all curves found and processed.
+All bmf dims and forms and curves on LMFDB beta.
+1001-5000 complete, 85 newforms, 85 curves found, processed.
+
+23:
+1-1000 complete, 930 newforms, all curves found, processed, uploaded.
+ -2000 complete, 1384 more newforms, all curves found, processed, uploaded.
+ reached 2484.7,  2484.8- running, 54 more to get to 2500.
+
+31:
+1-1000 complete, 811 newforms, all curves found, processed, uploaded.
+ -5000 complete, 4352 more newforms, all curves found, processed, uploaded.
+ reached 5120.19
+ 
 =====================NEWFORM LISTS====================================
 
 3160 newforms.1.1-10000
@@ -84,3 +170,57 @@ dims/dimtabeis.*.out.*: output in range
 
 dims/dimtabeis.*.out.*.newdims: output including new cuspidal dimension in range
 
+
+======================== HOWTO ADD MORE COMPUTED DATA TO DATABASE ============================
+
+After computing Bianchi newforms for field d, levels from N1 to N2:
+
+1. In bianchi-progs directory:
+
+   export d=31
+   export N1=1001
+   export N2=5000
+   echo $d -1 $N1 $N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.$d.$N1-$N2
+
+and count using wc -l and check that "data" is not in that file.
+
+2. cd ~/bianchi-data
+   git add 2.0.$d.1 # add the raw newform data files
+   git add newforms/newforms.$d.$N1-$N2
+   git commit
+   git push origin master
+
+3. (Can be done on another machine, if so "git pull origin master" in bianchi-data first)
+
+   cd ecnf-data/sage
+   sage
+   sage: %runfile search.py
+   sage: # field: int, e.g. 19
+   sage: magma_search(field,bmf_filename="...", outfilename="...", verbose=False)
+   sage: # eg (with d=19)
+   sage: # magma_search(19, bmf_filename="/home/jec/bianchi-data/newforms/newforms.19.1-1000", outfilename="curves.2.0.19.1", verbose=True)
+
+   Process the raw curves file:
+   sage: %runfile files.py
+   sage: d=31
+   sage: field_label = '2.0.{}.1'.format(d)
+   sage: data = read_curves_magma(field_label)
+   sage: curves = make_all_data_files(data, field_type='IQF', field_label=field_label, prec=100)
+
+4. (On original machine)
+
+   Assuming that we have used tmanin_loop on a range of levels N1-N2,
+   there will be an output file called dimtabeis.$d.$N1-$N2.
+
+         mv ~/bianchi-progs/dimtabeis.$d.$N1-$N2 ~/bianchi-data/dims/
+         cd ~/bianchi-data/dims/
+         cat dimtabeis.d.$N1-$N2 >> dimtabeis.d.all
+         cd ~/bianchi-progs
+         sage
+         sage: %runfile bianchi.py
+         sage: d=19
+         sage: # make dimtabeis.d.all.newdims
+         sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.{}.all".format(d))
+
+   Now follow instructions at the end of bianchi-progs/bianchi.py to
+   make the LMFDB upload files.
