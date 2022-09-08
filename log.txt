@@ -81,8 +81,6 @@ Forms with no curve to 10k:
                                                      11449.1-a
                                                      11449.3-a
 
-Processing curves on lehner...done
-
 67:
 On galois
 1-10000 done, output in tmanin.67.out.1-10000
@@ -96,62 +94,121 @@ curve processing: done, and all data uploaded
 All bmf dims and forms and curves on LMFDB beta.
 1001-5000 complete, 85 newforms, 85 curves found, processed.
 
+===========================================================================
+odd class numbers >1
+===========================================================================
+
 23:
-1-1000 complete, 930 newforms, all curves found, processed, uploaded.
+1-1000 complete,  930 newforms,      all curves found, processed, uploaded.
  -2000 complete, 1384 more newforms, all curves found, processed, uploaded.
- reached 2484.7,  2484.8- running, 54 more to get to 2500.
+ -3000 complete, 1429 more newforms, all curves found.
+processing from 2001 reached 2916.11-e then crashed. rerun from start.
+output 1 by 1 reached 2.0.23.1.2592.10-c then crashed,
+restart from 2592.2, finished, merged into *.2.0.21.1.2001-3000
+upload files ready:
+legendre:ecnf-upload/ec_nfcurves.2.0.23.1.2001-3000
+legendre:bmf-upload/bmf_dims.23.2001-3000.no_sl2
+legendre:bmf-upload/bmf_forms.23.2001-3000
 
 31:
 1-1000 complete, 811 newforms, all curves found, processed, uploaded.
  -5000 complete, 4352 more newforms, all curves found, processed, uploaded.
  reached 5120.19
- 
-=====================NEWFORM LISTS====================================
 
-3160 newforms.1.1-10000
-3861 newforms.1.10001-20000
-3937 newforms.1.20001-30000
-4044 newforms.1.30001-40000
-4140 newforms.1.40001-50000
-4008 newforms.1.50001-60000
-4341 newforms.1.60001-70000
-4087 newforms.1.70001-80000
-4216 newforms.1.80001-90000
-4236 newforms.1.90001-100000
+47:
+1-1000 complete to 1000;  dimtabeis.47.all complete 1-1000
+1288 newforms, all 1288 curves found, processed
+all upload files ready (curves, forms, dims) on legendre
 
-6239 newforms.2.1-10000
-7120 newforms.2.10001-20000
-7780 newforms.2.20001-30000
-7757 newforms.2.30001-40000
-7947 newforms.2.40001-50000
+59:
+1-1000 complete, 564 newforms, all but 2 curves found, processed
+Missing curves: 675.5-b, 675.8-b
+files in legendre:bmf-upload, legendre:ecnf-upload
+1001-1200 complete, 109 newforms.  No curve search yet.
 
-2210 newforms.3.1-10000
-2593 newforms.3.10001-20000
-2846 newforms.3.20001-30000
-2684 newforms.3.30001-40000
-2957 newforms.3.40001-50000
-2830 newforms.3.50001-60000
-2983 newforms.3.60001-70000
-2624 newforms.3.70001-80000
-3107 newforms.3.80001-90000
-2901 newforms.3.90001-100000
-2838 newforms.3.100001-110000
-3090 newforms.3.110001-120000
-2950 newforms.3.120001-130000
-2863 newforms.3.130001-140000
-2875 newforms.3.140001-150000
+71:
+1-1000 complete, 1774 newforms, all 1774 curves found, processed
+files in legendre:bmf-upload, legendre:ecnf-upload
 
-5923 newforms.7.1-10000
-7054 newforms.7.10001-20000
-7296 newforms.7.20001-30000
-7990 newforms.7.30001-40000
-7561 newforms.7.40001-50000
+79:
+1-1000 complete, 802 newforms, all 802 curves found, processed
+files in legendre:bmf-upload, ecnf-upload
 
-5205 newforms.11.1-10000
-6214 newforms.11.10001-20000
-6415 newforms.11.20001-30000
-6280 newforms.11.30001-40000
-6427 newforms.11.40001-50000
+echo 79 10 1 1000 | ./nflist_loop | grep data | awk '{print $10;}' | uniq -c
+
+83:
+1-1000 complete, 302 newforms, all 302 curves found, processed
+files in legendre:bmf-upload, legendre:ecnf-upload
+
+===========================================================================
+even class numbers
+===========================================================================
+
+5: 1-1000 complete, 100ap, 660 newforms, bmf upload files created, all
+660 curves found, processed, committed, ecnf upload files created.
+
+6: atkin: 1-1000 done, 514 newforms, upload files created, curve
+search complete, processed, committed, ecnf upload files created.
+
+10: atkin: 1-1000 done. [650 needed ZZ] 338 newforms, upload files
+created, curve search complete, processed, committed, ecnf upload
+files created.
+
+13: atkin: 1-1000 done. 290 newforms, upload files created, curve
+search complete, processed, committed, ecnf upload files created.
+
+15: atkin: 1-1000 done. 691 newforms, upload files created, curve
+search complete, processed, committed, ecnf upload files created.
+
+22: lehner: 1-1000 done. 209 newforms, upload files created, curve
+search complete, processed, committed, ecnf upload files created.
+
+35: lehner: 1-1000 done. 431 newforms, upload files created, curve
+search complete, processing...done, committed, ecnf upload files
+created.
+
+51: lehner: 1-1000 done. 304 newforms, upload files created, curve
+search complete, processing...done, committed, ecnf upload files
+created.
+
+21: atkin: 1-1000 done, 688 newforms, upload files created, curve
+search complete, processing complete, committed, ecnf upload files
+created.
+
+91: fermat: 1-1000 done. 219 newforms, upload files created, curve
+search found 217/219 curves, processing complete, committed, ecnf
+upload files created.
+
+Missing curves: 784.1-a,b conductor (28) (twists of each other, and twists of
+base-change of a form (?) with coeffs in Q(sqrt(6))).
+
+*14: (C4) galois: 1-1000 done. 862 newforms, data committed & pushed.
+
+*39: (C4) atkin: 1-500 done. 501-1000 par*20...(576...864 running)
+
+*17: (C4) atkin: 1-500 done.
+
+*55: (C4) lehner: 1-650 done. 651-1000 par*20...(720...961 running)
+
+*87: (C6) lehner: 1-250 done.
+
+*95: (C8) galois: 1-125 done. 126-250 par*10...(128...180 running)
+
+-42: (C2xC2): not yet started
+
+Ready for upload:
+
+ec_nfcurves.2.0.d.1 for d = 47, 59, 71, 79, 83, 20, 24, 15, 35, 52,
+                            40, 51, 88, 84, 91
+
+bmf_dims.d.1-1000.sl2 for d=5
+bmf_dims.d.1-1000.no_sl2 for d=47, 59, 71, 79, 83, 5, 6, 10, 13, 15,
+                               22, 35, 51, 91, 21
+
+ - and d=23, norms 2000-3000 in bmf_forms.23.2001-3000,
+   bmf_dims.23.2001-3000.no_sl2, ec_nfcurves.2.0.23.1.2001-3000
+
+Still working: 14, 17, 39, 55, 87, 95
 
 ========================DIMENSION TABLES============================
 
@@ -170,6 +227,7 @@ dims/dimtabeis.*.out.*: output in range
 
 dims/dimtabeis.*.out.*.newdims: output including new cuspidal dimension in range
 
+dimtabnew:  table of trivial character subspace dimensions (field, weight, cuspidal dim, new cuspidal dim)
 
 ======================== HOWTO ADD MORE COMPUTED DATA TO DATABASE ============================
 
@@ -177,50 +235,105 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 
 1. In bianchi-progs directory:
 
-   export d=31
+   export d=79
+   export D=79
    export N1=1001
    export N2=5000
    echo $d -1 $N1 $N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.$d.$N1-$N2
 
 and count using wc -l and check that "data" is not in that file.
 
-2. cd ~/bianchi-data
-   git add 2.0.$d.1 # add the raw newform data files
+2.
+   Assuming that we have used tmanin_loop on a range of levels N1-N2,
+   there will be an output file called dimtabeis.$d.$N1-$N2. We no
+   longer need this for LMFDB upload since we can run dimtabnew (up to
+   level norm N2) making a file like dimtabeis.d.all.newdims but
+   omitting cols 4 (full dimension) and 7 (eisenstein dimension),
+   i.e. just
+   field weight level dimcusp dimcuspnew
+   e.g.
+   23      2       6.1             1               1
+   instead of
+   23      2       6.1     12      1       1       11
+
+   Instead of:
+   mv ~/bianchi-progs/dimtabeis.$d.$N1-$N2 ~/bianchi-data/dims/
+   cd ~/bianchi-data/dims/
+   cat dimtabeis.$d.$N1-$N2 >> dimtabeis.$d.all
+   cd ~/bianchi-progs
+   sage
+   sage: %runfile bianchi.py
+   sage: d=19
+   sage: # make dimtabeis.d.all.newdims
+   sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.{}.all".format(d))
+
+   we can now do this:
+   echo $d $N2 | ./dimtabnew >  ~/bianchi-data/dims/dimtabnew.${d}.1-${N2}
+
+   Now follow instructions at the end of bianchi-progs/bianchi.py to
+   make the LMFDB upload files:
+
+# e.g. (assumes directory ~/bmf-upload exists)
+# sage: %runfile bianchi.py
+# sage: d=43 # square-free
+# sage: D=43 # abs(disc), either d or 4*d
+# sage: N1=1
+# sage: N2=1000
+# sage: # either (old style)
+# sage: dimdat = read_dimtabeis_new(d, "dimtabeis.{}.all.newdims".format(d))
+# sage: # or (new style)
+# sage: dimdat = read_dimtabeis_new(d, "dimtabnew.{}.{}-{}".format(d, N1, N2))
+# sage: sl2_levels = []
+# sage: if D in [1,2,3,7,11,19,43,67,163,20]:
+# sage:    sl2_levels = read_data("sl2_levels_{}".format(D), str)
+# sage:    write_bmf_upload_file(dimdat, "bmf_dims.{}.{}-{}.sl2".format(d,N1,N2), 'dims', sl2=True)
+# sage: write_bmf_upload_file(dimdat, "bmf_dims.{}.{}-{}.no_sl2".format(d,N1,N2), 'dims', sl2=False)
+# sage: formdat = read_newforms(d, "newforms.{}.{}-{}".format(d,N1,N2))
+# sage: write_bmf_upload_file(formdat, "bmf_forms.{}.{}-{}".format(d,N1,N2), 'forms', True)
+
+# Copy the three files to legendre in bmf-upload/.
+# Do the upload as follows:
+# sage: from lmfdb import db
+# sage: d=43
+# sage: N1=1
+# sage: N2=1000
+# sage: db.bmf_forms.copy_from("/scratch/home/jcremona/bmf-upload/bmf_forms.{}.{}-{}".format(d,N1,N2))
+# sage: db.bmf_dims.update_from_file("/scratch/home/jcremona/bmf-upload/bmf_dims.{}.{}-{}.sl2".format(d,N1,N2))
+# sage: db.bmf_dims.copy_from("/scratch/home/jcremona/bmf-upload/bmf_dims.{}.{}-{}.no_sl2".format(d,N1,N2))
+
+
+3. cd ~/bianchi-data
+   git add 2.0.$D.1 # add the raw newform data files
    git add newforms/newforms.$d.$N1-$N2
-   git commit
+   git add dims/dimtabnew.${d}.1-${N2}
+   # or git add dims/dimtabeis.${d}.all
+   git commit -m "..."
    git push origin master
 
-3. (Can be done on another machine, if so "git pull origin master" in bianchi-data first)
+4. (Can be done on another machine, if so "git pull origin master" in bianchi-data first)
 
    cd ecnf-data/sage
    sage
    sage: %runfile search.py
    sage: # field: int, e.g. 19
    sage: magma_search(field,bmf_filename="...", outfilename="...", verbose=False)
-   sage: # eg (with d=19)
-   sage: # magma_search(19, bmf_filename="/home/jec/bianchi-data/newforms/newforms.19.1-1000", outfilename="curves.2.0.19.1", verbose=True)
+   sage: # eg
+   sage: d=5
+   sage: D=20
+   sage: magma_search(d, bmf_filename="/home/jec/bianchi-data/newforms/newforms.{}.1-1000".format(d), outfilename="rawcurves.2.0.{}.1".format(D), verbose=True)
 
+   Move the rawcurves file to ECNF_DIR/IQF
+   Add the field if necessary to ECNF_DIR/sage/ecnf_fields and ECNF_DIR/IQF/fields.txt
    Process the raw curves file:
+
    sage: %runfile files.py
-   sage: d=31
-   sage: field_label = '2.0.{}.1'.format(d)
-   sage: data = read_curves_magma(field_label)
-   sage: curves = make_all_data_files(data, field_type='IQF', field_label=field_label, prec=100)
+   sage: d=6
+   sage: D=24
+   sage: field_label = '2.0.{}.1'.format(D)
+   sage: rawcurvesfile = ".".join(['rawcurves', field_label])
+   sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
+   sage: curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128)
 
-4. (On original machine)
-
-   Assuming that we have used tmanin_loop on a range of levels N1-N2,
-   there will be an output file called dimtabeis.$d.$N1-$N2.
-
-         mv ~/bianchi-progs/dimtabeis.$d.$N1-$N2 ~/bianchi-data/dims/
-         cd ~/bianchi-data/dims/
-         cat dimtabeis.d.$N1-$N2 >> dimtabeis.d.all
-         cd ~/bianchi-progs
-         sage
-         sage: %runfile bianchi.py
-         sage: d=19
-         sage: # make dimtabeis.d.all.newdims
-         sage: make_dimtabnew(d,"/home/jec/bianchi-data/dims/dimtabeis.{}.all".format(d))
-
-   Now follow instructions at the end of bianchi-progs/bianchi.py to
-   make the LMFDB upload files.
+   sage: # to make upload files
+   sage: %runfile upload.py
+   sage: make_upload_file(['IQF'], [field_label], outfilename='ec_nfcurves.'+field_label)
