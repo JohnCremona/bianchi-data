@@ -1,0 +1,33 @@
+Columns of newforms.* files (as output by nflist / nflist_loop):
+
+field_label level_label letter level_gens 2 bc cm sfe L/P [AL] x [AP]
+
+where
+
+field_label: LMFDB field label, e.g. 2.0.4.1 for Q(sqrt(-1))
+
+level_label: LMFDB ideal label, e.g. 1.1 for (1)
+
+letter:      Letter code of newform i nsorted list (a,b,...)
+
+level_gens:  Level generator(s) 1 if principal else 2, e.g. (4+7i), (5+6a), (-33+6a,-39-9a)
+
+2:           Weight (always 2)
+
+bc:          Base Change Code: 0 if not bc or twist of bc, else squarefree
+                               d>0 if bc of a form with coeffs in Q(sqrt(d))
+                                   (=Q for d=1)
+                               -d<0 if twist of bc of a form with coeffs in Q(sqrt(d))
+
+cm:          0 if not CM, else d<0, squarefree part of CM field discriminant
+
+sfe:         +1,-1: sign of functional equation
+
+L/P:         L(F,1)/period, for class number 1 fields (else undefined)
+
+[AL]:        List of Atkin-Lehner eigenvalues
+
+x:           Hecke field generating polynomial (always x, for Q)
+
+[AP]:        Fourier coefficients at all primes (at good primes: Hecke
+eigenvalues).
