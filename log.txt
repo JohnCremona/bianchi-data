@@ -101,10 +101,7 @@ odd class numbers >1
 23:
 1-1000 complete,  930 newforms,      all curves found, processed, uploaded.
  -2000 complete, 1384 more newforms, all curves found, processed, uploaded.
- -3000 complete, 1429 more newforms, all curves found.
-processing from 2001 reached 2916.11-e then crashed. rerun from start.
-output 1 by 1 reached 2.0.23.1.2592.10-c then crashed,
-restart from 2592.2, finished, merged into *.2.0.21.1.2001-3000
+ -3000 complete, 1429 more newforms, all curves found, processed.
 upload files ready:
 legendre:ecnf-upload/ec_nfcurves.2.0.23.1.2001-3000
 legendre:bmf-upload/bmf_dims.23.2001-3000.no_sl2
@@ -157,8 +154,28 @@ files created.
 13: atkin: 1-1000 done. 290 newforms, upload files created, curve
 search complete, processed, committed, ecnf upload files created.
 
+14: (C4) galois: 1-1000 done. 862 newforms, data committed &
+pushed. Curve search: 856 found, 6 missing, processing complete,
+committed, ecnf upload files created.
+
+No curve for:  127.1-a, 127.1-b, 127.2-a, 127.2-b: NOT base-change/twist
+               529.1-a, 529.3-a: twist of bc sqrt(7) ???
+
 15: atkin: 1-1000 done. 691 newforms, upload files created, curve
 search complete, processed, committed, ecnf upload files created.
+
+17: (C4) 1-1000 done. 776 newforms, comitted and pushed. Curve
+ search...found 772, 4 missing. Processed, committed, made upload
+ files.
+
+  crash on 2.0.68.1-714.2-a, resuming from 2.0.68.1.714.2-b..
+
+Missing: not bc or bct!
+         Isogeny classes 901.1-a, 901.1-b, 901.2-a, 901.2-b
+
+21: atkin: 1-1000 done, 688 newforms, upload files created, curve
+search complete, processing complete, committed, ecnf upload files
+created.
 
 22: lehner: 1-1000 done. 209 newforms, upload files created, curve
 search complete, processed, committed, ecnf upload files created.
@@ -167,48 +184,99 @@ search complete, processed, committed, ecnf upload files created.
 search complete, processing...done, committed, ecnf upload files
 created.
 
+39: (C4) 1-1000: done, 1182 newforms, committed & pushed.  Curve
+ search complete, all 1182 found. Processing complete, committed, ecnf
+ upload files created.
+
 51: lehner: 1-1000 done. 304 newforms, upload files created, curve
 search complete, processing...done, committed, ecnf upload files
 created.
 
-21: atkin: 1-1000 done, 688 newforms, upload files created, curve
-search complete, processing complete, committed, ecnf upload files
-created.
+55: (C4) 1-1000 done, 863 newforms, committed & pushed. Curve search
+ complete, all 863 found.  Processing complete, comitted, ecnf upload
+ files created.
+
+87: (C6) 1-1000 done, committed, 1018 newforms. Curve search complete,
+ all 1018 found, processing complete, committed, ecnf upload files
+ created.
 
 91: fermat: 1-1000 done. 219 newforms, upload files created, curve
 search found 217/219 curves, processing complete, committed, ecnf
 upload files created.
 
-Missing curves: 784.1-a,b conductor (28) (twists of each other, and twists of
-base-change of a form (?) with coeffs in Q(sqrt(6))).
+Missing curves: 784.1-a,b conductor (28) (twists of each other, and
+twists of base-change of a form with coeffs in Q(sqrt(6))).
 
-*14: (C4) galois: 1-1000 done. 862 newforms, data committed & pushed.
+*95: (C8) 1-1000 done. 1759 newforms, committed and pushed.  Curve
+ search running... in rawcurves.2.0.95.1 [1756 so far, 3 missing]
 
-*39: (C4) atkin: 1-500 done. 501-1000 par*20...(576...864 running)
+ Stuck on 624.5-c...
+ Then 624.5-d (twist of previous), then 624.i for i=6,7,...,20
+ Second run from 636 (nothing for 625-635), in rawcurves.2.0.95.1.from626: 657 so far
+ Stuck on 936.7-d...? !twist of 936.7-c!
+ Third run 624.6 - 624.20: done, in rawcurves.2.0.95.1.624.6-625: 20
+ Fourth run 936.8-1000: done, in rawcurves.2.0.95.1.936.8-1000: 142
+ So far output file rawcurves.2.0.95.1 contains 1757, missing 2:
+ 624.5-c,
+ 624.5-d
 
-*17: (C4) atkin: 1-500 done.
-
-*55: (C4) lehner: 1-650 done. 651-1000 par*20...(720...961 running)
-
-*87: (C6) lehner: 1-250 done.
-
-*95: (C8) galois: 1-125 done. 126-250 par*10...(128...180 running)
+ processing: reached 900...
 
 -42: (C2xC2): not yet started
 
-Ready for upload:
+Ready for upload (on galois and legendre in ecnf-upload, bmf-upload):
 
 ec_nfcurves.2.0.d.1 for d = 47, 59, 71, 79, 83, 20, 24, 15, 35, 52,
-                            40, 51, 88, 84, 91
+                            40, 51, 88, 84, 91, 56, 55, 68, 39, 87
 
 bmf_dims.d.1-1000.sl2 for d=5
-bmf_dims.d.1-1000.no_sl2 for d=47, 59, 71, 79, 83, 5, 6, 10, 13, 15,
-                               22, 35, 51, 91, 21
+bmf_dims.d.1-1000.no_sl2 for d = 47, 59, 71, 79, 83, 5, 6, 15, 35, 13,
+                                 10, 51, 22, 21, 91, 14, 55, 17, 39, 87
+bmf_forms.d.1-1000 for d = 47, 59, 71, 79, 83, 5, 6, 15, 35, 13,
+                           10, 51, 22, 21, 91, 14, 55, 17, 39, 87
 
- - and d=23, norms 2000-3000 in bmf_forms.23.2001-3000,
-   bmf_dims.23.2001-3000.no_sl2, ec_nfcurves.2.0.23.1.2001-3000
 
-Still working: 14, 17, 39, 55, 87, 95
+ - and d=23, norms 2000-3000 in:
+   bmf-upload/bmf_forms.23.2001-3000
+   bmf-upload/bmf_dims.23.2001-3000.no_sl2
+   ecnf-upload/ec_nfcurves.2.0.23.1.2001-3000
+
+Still working: 95
+
+========================MISSING CURVES (class number >1)============================
+
+Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et all
+2.0.4.1:  4: none are bct but have associated genus 2 QM curves by Schembri
+2.0.8.1:  8: all are bct
+2.0.3.1: 21: 9 are bct and 12 have associated genus 2 QM curves by Schembri
+2.0.7.1:  7: 5 all are bct
+
+Class number 1, Non-Euclidean:
+2.0.19.1: 2: 1849.1-a, 1849.3, NOT bct
+2.0.43.1:31: all bct
+
+Class number >1:
+
+2.0.56.1-127.1-a NOT twist of bc "No elliptic curve"
+2.0.56.1-127.1-b "
+2.0.56.1-127.2-a "
+2.0.56.1-127.2-b "
+2.0.56.1-529.1-a twist of bc of Q(sqrt(7)), CM "No elliptic curve"
+2.0.56.1-529.3-b "
+2.0.59.1-675.5-b twist of bc of Q "No elliptic curve"
+2.0.59.1-675.8-b "
+2.0.68.1-901.1-a NOT twist of bc "No elliptic curve"
+2.0.68.1-901.1-b "
+2.0.68.1-901.2-a "
+2.0.68.1-901.2-b "
+2.0.91.1-784.1-a twist of bc of Q(sqrt(6)) "No elliptic curve"
+2.0.91.1-784.1-b "
+
+
+NB
+2.0.59.1-675.5-b: (+/-)aP+2p = 4, 9, 9, ...
+2.0.59.1-675.8-b: (+/-)aP+2p = 4, 9, 9, ...
+
 
 ========================DIMENSION TABLES============================
 
@@ -337,3 +405,17 @@ and count using wc -l and check that "data" is not in that file.
    sage: # to make upload files
    sage: %runfile upload.py
    sage: make_upload_file(['IQF'], [field_label], outfilename='ec_nfcurves.'+field_label)
+
+# Do the upload as follows:
+# sage: from lmfdb import db
+# sage: D=43 # discriminant, as in field label
+#
+# Either (for a new field) upload all curves in a file:
+#
+# sage: db.ec_nfcurves.copy_from("/scratch/home/jcremona/ecnf-upload/ec_nfcurves.2.0.{}.1".format(D))
+#
+# Or (for an existing field), upload curves in a file):
+#
+# sage: N1=1
+# sage: N2=1000
+# sage: db.ec_nfcurves.copy_from("/scratch/home/jcremona/ecnf-upload/ec_nfcurves.2.0.{}.1.{}-{}".format(D,N1,N2))
