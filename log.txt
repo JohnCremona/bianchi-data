@@ -80,7 +80,6 @@ Forms with no curve to 10k:
                                                      10609.1-a
                                                      11449.1-a
                                                      11449.3-a
-
 67:
 On galois
 1-10000 done, output in tmanin.67.out.1-10000
@@ -198,8 +197,13 @@ Missing curves: Stuck on 624.5-c and 624.5-d (twists)
 newform 2.0.95.1-624.5-c has no curve (bc=0, cm=0)
 newform 2.0.95.1-624.5-d has no curve (bc=0, cm=0)
 
--42: (C2xC2): not yet started
+Fields of |disc|<250:
 
+export DD1="103 107 111 115 119 123 127 131 139 143 151 155 159 167 179 183 187 191 195 199 203 211 215 219 223 227 231 235 239 247"
+export dd2="26 29 30 33 34 37 38 41 42 46 53 57 58 61 62"
+export DD2="104 116 120 132 136 148 152 164 168 184 212 228 232 244 248"
+export dd="${DD1} ${dd2}"
+export DD="${DD1} ${DD2}"
 
 ========================MISSING CURVES (class number >1)============================
 
@@ -268,8 +272,10 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
    export N1=1001
    export N2=5000
    echo $d -1 $N1 $N2 | ./nflist_loop >  ~/bianchi-data/newforms/newforms.$d.$N1-$N2
+   wc -l ~/bianchi-data/newforms/newforms.$d.$N1-$N2
+   grep data ~/bianchi-data/newforms/newforms.$d.$N1-$N2
 
-and count using wc -l and check that "data" is not in that file.
+   (count using wc -l and check that "data" is not in that file)
 
 2.
    Assuming that we have used tmanin_loop on a range of levels N1-N2,
