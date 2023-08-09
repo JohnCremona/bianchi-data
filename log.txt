@@ -133,7 +133,7 @@ even class numbers: d = 5, 6, 10, 13, 14, 15, 17, 21, 22, 35, 39, 51,
 5: 1-1000 complete, 660 newforms, all curves found, processed,
 committed, uploaded.
 
-6: 1-1000 done, 514 newforms, all curves found, processed, committed,
+6: 1-1000 done. 514 newforms, all curves found, processed, committed,
 uploaded.
 
 10: 1-1000 done. 338 newforms,curve search complete, processed,
@@ -163,7 +163,7 @@ newform 2.0.68.1-901.1-b has no curve (bc=0, cm=0)
 newform 2.0.68.1-901.2-a has no curve (bc=0, cm=0)
 newform 2.0.68.1-901.2-b has no curve (bc=0, cm=0)
 
-21: 1-1000 done, 688 newforms, curve search complete, processed,
+21: 1-1000 done. 688 newforms, curve search complete, processed,
 committed, uploaded.
 
 22: 1-1000 done. 209 newforms, curve search complete, processed,
@@ -172,16 +172,16 @@ committed, uploaded.
 35: 1-1000 done. 431 newforms, curve search complete, processed,
 committed, uploaded.
 
-39 1-1000: done, 1182 newforms, committed & pushed.  Curve search
+39 1-1000: done. 1182 newforms, committed & pushed.  Curve search
  complete, all 1182 found, processed, committed, uploaded.
 
 51: 1-1000 done. 304 newforms, curve search complete, processed,
 committed, uploaded.
 
-55 1-1000 done, 863 newforms, committed & pushed. Curve search
+55 1-1000 done. 863 newforms, committed & pushed. Curve search
  complete, all 863 found, processed, comitted, uploaded.
 
-87 1-1000 done, committed, 1018 newforms. Curve search complete, all
+87 1-1000 done. committed, 1018 newforms. Curve search complete, all
  1018 found, processed, committed, uploaded.
 
 91: 1-1000 done. 219 newforms, curve search found 217/219 curves,
@@ -205,9 +205,157 @@ export DD2="104 116 120 132 136 148 152 164 168 184 212 228 232 244 248"
 export dd="${DD1} ${dd2}"
 export DD="${DD1} ${DD2}"
 
+103: 1-100 done. 20 newforms, committed and pushed.
+     Curve search found all 20, processed (32 curves), committed and pushed.
+     101-1000 running laptop*4, done to 881
+     Curve search...
+
+104 (26): 1-100 done. 36 newforms, committed and pushed.
+     Curve search found all 36, processing (94 curves), committed and pushed.
+     101-1000 done (galois*20)
+
+107: 1-100 done. 12 newforms, committed and pushed.
+     Curve search found all 12, processed (24 curves), committed and pushed.
+     101-1000 done (lehner*20), 254 newforms, committed and pushed.
+     Curve search found all 254, processed (404 curves), committed and pushed.
+
+111: 1-100 done. 107 newforms, committed and pushed.
+     Curve search found 103/107, processed (238 curves), committed and pushed.
+     No curve found for 27.1-abcd
+     101-1000 running fermat*20, done to 255 except 144.3
+
+115: 1-100 done. 8 newforms, committed and pushed.
+     Curve search found all 8, processed (36 curves), committed and pushed.
+     101-1000 done (lehner*20), 110 newforms, committed and pushed.
+     Curve search found all 110, processed (268 curves), committed and pushed.
+
+119: 1-100 done. 111 newforms, committed and pushed.
+     Curve search found all 111, processed (300 curves), committed and pushed.
+     101-1000 running lehner*20, done to 323
+
+120 (30): 1-100 done. 78 newforms, committed and pushed.
+     Curve search found all 78, processed (336 curves), committed and pushed.
+
+123: 1-100 done. 7 newforms, committed and pushed.
+     Curve search found all 7, processed (28 curves), committed and pushed.
+
+127: 1-100 done. 20 newforms, committed and pushed.
+     Curve search found all 20, processed (44 curves), committed and pushed.
+
+131: 1-100 done. 30 newforms, committed and pushed.
+     Curve search found all 30, processed (36 curves), committed and pushed.
+
+132 (33): 1-100 done. 92 newforms, committed and pushed.
+    Curve search found all 92, processed (280 curves), committed and pushed.
+
+136 (34): 1-100 done. 38 newforms, committed and pushed.
+    Curve search found all 38, processed (108 curves), committed and pushed.
+
+139: 1-100 done. 2 newforms, committed and pushed.
+     Curve search found all 2, processed (4 curves), committed and pushed.
+
+143: 1-100 done. 88 newforms, committed and pushed.
+     Curve search  found all 88, processed (208 curves), committed and pushed.
+
+148 (37): 1-100 done. 15 newforms, committed and pushed.
+    Curve search found all 15, processed (50 curves), committed and pushed.
+
+151: 1-100 done. 24 newforms, committed and pushed.
+     Curve search found all 24, processed (36 curves), committed and pushed.
+
+152 (38): 1-100 done. 58 newforms, committed and pushed.
+    Curve search found all 58, processed (114 curves), committed and pushed.
+
+155: 1-100 done. 22 newforms, committed and pushed.
+     Curve search found all 22, processed (68 curves), committed and pushed.
+
+159: 1-100 done. 81 newforms, committed and pushed.
+     Curve search found all 81, processed (130 curves), committed and pushed.
+
+164 (41): 1-100 done. 47 newforms, committed and pushed.
+    Curve search found all 47, processed (116 curves), committed and pushed.
+
+167: 1-100 done. 96 newforms, committed and pushed.
+    Curve search found all 96, processed (140 curves), committed and pushed.
+
+168 (42): 1-100 done. 62 newforms, committed and pushed.
+    Curve search found all 62, processed (288 curves), committed and pushed.
+
+179: 1-100 done. 16 newforms, committed and pushed.
+    Curve search found all 16, processed (26 curves), committed and pushed.
+
+183: 1-100 done. 65 newforms, committed and pushed.
+     Curve search found 47/65, processed (102 curves), committed and pushed.
+     No curve found for 9.1-ab, 16.1-ab, 16.5-ab, 27.1-abcd, 61.1-abcdghij
+
+184 (46): 1-100 done. 20 newforms, committed and pushed.
+    Curve search found 16/20, processed (54 curves), committed and pushed.
+    "No elliptic curves have the specified 'Traces'": 9.1-ab, 81.1-ab
+
+187: 1-100 done. 10 newforms, committed and pushed.
+     Curve search found all 10, processed (34 curves), committed and pushed.
+
+191: 1-100 done. 82 newforms, committed and pushed.
+     Curve search found all 82, processed (150 curves), committed and pushed.
+
+195: 1-100 done. 45 newforms, committed and pushed.
+     Curve search found all 45, processed (168 curves), committed and pushed.
+
+199: 1-100 done. 34 newforms, committed and pushed.
+     Curve search found all 34, processed (52 curves), committed and pushed.
+
+203: 1-100  done. 17 newforms, committed and pushed.
+     Curve search found all 17, processed (48 curves), committed and pushed.
+
+211: 1-100  done. 2 newforms, committed and pushed.
+     Curve search found all 2, processed (2 curves), committed and pushed.
+
+212 (53): 1-100 done.  79 newforms, committed and pushed.
+     Curve search found 75/79, processed (120 curves), committed and pushed.
+     No curve found for 9.1-ab, 9.3-ab
+
+215: 1-100 done. 74 newforms, committed and pushed.
+     Curve search found all 74, processed (126 curves), committed and pushed.
+
+219: 1-100 done.  37 newforms, committed and pushed.
+     Curve search found all 37, processed (78 curves), committed and pushed.
+
+223: 1-100  done. 22 newforms, committed and pushed.
+     Curve search found all 22, processed (38 curves), committed and pushed.
+
+227: 1-100  done. 30 newforms, committed and pushed.
+     Curve search found all 30, processed (36 curves), comitted and pushed.
+
+228 (57): 1-100 done.  104 newforms, committed and pushed.
+     Curve search found 100/104, processed (272 curves), committed and pushed.
+     No curve found for 81.1-cdef
+
+231: 1-100 done. 104 newforms, committed and pushed.
+     Curve search found all 104, processed (308 curves), committed and pushed.
+
+232 (58): 1-100 done.  12 newforms, committed and pushed.
+    Curve search found all 12, processed (46 curves), committed and pushed.
+
+235: 1-100 done. 10 newforms, committed and pushed.
+     Curve search found all 10, processed (36 curves), committed and pushed.
+
+239: 1-100  done. 60 newforms, committed and pushed.
+     Curve search found 58/60, processed (106 curves), committed and pushed.
+     No curve found for 81.2-a, 81.4-a
+
+244 (61): 1-100 done, 27 newforms,  committed and pushed. (98.2 has only 18 ep)
+        Curve search found all 27, processed (60 curves), committed and pushed.
+
+247: 1-100 done, 24 newforms, committed and pushed.
+     Curve search found all 24, processed (46 curves), committed and pushed.
+
+248 (62): 1-100 done. 44 newforms, committed and pushed.
+    Curve search found all 44, processed (112 curves), committed and pushed.
+
+
 ========================MISSING CURVES (class number >1)============================
 
-Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et all
+Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et al
 2.0.4.1:  4: none are bct but have associated genus 2 QM curves by Schembri
 2.0.8.1:  8: all are bct
 2.0.3.1: 21: 9 are bct and 12 have associated genus 2 QM curves by Schembri
@@ -225,9 +373,9 @@ Class number >1:
 2.0.56.1-127.2-b "
 2.0.56.1-529.1-a twist of bc of Q(sqrt(7)), CM "No elliptic curve"
 2.0.56.1-529.3-b "
-2.0.59.1-675.5-b twist of bc of Q "No elliptic curve"
+2.0.59.1-675.5-b twist of bc of Q "No curve found"
 2.0.59.1-675.8-b "
-2.0.68.1-901.1-a NOT twist of bc "No elliptic curve"
+2.0.68.1-901.1-a NOT twist of bc "No curve found"
 2.0.68.1-901.1-b "
 2.0.68.1-901.2-a "
 2.0.68.1-901.2-b "
@@ -236,6 +384,42 @@ Class number >1:
 2.0.95.1-624.5-c NOT twist of bc "missing"
 2.0.95.1-624.5-d "
 
+2.0.111.1-27.1-a NOT bc or bct or CM
+2.0.111.1-27.1-b "
+2.0.111.1-27.1-c "
+2.0.111.1-27.1-d "
+2.0.183.1-9.1-a twist of bc of Q(sqrt(15)), not CM
+2.0.183.1-9.1-b "
+2.0.183.1-16.1-a twist of bc of Q(sqrt(15)), not CM
+2.0.183.1-16.1-b "
+2.0.183.1-16.5-a "
+2.0.183.1-16.5-b "
+2.0.183.1-27.1-a NOT bc or bct or CM
+2.0.183.1-27.1-b "
+2.0.183.1-27.1-c "
+2.0.183.1-27.1-d "
+2.0.183.1-61.1-a "
+2.0.183.1-61.1-b "
+2.0.183.1-61.1-c "
+2.0.183.1-61.1-d "
+2.0.183.1-61.1-g "
+2.0.183.1-61.1-h "
+2.0.183.1-61.1-i "
+2.0.183.1-61.1-j "
+2.0.184.1-9.1-a twist of bc of Q !! "No elliptic curves have the specified 'Traces'"
+2.0.184.1-9.1-b "
+2.0.184.1-81.1-a "
+2.0.184.1-81.1-b "
+2.0.212.1-9.1-a twist of bc of Q(sqrt(14)), not CM
+2.0.212.1-9.1-b "
+2.0.212.1-9.3-a "
+2.0.212.1-9.3-b "
+2.0.228.1-81.1-c twist of bc of Q(sqrt(10)), not CM
+2.0.228.1-81.1-d "
+2.0.228.1-81.1-e "
+2.0.228.1-81.1-f "
+2.0.239.1-81.2-a NOT bc or bct or CM
+2.0.239.1-81.4-a "
 
 NB
 2.0.59.1-675.5-b: (+/-)aP+2p = 4, 9, 9, ...
@@ -354,17 +538,22 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
    sage: # eg
    sage: d=5
    sage: D=20
-   sage: magma_search(d, bmf_filename="/home/jec/bianchi-data/newforms/newforms.{}.1-1000".format(d), outfilename="rawcurves.2.0.{}.1".format(D), verbose=True)
+   sage: N2=1000
+   sage: magma_search(d, bmf_filename=f"/home/jec/bianchi-data/newforms/newforms.{d}.1-{N2}", outfilename=f"rawcurves.2.0.{D}.1", verbose=True)
 
+   Check the rawcurves file for gaps.
    Move the rawcurves file to ECNF_DIR/IQF
    Add the field if necessary to ECNF_DIR/sage/ecnf_fields and ECNF_DIR/IQF/fields.txt
+
    Process the raw curves file:
 
    sage: %runfile files.py
    sage: d=6
    sage: D=24
-   sage: field_label = '2.0.{}.1'.format(D)
+   sage: field_label = f'2.0.{D}.1'
    sage: rawcurvesfile = ".".join(['rawcurves', field_label])
+   sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
+   sage: len(list(data))
    sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
    sage: curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128)
 
