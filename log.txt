@@ -207,12 +207,13 @@ export DD="${DD1} ${DD2}"
 
 103: 1-100 done. 20 newforms, committed and pushed.
      Curve search found all 20, processed (32 curves), committed and pushed.
-     101-1000 running laptop*4, done to 881
-     Curve search...
+     101-1000 done (laptop*4), 532 newforms, committed and pushed.
+     Curve search found all 532, processed (886 curves), committed and pushed.
 
 104 (26): 1-100 done. 36 newforms, committed and pushed.
      Curve search found all 36, processing (94 curves), committed and pushed.
-     101-1000 done (galois*20)
+     101-1000 done (galois*20), 910 newforms
+     Curve search found all 910, processed (1784 curves), committed and pushed.
 
 107: 1-100 done. 12 newforms, committed and pushed.
      Curve search found all 12, processed (24 curves), committed and pushed.
@@ -222,7 +223,7 @@ export DD="${DD1} ${DD2}"
 111: 1-100 done. 107 newforms, committed and pushed.
      Curve search found 103/107, processed (238 curves), committed and pushed.
      No curve found for 27.1-abcd
-     101-1000 running fermat*20, done to 255 except 144.3
+     101-1000 running fermat*20, done to 288, stopped.
 
 115: 1-100 done. 8 newforms, committed and pushed.
      Curve search found all 8, processed (36 curves), committed and pushed.
@@ -231,10 +232,13 @@ export DD="${DD1} ${DD2}"
 
 119: 1-100 done. 111 newforms, committed and pushed.
      Curve search found all 111, processed (300 curves), committed and pushed.
-     101-1000 running lehner*20, done to 323
+     101-1000 running lehner*20, done to 539...
 
 120 (30): 1-100 done. 78 newforms, committed and pushed.
      Curve search found all 78, processed (336 curves), committed and pushed.
+     101-1000 done (galois*20) EXCEPT:
+     512.1 640.1 704.1 704.2 768.1 832.1 832.2 960.1
+     which crash.
 
 123: 1-100 done. 7 newforms, committed and pushed.
      Curve search found all 7, processed (28 curves), committed and pushed.
@@ -343,7 +347,7 @@ export DD="${DD1} ${DD2}"
      Curve search found 58/60, processed (106 curves), committed and pushed.
      No curve found for 81.2-a, 81.4-a
 
-244 (61): 1-100 done, 27 newforms,  committed and pushed. (98.2 has only 18 ep)
+244 (61): 1-100 done, 27 newforms,  committed and pushed. (98.2 has only 18 ap)
         Curve search found all 27, processed (60 curves), committed and pushed.
 
 247: 1-100 done, 24 newforms, committed and pushed.
@@ -352,14 +356,131 @@ export DD="${DD1} ${DD2}"
 248 (62): 1-100 done. 44 newforms, committed and pushed.
     Curve search found all 44, processed (112 curves), committed and pushed.
 
+D250=[D for D in srange(-250,-300,-1) if D.is_fundamental_discriminant()]
 
-========================MISSING CURVES (class number >1)============================
+251:      1-100, 100ap (atkin) done,  18 newforms, committed and pushed.
+          all 18 curves found, processed (22 curves), committed and pushed.
+255:      1-100,  25ap (atkin) done, 101 newforms, committed and pushed.
+          all 101 curves found, processed (308 curves), committed and pushed.
+259:      1-100,  25ap (atkin) done,  43 newforms, committed and pushed.
+          all 43 curves found, processed (94 curves), committed and pushed.
+260 (65): 1-100,  25ap (atkin) done, 141 newforms, committed and pushed.
+          133 curves found, processed (360 curves), committed and pushed.
+          8 curves missing: 49.1-abcdefgh
+263:      1-100,  25ap (atkin) done,  42 newforms, committed and pushed.
+          all 42 curves found, processed (54 curves), committed and pushed.
+264 (66): 1-100,  25ap (atkin) done,  76 newforms, committed and pushed.
+          all 76 curves found, processed (272 curves), committed and pushed.
+267:      1-100,  25ap (atkin) done,  11 newforms, committed and pushed.
+          all 11 curves found, processed (34 curves), committed and pushed.
+271:      1-100,  25ap (atkin) done,  62 newforms, committed and pushed.
+          all 62 curves found, processed (90 curves), committed and pushed.
+276 (69): 1-100,  25ap (atkin) done,  38 newforms, committed and pushed.
+          all 38 curves found, processed (148 curves), committed and pushed.
+280 (70): 1-100,  25ap (atkin) done,  53 newforms, committed and pushed.
+          all 53 curves found, processed (256 curves), committed and pushed.
+283:      1-100,  25ap (atkin) done,   2 newforms, committed and pushed.
+          all 2 curves found, processed (2 curves), committed and pushed.
+287:      1-100,  25ap (atkin) done,  75 newforms, committed and pushed.
+          all 75 curves found, processed (200 curves), committed and pushed.
+291:      1-100,  25ap (atkin) done, 9 newforms, committed and pushed.
+          all 9 curves found, processed (32 curves), committed and pushed.
+292 (73): 1-100,  25ap (atkin) done,  27 newforms, committed and pushed.
+          all 27 curves found, processed (68 curves), committed and pushed.
+295:      1-100,  25ap (atkin) done, 48 newforms, committed and pushed.
+          all 48 curves found, processed (120 curves), committed and pushed.
+296 (74): 1-100,  25ap (atkin) done, 40 newforms, committed and pushed.
+          all 40 curves found, processed (96 curves), committed and pushed.
+299:      1-100,  25ap (atkin) done, 23 newforms, committed and pushed.
+          BUT 100.2 missing, rerunning on galois, see output file to debug
 
-Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et al
-2.0.4.1:  4: none are bct but have associated genus 2 QM curves by Schembri
-2.0.8.1:  8: all are bct
-2.0.3.1: 21: 9 are bct and 12 have associated genus 2 QM curves by Schembri
-2.0.7.1:  7: 5 all are bct
+D300=[D for D in srange(-300,-400,-1) if D.is_fundamental_discriminant()]
+
+303:      1-100,  25ap (atkin) done, 29 newforms, committed and pushed.
+          all 29 curves found, processed (68 curves), committed and pushed.
+307:      1-100,  25ap (atkin) done,  0 newforms, committed and pushed.
+          all 0 curves found (nothing to commit)
+308 (77): 1-100,  25ap (atkin) done, 64 newforms, committed and pushed.
+          all 64 curves found, processed (208 curves), committed and pushed.
+311:      1-100,  25ap (atkin) done, 62 newforms, committed and pushed.
+          all 62 curves found, processed (90 curves), committed and pushed.
+          NB 2.0.311.1-90.2-c unsaturated at 11 (#Sha=1/121)
+312 (78): 1-100,  25ap (atkin) done, 42 newforms, committed and pushed.
+          all 42 curves found, processed (180 curves), committed and pushed.
+319: 1-100,  25ap (fermat) done, 14 newforms, committed and pushed.
+          all 14 curves found, processed (26 curves), committed and pushed.
+323: 1-100,  25ap (fermat) done, 48 newforms, committed and pushed.
+          all 48 curves found, processed (98 curves), committed and pushed.
+327: 1-100,  25ap (fermat) running (6) 2 left
+
+328 (82): 1-100,  25ap (atkin) done, 24 newforms
+331: 1-100,  25ap (atkin) done, 6 newforms
+335: 1-100,  25ap (atkin) running (6)
+339: 1-100,  25ap (atkin) waiting (6)
+340 (85): 1-100,  25ap (atkin) waiting (6)
+344 (86):
+347:
+
+355:
+356 (89):
+359:
+367:
+371:
+372 (93):
+376 (94):
+379:
+383:
+388 (97):
+391:
+395:
+399:
+
+D400=[D for D in srange(-400,-500,-1) if D.is_fundamental_discriminant()]
+
+403:
+404 (101):
+407:
+408 (102):
+411:
+415:
+419:
+420 (105):
+424 (106):
+427:
+431:
+435:
+436 (109):
+439:
+440 (110):
+443:
+447:
+
+451:
+452 (113):
+455:
+456 (114):
+463:
+467:
+471:
+472 (118):
+479:
+483:
+487:
+488 (122):
+491:
+499:
+
+Tessellation run status:
+ - all done to |D|<=500 except 114 (456), 118 (472), 122 (488).
+ - lehner running 887 using old code in [2]] (already done elsewhere)
+ - galois running 114 (done), 118 (done), 122 in [4], [8], [9]
+
+=======================MISSING CURVES (class number >1)===========================:
+Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et al:
+2.0.4.1:  4: none are bct but have associated genus 2 QM curves by Schembr:
+2.0.8.1:  8: all are bc:
+2.0.3.1: 21: 9 are bct and 12 have associated genus 2 QM curves by Schembr:
+2.0.7.1:  7: 5 all are bc:
 
 Class number 1, Non-Euclidean:
 2.0.19.1: 2: 1849.1-a, 1849.3, NOT bct
@@ -547,15 +668,45 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 
    Process the raw curves file:
 
+Use this to add entried to ecnf-data/sage/ecnf_fields:
+
+sage: for D in srange(-250,-400,-1):
+....:     if D.is_fundamental_discriminant():
+....:         if D%4==1:
+....:             print(f"2.0.{abs(D)}.1 [{(1-D)//4},-1,1]")
+....:         else:
+....:             print(f"2.0.{abs(D)}.1 [{-D//4},0,1]")
+....:
+
+Use this to process several fields (replace '1-100' as appropriate)
+
+sage: def proc(D):
+....:     field_label = f'2.0.{D}.1'
+....:     rawcurvesfile = ".".join(['rawcurves', field_label,'1-100'])
+....:     data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
+....:     n = len(list(data))
+....:     print(f"{n} raw curves over field {field_label}")
+....:     data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
+....:     curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128)
+
+
    sage: %runfile files.py
    sage: d=6
    sage: D=24
    sage: field_label = f'2.0.{D}.1'
-   sage: rawcurvesfile = ".".join(['rawcurves', field_label])
+   sage: rawcurvesfile = ".".join(['rawcurves', field_label,'1-100'])
    sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
    sage: len(list(data))
    sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
    sage: curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128)
+
+This produces files of the form curves.2.0.251.1.part.  If complete,
+remove the ".part".
+
+export fnames='curves isoclass local_data mwdata galrep'
+for D in 251; do for f in ${fnames}; do mv ${f}.2.0.${D}.1.part ${f}.2.0.${D}.1; done; done
+for D in 251; do for f in ${fnames}; do wc -l ${f}.2.0.${D}.1; done; done
+for D in 251; do for f in ${fnames}; do git add ${f}.2.0.${D}.1; done; done
 
    sage: # to make upload files
    sage: %runfile upload.py
