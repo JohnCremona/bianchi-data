@@ -411,11 +411,11 @@ D300=[D for D in srange(-300,-400,-1) if D.is_fundamental_discriminant()]
           all 14 curves found, processed (26 curves), committed and pushed.
 323: 1-100,  25ap (fermat) done, 48 newforms, committed and pushed.
           all 48 curves found, processed (98 curves), committed and pushed.
-327: 1-100,  25ap (fermat) running (6) 2 left
+327: 1-100,  25ap (fermat) done, 53 newforms
 
 328 (82): 1-100,  25ap (atkin) done, 24 newforms
 331: 1-100,  25ap (atkin) done, 6 newforms
-335: 1-100,  25ap (atkin) running (6)
+335: 1-100,  25ap (atkin) running (6) 1 left
 339: 1-100,  25ap (atkin) waiting (6)
 340 (85): 1-100,  25ap (atkin) waiting (6)
 344 (86):
@@ -436,6 +436,7 @@ D300=[D for D in srange(-300,-400,-1) if D.is_fundamental_discriminant()]
 399:
 
 D400=[D for D in srange(-400,-500,-1) if D.is_fundamental_discriminant()]
+d400 = [-D if D%2 else -D//4 for D in D400]
 
 403:
 404 (101):
@@ -471,9 +472,193 @@ D400=[D for D in srange(-400,-500,-1) if D.is_fundamental_discriminant()]
 499:
 
 Tessellation run status:
- - all done to |D|<=500 except 114 (456), 118 (472), 122 (488).
- - lehner running 887 using old code in [2]] (already done elsewhere)
- - galois running 114 (done), 118 (done), 122 in [4], [8], [9]
+ - all done to |D|<=500
+
+D500=[D for D in srange(-500,-600,-1) if D.is_fundamental_discriminant()]
+d500 = [-D if D%2 else -D//4 for D in D500]
+
+tessellation running on atkin par*10, done 24/31, 7 left:
+
+503: geodata done, torsion agrees
+511: geodata done, torsion agrees
+515: geodata done, torsion agrees
+516 (129): geodata done, torsion agrees
+519: geodata done, torsion agrees
+520 (130): geodata done, torsion agrees
+523: geodata done, torsion agrees
+527: geodata done, torsion agrees
+532 (133): geodata done, torsion agrees
+535: geodata done, torsion agrees
+536 (134): geodata done, torsion agrees
+543: geodata done, torsion agrees
+547: geodata done, torsion agrees
+548 (137): geodata done, torsion agrees
+551: geodata done, torsion agrees
+552 (138): geodata done, torsion agrees
+555: geodata done, torsion agrees
+559: geodata done, torsion agrees
+563: geodata done, torsion agrees
+564 (141):
+568 (142):
+571: geodata done, torsion agrees
+579: geodata done, torsion agrees
+580 (145):
+583: geodata done, torsion agrees
+584 (146):
+587: geodata done, torsion agrees
+591:
+595: geodata done, torsion agrees
+596 (149):
+599:
+
+
+D600=[D for D in srange(-600,-700,-1) if D.is_fundamental_discriminant()]
+d600 = [-D if D%2 else -D//4 for D in D600]
+
+tessellation running on lehner par*10, done 12/31:
+
+607: geodata done, torsion agrees
+611: geodata done, torsion agrees
+615:
+616 (154):
+619: geodata done, torsion agrees
+623: geodata done, torsion agrees
+627: geodata done, torsion agrees
+628 (157):
+631: geodata done, torsion agrees
+632 (158):
+635: geodata done, torsion agrees
+643: geodata done, torsion agrees
+644 (161):
+647: geodata done, torsion agrees
+651: geodata done, torsion agrees
+655: geodata done, torsion agrees
+659: geodata done, GL2 torsion 2^15 * 22 * 44 not 2^15 * 22^2
+                   SL2 torsion 11 * 22        not 11^2
+660 (165):
+663:
+664 (166):
+667:
+671:
+679:
+680 (170):
+683:
+687:
+691:
+692 (173):
+695:
+696 (174):
+699:
+
+D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
+d700 = [-D if D%2 else -D//4 for D in D700]
+
+tessellation running on galois par*10, done 9/30:
+
+703: geodata done, torsion agrees
+707: geodata done, torsion agrees
+708 (177):
+712 (178):
+715: geodata done, torsion agrees
+719: geodata done, torsion agrees
+723: geodata done, torsion agrees
+724 (181):
+727: geodata done, GL2 torsion 2^22 * 148^2 not 2^22 * 74^2
+                   SL2 torsion 74^2         not 37^2
+728 (182):
+731: geodata done, GL2 torsion 2^17 * 4 * 16^2 not 2^18 * 16^2
+                   SL2 torsion 2 * 8^2         not 8^2
+739: geodata done, torsion agrees
+740 (185):
+743:
+744 (186):
+751:
+755: geodata done, torsion agrees
+759:
+760 (190):
+763:
+767:
+771:
+772 (193):
+776 (194):
+779:
+787:
+788 (197):
+791:
+795:
+799:
+
+D800=[D for D in srange(-800,-900,-1) if D.is_fundamental_discriminant()]
+d800 = [-D if D%2 else -D//4 for D in D800]
+
+done 2+0/31
+
+803:
+804 (201):
+807:
+808 (202):
+811:
+815:
+820 (205):
+823:
+824 (206):
+827:
+831:
+835:
+836 (209):
+839:
+840 (210):
+843:
+851:
+852 (213):
+856 (214):
+859:
+863:
+868 (217):
+871:
+872 (218):
+879:
+883: geodata done
+884 (221):
+887: geodata done
+888 (222):
+895:
+899:
+
+D900=[D for D in srange(-900,-1000,-1) if D.is_fundamental_discriminant()]
+d900 = [-D if D%2 else -D//4 for D in D900]
+
+done 3+0/29:
+
+903:
+904 (226):
+907: geodata done
+911:
+915:
+916 (229):
+919:
+920 (230):
+923:
+932 (233):
+935:
+939:
+943:
+947: geodata done
+948 (237):
+951:
+952 (238):
+955:
+959:
+964 (241):
+967: geodata done
+971:
+979:
+983:
+984 (246):
+987:
+991:
+995:
+996 (249):
 
 =======================MISSING CURVES (class number >1)===========================:
 Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et al:
