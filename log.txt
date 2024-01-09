@@ -221,12 +221,11 @@ export DD="${DD1} ${DD2}"
 115: 1-1000 done. 118 newforms, committed and pushed.
      Curve search found all 118, processed (304 curves), committed and pushed.
 
-*119: 1-100 done. 111 newforms, committed and pushed.
+119: 1-100 done. 111 newforms, committed and pushed.
      Curve search found all 111, processed (300 curves), committed and pushed.
      1-734 done, 1425 newforms, committed and pushed.
      Curve search found all 1314 curves
-     735-755 done
-     756-1000 running (galois*8)  done to 899 except 896.2-3-4
+     1-1000 done, 2157 newforms, committed and pushed.
 
 120 (30): 1-1000 done. 562 newforms, committed and pushed.
      Curve search found all 562, processed (1614 curves), committed and pushed.
@@ -729,46 +728,65 @@ d600 = [-D if D%2 else -D//4 for D in D600]
      All 4 curves found, processed (24 curves), committed and pushed.
 647: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 30 newforms
 651: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
+     1-100 (lovelace) done, 40 newforms
 655: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 26 newforms
 659: geodata done, GL2 torsion 2^15 * 22 * 44 not 2^15 * 22^2
                    SL2 torsion 11 * 22        not 11^2
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
+     1-100 (lovelace) done, 6 newforms
 660 (165): geodata done, torsion agrees
      1-15 (lovelace) done, 16 newforms, committed and pushed.
      All 16 curves found, processed (88 curves), committed and pushed.
+     1-100 (lovelace) done, 153 newforms
 663: geodata done, torsion agrees
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (24 curves), committed and pushed.
+     1-100 (lovelace) done, 73 newforms
 664 (166): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 14 newforms
 667: geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
-671: geodata done, torsion agrees
+     1-100 (lovelace) done, 8 newforms
+*671: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (14 curves), committed and pushed.
+     1-100: many levels missing 48-63 (killed by mistake)
+     - rerunning 48-63 (then should do 96-100 too)
+     - rerunning 54.2...
+     (missing: 48.8, 54.3-7, 56-63)
 679: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 37 newforms
 680 (170): geodata done, torsion agrees
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      0/8 curves found
      9.1-a/b/c/d, 9.3-a/b/c/d: no curves have specified traces
+     1-100 (lovelace) done, 84 newforms
 683: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 6 newforms
 687: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (14 curves), committed and pushed.
+     1-100 (lovelace) done, 55 newforms
 691: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 6 newforms
 692 (173): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 29 newforms
 695: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+
 696 (174): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
 699: geodata done, torsion agrees
