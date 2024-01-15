@@ -213,7 +213,7 @@ export DD="${DD1} ${DD2}"
 107: 1-1000 done. 266 newforms, committed and pushed.
      Curve search found all 266, processed (428 curves), committed and pushed.
 
-*111: 1-100 done. 107 newforms, committed and pushed.
+111: 1-100 done. 107 newforms, committed and pushed.
      Curve search found 103/107, processed (238 curves), committed and pushed.
      No curve found for 27.1-abcd
      1-1000 done, 1388 newforms, committed and pushed
@@ -682,115 +682,115 @@ d600 = [-D if D%2 else -D//4 for D in D600]
 
 607: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 8 newforms
+     1-100 (lovelace) done, 8 newforms, committed and pushed.
 611: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 36 newforms
+     1-100 (lovelace) done, 36 newforms, committed and pushed.
 615: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (32 curves), committed and pushed.
-     1-100 (lovelace) done, 69 newforms
+     1-100 (lovelace) done, 69 newforms, committed and pushed.
 616 (154): geodata done, torsion agrees
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (36 curves), committed and pushed.
-     1-100 (lovelace) done, 76 newforms
+     1-100 (lovelace) done, 76 newforms, committed and pushed.
 619: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 2 newforms
+     1-100 (lovelace) done, 2 newforms, committed and pushed.
 623: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (16 curves), committed and pushed.
-     1-100 (lovelace) done, 59 newforms
+     1-100 (lovelace) done, 59 newforms, committed and pushed.
 627: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (12 curves), committed and pushed.
-     1-100 (lovelace) done, 42 newforms
+     1-100 (lovelace) done, 42 newforms, committed and pushed.
 628 (157): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 9 newforms
+     1-100 (lovelace) done, 9 newforms, committed and pushed.
 631: geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     1-100 (lovelace) done, 20 newforms
+     1-100 (lovelace) done, 20 newforms, committed and pushed.
 632 (158): geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (8 curves), committed and pushed.
-     1-100 (lovelace) done, 24 newforms
+     1-100 (lovelace) done, 24 newforms, committed and pushed.
 635: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 18 newforms
+     1-100 (lovelace) done, 18 newforms, committed and pushed.
 643: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
-     1-100 (lovelace) done, 8 newforms
+     1-100 (lovelace) done, 8 newforms, committed and pushed.
 644 (161): geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (24 curves), committed and pushed.
+     1-100 (lovelace) done, 64 newforms, committed and pushed.
 647: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 30 newforms
+     1-100 (lovelace) done, 30 newforms, committed and pushed.
 651: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
-     1-100 (lovelace) done, 40 newforms
+     1-100 (lovelace) done, 40 newforms, committed and pushed.
 655: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 26 newforms
+     1-100 (lovelace) done, 26 newforms, committed and pushed.
 659: geodata done, GL2 torsion 2^15 * 22 * 44 not 2^15 * 22^2
                    SL2 torsion 11 * 22        not 11^2
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     1-100 (lovelace) done, 6 newforms
+     1-100 (lovelace) done, 6 newforms, committed and pushed.
 660 (165): geodata done, torsion agrees
      1-15 (lovelace) done, 16 newforms, committed and pushed.
      All 16 curves found, processed (88 curves), committed and pushed.
-     1-100 (lovelace) done, 153 newforms
+     1-100 (lovelace) done, 153 newforms, committed and pushed.
 663: geodata done, torsion agrees
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (24 curves), committed and pushed.
-     1-100 (lovelace) done, 73 newforms
+     1-100 (lovelace) done, 73 newforms, committed and pushed.
 664 (166): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 14 newforms
+     1-100 (lovelace) done, 14 newforms, committed and pushed.
 667: geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
-     1-100 (lovelace) done, 8 newforms
-*671: geodata done, torsion agrees
+     1-100 (lovelace) done, 8 newforms, committed and pushed.
+671: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (14 curves), committed and pushed.
-     1-100: many levels missing 48-63 (killed by mistake)
-     - rerunning 48-63 (then should do 96-100 too)
-     - rerunning 54.2...
-     (missing: 48.8, 54.3-7, 56-63)
+     1-100: done, 98 newforms, committed and pushed.
 679: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 37 newforms
+     1-100 (lovelace) done, 37 newforms, committed and pushed.
 680 (170): geodata done, torsion agrees
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      0/8 curves found
      9.1-a/b/c/d, 9.3-a/b/c/d: no curves have specified traces
-     1-100 (lovelace) done, 84 newforms
+     1-100 (lovelace) done, 84 newforms, committed and pushed.
 683: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 6 newforms
+     1-100 (lovelace) done, 6 newforms, committed and pushed.
 687: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (14 curves), committed and pushed.
-     1-100 (lovelace) done, 55 newforms
+     1-100 (lovelace) done, 55 newforms, committed and pushed.
 691: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 6 newforms
+     1-100 (lovelace) done, 6 newforms, committed and pushed.
 692 (173): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 29 newforms
+     1-100 (lovelace) done, 29 newforms, committed and pushed.
 695: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
-
+     1-100 (lovelace) done, 58 newforms, committed and pushed.
 696 (174): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 46 newforms, committed and pushed.
 699: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     1-100 (lovelace) done, 11 newforms, committed and pushed.
 
 D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
 '703 707 708 712 715 719 723 724 727 728 731 739 740 743 744 751 755 759 760 763 767 771 772 776 779 787 788 791 795 799'
