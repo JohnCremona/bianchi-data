@@ -896,9 +896,15 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      1-15 (fermat) done, 0 newforms, committed and pushed.
 811: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
+
 815: geodata done, torsion agrees
      1-15 (fermat) done, 10 newforms, committed and pushed.
      All 10 curves found
+     Processing curves... 9.1-a/c are unramified quadratic twists but
+     9.1-b is self-twist, CM by -163.  Finding its isogeny class is
+     slow: possible degrees gives [2,3,163] of which 2,3 are bogus but
+     163 is not.  Finding 163-isogenies is slow.
+
 820 (205): geodata done, GL2 torsion 2^23 * 4^2 * 8^2 not 2^25 * 8^2
                          SL2 torsion 2^2 * 4^2        not 4^2
      1-15 (fermat) done, 8 newforms, committed and pushed.
@@ -1043,12 +1049,366 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      1-15 (fermat) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (8 curves), committed and pushed.
 
-
 =========== curve  finding   done to here ========================
 =========== curve processing done to here except 815 ========================
 
+D1000=[D for D in srange(-1000,-1100,-1) if D.is_fundamental_discriminant()]
+d1000 = [-D if D%2 else -D//4 for D in D1000]
+for (D,d) in zip(D1000,d1000):
+....:     if D==-d:
+....:         print(f"{abs(D)}:")
+....:     else:
+....:         print(f"{abs(D)} ({d}):")
+
+echo $d -1 $N1 $N2 | ./nflist_loop
+
+1003: geodata done, GL2 torsion 2^36*6*12 not 2^36*6^2
+                    SL2 torsion 3*6 not 3^2
+      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1007: geodata done, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1011: geodata done, torsion agrees
+      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1012 (253): geodata done, torsion agrees
+      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1015: geodata done, torsion agrees
+      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1016 (254): geodata done, GL2 torsion 2^19 * 4^14 * 8 * 16^2 not 2^20 * 4^14 * 16^2
+                          SL2 torsion 2^14 * 4 * 8^2 not 2^14 * 8^2
+      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
+1019: geodata done, torsion agrees
+      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1023: geodata done, GL2 torsion: 2^17 * 4 * 24^2 not 2^18 * 24^2
+                    SL2 torsion 2 * 12^2 not 12^2
+      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
+1027: geodata done, torsion agrees
+      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1028 (257): geodata done, GL2 torsion 2^13 * 4^6 * 8^2 not 2^13 * 4^8
+                          SL2 torsion 2^6 * 4^2 not 2^8
+      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1031: geodata done, GL2 torsion agrees
+                    SL2 torsion 8105 * 32420 not 8105^2
+      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1032 (258): geodata done, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1039: geodata done, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1043: geodata done, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1047: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1048 (262): geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1051: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+      makenf done to norm 63, 25 ap, 0 newforms
+1055: geodata (atkin), torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 12 newforms
+
+1059: geodata (atkin), torsion agrees, homtest OK
+1060 (265): geodata (atkin), torsion agrees, homtest OK
+1063: geodata (laptop+atkin), torsion agrees, homtest OK
+*1064 (266): geodata (atkin)...
+1067: geodata (atkin), torsion agrees, homtest OK
+*1076 (269): geodata (atkin)...
+1079: geodata (atkin), torsion agrees, homtest OK
+1087: geodata (atkin) SL2 torsion 6*11418^2 not 3*5709^2
+                      GL2 torsion 2^38 * 4 * 7612 * 22836 not 2^39 * 3806 * 11418
+                      homtest OK
+1091: geodata (atkin) SL2 torsion 3^2 * 33 * 66 not 3^2 * 33^2
+                      GL2 torsion 2^25 * 6^2 * 66 * 132 not 2^25 * 6^2 * 66^2
+                      homtest OK
+
+*1092 (273): geodata (atkin)...
+1095: geodata (atkin waiting)...
+1096 (274): geodata (atkin waiting)...
+1099: geodata (atkin waiting)...
+
+1100-1200 running lehner parallel*4
+
+1103:
+1108 (277):
+1111:
+1112 (278):
+1115:
+1119:
+1123:
+1124 (281):
+1128 (282):
+1131:
+1135:
+1139:
+1140 (285):
+1144 (286):
+1147:
+1151:
+1155:
+1159:
+1160 (290):
+1163:
+1167:
+1171:
+1172 (293):
+1187:
+1191:
+1192 (298):
+1195:
+1199:
+
+1200-1400 running atkin parallel*4
+
+1203: geodata, torsion agrees
+1204 (301):
+1207:
+1208 (302):
+1211:
+1219:
+1220 (305):
+1223:
+1227:
+1231:
+1235:
+1236 (309):
+1239:
+1240 (310):
+1243:
+1247:
+1252 (313):
+1255:
+1256 (314):
+1259:
+1263:
+1267:
+1268 (317):
+1271:
+1272 (318):
+1279:
+1283:
+1284 (321):
+1288 (322):
+1291:
+1295:
+1299:
+1303:
+1304 (326):
+1307:
+1311:
+1315:
+1316 (329):
+1319:
+1320 (330):
+1327:
+1335:
+1336 (334):
+1339:
+1343:
+1347:
+1348 (337):
+1351:
+1355:
+1363:
+1364 (341):
+1367:
+1371:
+1379:
+1380 (345):
+1383:
+1384 (346):
+1387:
+1391:
+1396 (349):
+1399:
+1403:
+1407:
+1411:
+1412 (353):
+1415:
+1416 (354):
+1419:
+1423:
+1427:
+1428 (357):
+1432 (358):
+1435:
+1439:
+1443:
+1447:
+1448 (362):
+1451:
+1455:
+1459:
+1460 (365):
+1463:
+1464 (366):
+1471:
+1479:
+1480 (370):
+1483:
+1487:
+1491:
+1492 (373):
+1495:
+1496 (374):
+1499:
+1507:
+1508 (377):
+1511:
+1515:
+1523:
+1524 (381):
+1527:
+1528 (382):
+1531:
+1535:
+1540 (385):
+1543:
+1544 (386):
+1547:
+1551:
+1555:
+1556 (389):
+1559:
+1560 (390):
+1563:
+1567:
+1571:
+1572 (393):
+1576 (394):
+1579:
+1583:
+1588 (397):
+1591:
+1592 (398):
+1595:
+1599:
+1603:
+1604 (401):
+1607:
+1608 (402):
+1615:
+1619:
+1623:
+1624 (406):
+1627:
+1631:
+1635:
+1636 (409):
+1639:
+1640 (410):
+1643:
+1651:
+1652 (413):
+1655:
+1659:
+1663:
+1667:
+1668 (417):
+1671:
+1672 (418):
+1679:
+1684 (421):
+1687:
+1688 (422):
+1691:
+1695:
+1699:
+1703:
+1704 (426):
+1707:
+1711:
+1716 (429):
+1720 (430):
+1723:
+1727:
+1731:
+1732 (433):
+1735:
+1736 (434):
+1739:
+1743:
+1747:
+1748 (437):
+1751:
+1752 (438):
+1759:
+1763:
+1767:
+1768 (442):
+1771:
+1779:
+1780 (445):
+1783:
+1784 (446):
+1787:
+1795:
+1796 (449):
+1799:
+1803:
+1807:
+1811:
+1812 (453):
+1816 (454):
+1819:
+1823:
+1828 (457):
+1831:
+1832 (458):
+1835:
+1839:
+1843:
+1844 (461):
+1847:
+1848 (462):
+1851:
+1855:
+1860 (465):
+1864 (466):
+1867:
+1871:
+1876 (469):
+1879:
+1880 (470):
+1883:
+1887:
+1891:
+1892 (473):
+1895:
+1896 (474):
+1903:
+1907:
+1912 (478):
+1915:
+1919:
+1923:
+1924 (481):
+1927:
+1928 (482):
+1931:
+1939:
+1940 (485):
+1943:
+1947:
+1951:
+1955:
+1956 (489):
+1959:
+1963:
+1967:
+1972 (493):
+1976 (494):
+1979:
+1983:
+1987:
+1988 (497):
+1991:
+1992 (498):
+1995:
+1999:
+​
+
+
 Tessellation run status:
- - all done to |D|<=1000
+ - all done to |D|<=1063
 
 miscellaneous polyhedra:
 
@@ -1227,11 +1587,15 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 
    Check the rawcurves file for gaps.
    Move the rawcurves file to ECNF_DIR/IQF
-   Add the field if necessary to ECNF_DIR/sage/ecnf_fields and ECNF_DIR/IQF/fields.txt
+
+   [Optional: Add the field if necessary to ECNF_DIR/sage/ecnf_fields and
+   ECNF_DIR/IQF/fields.txt; for quadratic fields the creation of
+   fields from labels is done on the fly if the label is not in the
+   list.]
 
    Process the raw curves file:
 
-Use this to add entries to ecnf-data/sage/ecnf_fields:
+Use this to add entries to ecnf-data/sage/ecnf_fields if desired:
 
 sage: for D in srange(-250,-400,-1):
 ....:     if D.is_fundamental_discriminant():
