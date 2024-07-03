@@ -194,6 +194,12 @@ newform 2.0.91.1-784.1-b has no curve (bc=-6, cm=0)
 
  (Previously were missing curves: 624.5-c and 624.5-d)
 
+Integral homology for absolute discriminants up to 100 all agree with
+Gunnells-Yasaki except
+
+D=-79 SL2 I get Z/2, they get trivial
+      GL2 I get Z/4, they get Z/2
+
 ===========================================================================
 
 Fields of |disc|<250:
@@ -899,11 +905,9 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 
 815: geodata done, torsion agrees
      1-15 (fermat) done, 10 newforms, committed and pushed.
-     All 10 curves found
-     Processing curves... 9.1-a/c are unramified quadratic twists but
-     9.1-b is self-twist, CM by -163.  Finding its isogeny class is
-     slow: possible degrees gives [2,3,163] of which 2,3 are bogus but
-     163 is not.  Finding 163-isogenies is slow.
+     All 10 curves found, committed and pushed.
+     9.1-b is self-twist, CM by -163.
+     Finding its isogeny class is slow, needs tweaked Sage
 
 820 (205): geodata done, GL2 torsion 2^23 * 4^2 * 8^2 not 2^25 * 8^2
                          SL2 torsion 2^2 * 4^2        not 4^2
@@ -1050,7 +1054,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      All 8 curves found, processed (8 curves), committed and pushed.
 
 =========== curve  finding   done to here ========================
-=========== curve processing done to here except 815 ========================
+=========== curve processing done to here ========================
 
 D1000=[D for D in srange(-1000,-1100,-1) if D.is_fundamental_discriminant()]
 d1000 = [-D if D%2 else -D//4 for D in D1000]
@@ -1062,32 +1066,39 @@ for (D,d) in zip(D1000,d1000):
 
 echo $d -1 $N1 $N2 | ./nflist_loop
 
+1000-1100: 30/31 done
+
 1003: geodata done, GL2 torsion 2^36*6*12 not 2^36*6^2
                     SL2 torsion 3*6 not 3^2
+      homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
 1007: geodata done, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
-1011: geodata done, torsion agrees
+1011: geodata done, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
-1012 (253): geodata done, torsion agrees
+1012 (253): geodata done, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
-1015: geodata done, torsion agrees
+1015: geodata done, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
 1016 (254): geodata done, GL2 torsion 2^19 * 4^14 * 8 * 16^2 not 2^20 * 4^14 * 16^2
                           SL2 torsion 2^14 * 4 * 8^2 not 2^14 * 8^2
+      homtest OK
       makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
 1019: geodata done, torsion agrees
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
 1023: geodata done, GL2 torsion: 2^17 * 4 * 24^2 not 2^18 * 24^2
                     SL2 torsion 2 * 12^2 not 12^2
+      homtest OK
       makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
-1027: geodata done, torsion agrees
+1027: geodata done, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
 1028 (257): geodata done, GL2 torsion 2^13 * 4^6 * 8^2 not 2^13 * 4^8
                           SL2 torsion 2^6 * 4^2 not 2^8
+      homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
 1031: geodata done, GL2 torsion agrees
                     SL2 torsion 8105 * 32420 not 8105^2
+      homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
 1032 (258): geodata done, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
@@ -1102,85 +1113,116 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1051: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
       makenf done to norm 63, 25 ap, 0 newforms
-1055: geodata (atkin), torsion agrees, homtest OK
+1055: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 12 newforms
+1059: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
+1060 (265): geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 8 newforms
+1063: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
+1064 (266): geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 8 newforms
+1067: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 12 newforms
 
-1059: geodata (atkin), torsion agrees, homtest OK
-1060 (265): geodata (atkin), torsion agrees, homtest OK
-1063: geodata (laptop+atkin), torsion agrees, homtest OK
-*1064 (266): geodata (atkin)...
-1067: geodata (atkin), torsion agrees, homtest OK
-*1076 (269): geodata (atkin)...
-1079: geodata (atkin), torsion agrees, homtest OK
-1087: geodata (atkin) SL2 torsion 6*11418^2 not 3*5709^2
-                      GL2 torsion 2^38 * 4 * 7612 * 22836 not 2^39 * 3806 * 11418
-                      homtest OK
-1091: geodata (atkin) SL2 torsion 3^2 * 33 * 66 not 3^2 * 33^2
-                      GL2 torsion 2^25 * 6^2 * 66 * 132 not 2^25 * 6^2 * 66^2
-                      homtest OK
+*1076 (269): geodata (atkin crashed) (laptop crashed) rerunning on atkin...
 
-*1092 (273): geodata (atkin)...
-1095: geodata (atkin waiting)...
-1096 (274): geodata (atkin waiting)...
-1099: geodata (atkin waiting)...
+1079: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 
-1100-1200 running lehner parallel*4
+1087: geodata SL2 torsion 6*11418^2 not 3*5709^2
+              GL2 torsion 2^38 * 4 * 7612 * 22836 not 2^39 * 3806 * 11418
+      homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
+1091: geodata SL2 torsion 3^2 * 33 * 66 not 3^2 * 33^2
+              GL2 torsion 2^25 * 6^2 * 66 * 132 not 2^25 * 6^2 * 66^2
+      homtest OK
+      makenf done to norm 15, 25 ap, 2 newforms
+1092 (273): geodata (atkin), torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 32 newforms
+1095: geodata (atkin), torsion agrees, homtest OK
+1096 (274): geodata (laptop) SL2 torsion 2^9 * 4^2 not 2^8 * 4^2
+                             GL2 torsion 2^21 * 4^9 * 8^2 not 2^22 * 4^8 * 8^2
+      homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
+1099: geodata (laptop), torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 
-1103:
-1108 (277):
-1111:
-1112 (278):
-1115:
-1119:
-1123:
-1124 (281):
-1128 (282):
-1131:
-1135:
-1139:
-1140 (285):
-1144 (286):
-1147:
-1151:
-1155:
-1159:
-1160 (290):
-1163:
-1167:
-1171:
-1172 (293):
+1100-1200 running lehner parallel*4: 20/28 done
+
+1103: geodata, torsion agrees, homtest OK
+      makenf done to norm 15, 25 ap, 4 newforms
+1108 (277): geodata, torsion agrees, homtest OK
+1111: geodata GL2 torsion 2^28 * 4^4 * 488^2 not 2^30 * 4^2 * 488^2
+              SL2 torsion 2^4 * 976^2 not 2^2 * 976^2
+      homtest OK
+1112 (278): geodata, torsion agrees, homtest OK
+1115: geodata, torsion agrees, homtest OK
+1119: geodata, torsion agrees, homtest OK
+1123: geodata, torsion agrees, homtest OK
+1124 (281): geodata, torsion agrees, homtest OK
+1128 (282): geodata, torsion agrees, homtest OK
+1131: geodata, torsion agrees, homtest OK
+1135: geodata, torsion agrees, homtest OK
+1139: geodata, torsion agrees, homtest OK
+1140 (285): geodata...
+1144 (286): geodata, torsion agrees
+1147: geodata, torsion agrees, homtest OK
+1151: geodata, torsion agrees, homtest OK
+1155: geodata, torsion agrees, homtest OK
+1159: geodata, torsion agrees, homtest OK
+1160 (290): geodata...
+1163: geodata, torsion agrees, homtest OK
+1167: geodata...
+1171: geodata, GL2 torsion 2^39 * 4 * 28^2 not 2^40 * 28^2
+               SL2 torsion 2 * 14^2 not 14^2
+1172 (293): geodata...
 1187:
 1191:
 1192 (298):
 1195:
-1199:
+1199 (laptop): geodata, torsion agrees
 
-1200-1400 running atkin parallel*4
+1200-1300 running atkin parallel*4: 20/32 done
 
-1203: geodata, torsion agrees
-1204 (301):
-1207:
-1208 (302):
-1211:
-1219:
-1220 (305):
-1223:
-1227:
-1231:
-1235:
-1236 (309):
-1239:
-1240 (310):
-1243:
-1247:
-1252 (313):
-1255:
-1256 (314):
-1259:
-1263:
-1267:
-1268 (317):
-1271:
+1203: geodata, torsion agrees, homtest OK
+1204 (301): geodata, torsion agrees, homtest OK
+1207: geodata, torsion agrees, homtest OK
+1208 (302): geodata, torsion agrees, homtest OK
+1211: geodata GL2 torsion 2^28 * 86 * 172 not 2^28 * 86^2
+              SL2 torsion 43 * 86 not 43^2
+      homtest OK
+1219: geodata, torsion agrees, homtest OK
+1220 (305): geodata, GL2 torsion 2^30 * 4^8 not 2^32 * 4^6
+                     SL2 torsion 2^8 not 2^6
+      homtest OK
+1223: geodata GL2 torsion 2^32 * 1616 * 3232 not 2^32 * 1616^2
+              SL2 torsion 808 * 1616 not 808^2
+      homtest OK
+1227: geodata GL2 torsion 2^29 * 8 * 16 not 2^29 * 8^2
+              SL2 torsion 4 * 8 not 4^2
+      homtest OK
+1231: geodata, torsion agrees, homtest OK
+1235: geodata, torsion agrees, homtest OK
+1236 (309): geodata, torsion agrees, homtest OK
+1239: geodata, GL2 torsion 2^10 * 14^3 * 28 not 2^10 * 14^4
+               SL2 torsion 7^2 * 273 * 546  not 7^2 * 273^2
+      homtest OK
+1240 (310): geodata, torsion agrees, homtest OK
+1243: geodata, torsion agrees, homtest OK
+1247: geodata, torsion agrees, homtest OK
+
+(below this point Gunnells-Yasaki only have GL2 results)
+
+1252 (313): geodata, torsion agrees, homtest OK
+1255: geodata, torsion agrees, homtest OK
+1256 (314): geodata...
+1259: geodata, torsion agrees, homtest OK
+1263: geodata...
+1267: geodata, torsion agrees, homtest OK
+1268 (317): geodata...
+1271: geodata...
 1272 (318):
 1279:
 1283:
@@ -1189,6 +1231,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1291:
 1295:
 1299:
+
 1303:
 1304 (326):
 1307:
