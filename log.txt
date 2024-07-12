@@ -51,7 +51,7 @@ No elliptic curves have the specified 'Traces' for 31 newforms.  These
 include all twists by an off quadratic character (chi(-1)=-1) of thr
 "minusform" at level 1.
 
-Curve processing...done
+Curve processing done
 
 Run 2: 10k-15k on galois & lehner
 
@@ -219,25 +219,21 @@ export DD="${DD1} ${DD2}"
 107: 1-1000 done. 266 newforms, committed and pushed.
      Curve search found all 266, processed (428 curves), committed and pushed.
 
-111: 1-100 done. 107 newforms, committed and pushed.
-     Curve search found 103/107, processed (238 curves), committed and pushed.
-     No curve found for 27.1-abcd
-     1-1000 done, 1388 newforms, committed and pushed
+111: 1-1000 done, 1388 newforms, committed and pushed
+     Curve search found 1376/1388, processed (2730 curves), committed and pushed.
+     No curve found for 12 newforms: 27.1-abcd, 223.1-ab, 223.2-ab, 507.1-abef
 
 115: 1-1000 done. 118 newforms, committed and pushed.
      Curve search found all 118, processed (304 curves), committed and pushed.
 
-119: 1-100 done. 111 newforms, committed and pushed.
-     Curve search found all 111, processed (300 curves), committed and pushed.
-     1-734 done, 1425 newforms, committed and pushed.
-     Curve search found all 1314 curves
-     1-1000 done, 2157 newforms, committed and pushed.
+119: 1-1000 done, 2157 newforms, committed and pushed.
+     Curve search found all 2157, processed (4652 curves), committed and pushed.
 
 120 (30): 1-1000 done. 562 newforms, committed and pushed.
      Curve search found all 562, processed (1614 curves), committed and pushed.
 
 ===========================================================================
-[from here, level norm bound 100 for all fields up to 600, 25 for 600-1000]
+[from here, level norm bound 100 for all fields up to 700, 25 for 700-1000]
 
 123: 1-100 done. 7 newforms, committed and pushed.
      Curve search found all 7, processed (28 curves), committed and pushed.
@@ -551,11 +547,6 @@ d400 = [-D if D%2 else -D//4 for D in D400]
 499:       1-100 (galois) done,  0 newforms, committed and pushed.
     Curve search not needed for 0 curves, processed (0 curves), committed and pushed.
 
- - run_makenf_loop run on level 1 only for all fields 501-1000:
- - all committed and pushed
- - no newforms at level 1 except for this field:
-
-643:       2 newforms, all curves found, processed, committed and pushed.
 
 D500=[D for D in srange(-500,-600,-1) if D.is_fundamental_discriminant()]
 '503 511 515 516 519 520 523 527 532 535 536 543 547 548 551 552 555 559 563 564 568 571 579 580 583 584 587 591 595 596 599'
@@ -566,275 +557,321 @@ d500 = [-D if D%2 else -D//4 for D in D500]
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (10 curves), committed and pushed.
      1-100 (lovelace) done, 126 newforms, committed and pushed
+     Curve search 16-100 on laptop finds 114/120, processed (galois)
+     No curve found to match newform 2.0.503.1-16.2-a
+     No curve found to match newform 2.0.503.1-32.2-b
+     No curve found to match newform 2.0.503.1-36.5-b
+     No curve found to match newform 2.0.503.1-42.4-a
+     No curve found to match newform 2.0.503.1-84.1-a
+     No curve found to match newform 2.0.503.1-84.6-b
 511: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
      1-100 (lovelace) done, 43 newforms, committed and pushed
+     Curve search 16-100 on laptop finds 35/39, processed (galois)
+     No curve found to match newform 2.0.511.1-100.5-abcd
 515: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 14 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 14, processed (galois)
 516 (129): geodata done, torsion agrees
      1-15 (lovelace) done, 14 newforms, committed and pushed.
      All 14 curves found, processed (20 curves), committed and pushed.
      1-100 (lovelace) done, 88 newforms, committed and pushed
+     Curve search 16-100 on laptop finds 70/74, processing (galois)...
+     No curve found to match newform 2.0.516.1-64.1-bcde: No elliptic curves have the specified 'Traces'
 519: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
      1-100 (lovelace) done, 45 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 41, processing (galois)...
 520 (130): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 48 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 48
 523: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 2 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 2
 527: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
      1-100 (lovelace) done, 56 newforms, committed and pushed
+     Curve search 16-100 on laptop finds 48/52
+     No curve found to match newform 2.0.527.1-72.5-ab
+     No curve found to match newform 2.0.527.1-72.8-ab
 532 (133): geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (24 curves), committed and pushed.
      1-100 (lovelace) done, 44 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 40
 535: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 14 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 14
 536 (134): geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
      1-100 (lovelace) done, 68 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 66
 543: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
      1-100 (lovelace) done, 21 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 17
 547: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 2 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 2
 548 (137): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 23 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 23
 551: geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 3 curves found, processed (4 curves), committed and pushed.
      1-100 (lovelace) done, 94 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 92
 552 (138): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 40 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 40
 555: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (32 curves), committed and pushed.
      1-100 (lovelace) done, 29 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 25
 559: geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
      1-100 (lovelace) done, 34 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 32
 563: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
      1-100 (lovelace) done, 20 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 16
 564 (141): geodata done, GL2 torsion 2^4 * 4^3 not 2^5 * 4^2
                          SL2 torsion 2^3       not 2^2
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 26 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 26
 568 (142): geodata done, GL2 torsion 2^21 * 4^2 * 8 not 2^22 * 4^2
                          SL2 torsion 2^2 * 4        not 2^2
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      4/6 curves found, processed (4 curves), committed and pushed.
      9.1-a/b: no curve has specified traces
      1-100 (lovelace) done, 22 newforms, committed and pushed
+     Curve search 16-100 on laptop finds 14/16
+     No curve found to match newform 2.0.568.1-81.1-ab: No elliptic curves have the specified 'Traces'
 571: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 2 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 2
 579: geodata done, torsion agrees
      1-15 (lovelace) done, 10 newforms, committed and pushed.
      All 10 curves found, processed (14 curves), committed and pushed.
      1-100 (lovelace) done, 17 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 7
 580 (145): geodata done, GL2 torsion 2^16 * 4^2 not 2^18
                          SL2 torsion 2^2 not 1
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (12 curves), committed and pushed.
      1-100 (lovelace) done, 82 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 74
 583: geodata done, torsion agrees
      1-15 (lovelace) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (20 curves), committed and pushed.
      1-100 (lovelace) done, 42 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 34
 584 (146): geodata done, GL2 torsion 2^6 * 4^3 * 12 * 36 not 2^7 * 4^2 * 12 * 36
                          SL2 torsion 2^3 * 6 * 18 not 2^2 * 6 * 18
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
      1-100 (lovelace) done, 44 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 40
 587: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 8 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 8
 591: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 51 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 51
 595: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 37 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 37
 596 (149): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
      1-100 (lovelace) done, 23 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 23
 599: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
      1-100 (lovelace) done, 52 newforms, committed and pushed
+     Curve search 16-100 on laptop finds all 48
+
+========== Curve search to 100 done to here ===========================================
 
 D600=[D for D in srange(-600,-700,-1) if D.is_fundamental_discriminant()]
 '607 611 615 616 619 623 627 628 631 632 635 643 644 647 651 655 659 660 663 664 667 671 679 680 683 687 691 692 695 696 699'
 d600 = [-D if D%2 else -D//4 for D in D600]
 '607 611 615 154 619 623 627 157 631 158 635 643 161 647 651 655 659 165 663 166 667 671 679 170 683 687 691 173 695 174 699'
 
-600-700 16-100 running lovelace
+600-700 level norms to 100
 
 607: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 8 newforms, committed and pushed.
+     1-100 done, 8 newforms, committed and pushed.
+     Curve search finds all 8, processed (14 curves), committed and pushed
 611: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 36 newforms, committed and pushed.
+     1-100 done, 36 newforms, committed and pushed.
+     Curve search finds 32/36, processed (54 curves), committed and pushed
+     No curve found to match newform 2.0.611.1-44.1-ab
+     No curve found to match newform 2.0.611.1-44.2-ab
 615: geodata done, torsion agrees
-     1-15 (lovelace) done, 4 newforms, committed and pushed.
-     All 4 curves found, processed (32 curves), committed and pushed.
-     1-100 (lovelace) done, 69 newforms, committed and pushed.
+     1-100 done, 69 newforms, committed and pushed.
+     Curve search finds all 69, processed (188 curves), committed and pushed
 616 (154): geodata done, torsion agrees
-     1-15 (lovelace) done, 8 newforms, committed and pushed.
-     All 8 curves found, processed (36 curves), committed and pushed.
-     1-100 (lovelace) done, 76 newforms, committed and pushed.
+     1-100 done, 76 newforms, committed and pushed.
+     Curve search finds 70/76, processed (216 curves), committed and pushed
+     No curve found to match newform 2.0.616.1-49.1-bcdefg: No elliptic curves have the specified 'Traces'
 619: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 2 newforms, committed and pushed.
+     1-100 done, 2 newforms, committed and pushed.
+     Curve search finds all 2, processed (2 curves), committed and pushed
 623: geodata done, torsion agrees
-     1-15 (lovelace) done, 6 newforms, committed and pushed.
-     All 6 curves found, processed (16 curves), committed and pushed.
-     1-100 (lovelace) done, 59 newforms, committed and pushed.
+     1-100 done, 59 newforms, committed and pushed.
+     Curve search finds all 59, processed (138 curves), committed and pushed
 627: geodata done, torsion agrees
-     1-15 (lovelace) done, 4 newforms, committed and pushed.
-     All 4 curves found, processed (12 curves), committed and pushed.
-     1-100 (lovelace) done, 42 newforms, committed and pushed.
+     1-100 done, 42 newforms, committed and pushed.
+     Curve search finds all 42, processed (136 curves), committed and pushed
 628 (157): geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 9 newforms, committed and pushed.
+     1-100 done, 9 newforms, committed and pushed.
+     Curve search finds all 9, processed (38 curves), committed and pushed
 631: geodata done, torsion agrees
-     1-15 (lovelace) done, 2 newforms, committed and pushed.
-     All 2 curves found, processed (2 curves), committed and pushed.
-     1-100 (lovelace) done, 20 newforms, committed and pushed.
+     1-100 done, 20 newforms, committed and pushed.
+     Curve search finds all 20, processed (26 curves), committed and pushed
 632 (158): geodata done, torsion agrees
-     1-15 (lovelace) done, 2 newforms, committed and pushed.
-     All 2 curves found, processed (8 curves), committed and pushed.
-     1-100 (lovelace) done, 24 newforms, committed and pushed.
+     1-100 done, 24 newforms, committed and pushed.
+     Curve search finds all 24, processed (74 curves), committed and pushed
 635: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 18 newforms, committed and pushed.
+     1-100 done, 18 newforms, committed and pushed.
+     Curve search finds all 18, processed (48 curves), committed and pushed
 643: geodata done, torsion agrees
-     1-15 (lovelace) done, 4 newforms, committed and pushed.
-     All 4 curves found, processed (4 curves), committed and pushed.
-     1-100 (lovelace) done, 8 newforms, committed and pushed.
+     1-100 done, 8 newforms, committed and pushed.
+     Curve search finds all 8, processed (8 curves), committed and pushed
 644 (161): geodata done, torsion agrees
-     1-15 (lovelace) done, 4 newforms, committed and pushed.
-     All 4 curves found, processed (24 curves), committed and pushed.
-     1-100 (lovelace) done, 64 newforms, committed and pushed.
+     1-100 done, 64 newforms, committed and pushed.
+     Curve search finds all 64, processed (208 curves), committed and pushed
 647: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 30 newforms, committed and pushed.
+     1-100 done, 30 newforms, committed and pushed.
+     Curve search finds all 30, processed (48 curves), committed and pushed
 651: geodata done, torsion agrees
-     1-15 (lovelace) done, 4 newforms, committed and pushed.
-     All 4 curves found, processed (4 curves), committed and pushed.
-     1-100 (lovelace) done, 40 newforms, committed and pushed.
+     1-100 done, 40 newforms, committed and pushed.
+     Curve search finds 36/40, processed (140 curves), committed and pushed
+     No curve found to match newform 2.0.651.1-81.1-cdef: No elliptic curves have the specified 'Traces'
 655: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 26 newforms, committed and pushed.
+     1-100 done, 26 newforms, committed and pushed.
+     Curve search finds all 26, processed (72 curves), committed and pushed
 659: geodata done, GL2 torsion 2^15 * 22 * 44 not 2^15 * 22^2
                    SL2 torsion 11 * 22        not 11^2
-     1-15 (lovelace) done, 2 newforms, committed and pushed.
-     All 2 curves found, processed (2 curves), committed and pushed.
-     1-100 (lovelace) done, 6 newforms, committed and pushed.
+     1-100 done, 6 newforms, committed and pushed.
+     Curve search finds all 6, processed (6 curves), committed and pushed
 660 (165): geodata done, torsion agrees
-     1-15 (lovelace) done, 16 newforms, committed and pushed.
-     All 16 curves found, processed (88 curves), committed and pushed.
-     1-100 (lovelace) done, 153 newforms, committed and pushed.
+     1-100 done, 153 newforms, committed and pushed.
+     Curve search finds all 153, processed (628 curves), committed and pushed
 663: geodata done, torsion agrees
-     1-15 (lovelace) done, 8 newforms, committed and pushed.
-     All 8 curves found, processed (24 curves), committed and pushed.
-     1-100 (lovelace) done, 73 newforms, committed and pushed.
+     1-100 done, 73 newforms, committed and pushed.
+     Curve search finds all 73, processed (204 curves), committed and pushed
 664 (166): geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 14 newforms, committed and pushed.
+     1-100 done, 14 newforms, committed and pushed.
+     Curve search finds all 14, processed (50 curves), committed and pushed
 667: geodata done, torsion agrees
-     1-15 (lovelace) done, 2 newforms, committed and pushed.
-     All 2 curves found, processed (4 curves), committed and pushed.
-     1-100 (lovelace) done, 8 newforms, committed and pushed.
+     1-100 done, 8 newforms, committed and pushed.
+     Curve search finds all 8, processed (16 curves), committed and pushed
 671: geodata done, torsion agrees
-     1-15 (lovelace) done, 6 newforms, committed and pushed.
-     All 6 curves found, processed (14 curves), committed and pushed.
      1-100: done, 98 newforms, committed and pushed.
+     Curve search finds all 98, processed (164 curves), committed and pushed
 679: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 37 newforms, committed and pushed.
+     1-100 done, 37 newforms, committed and pushed.
+     Curve search finds 35/37, processed (82 curves), committed and pushed
+     No curve found to match newform 2.0.679.1-70.1-ab
 680 (170): geodata done, torsion agrees
-     1-15 (lovelace) done, 8 newforms, committed and pushed.
-     0/8 curves found
-     9.1-a/b/c/d, 9.3-a/b/c/d: no curves have specified traces
-     1-100 (lovelace) done, 84 newforms, committed and pushed.
+     1-100 done, 84 newforms, committed and pushed.
+     Curve search finds 76/84, processed (280 curves), committed and pushed
+     9.1-abcd, 9.3-abcd: no curves have specified traces
 683: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 6 newforms, committed and pushed.
+     1-100 done, 6 newforms, committed and pushed.
+     Curve search finds all 6, processed (6 curves), committed and pushed
 687: geodata done, torsion agrees
-     1-15 (lovelace) done, 6 newforms, committed and pushed.
-     All 6 curves found, processed (14 curves), committed and pushed.
-     1-100 (lovelace) done, 55 newforms, committed and pushed.
+     1-100 done, 55 newforms, committed and pushed.
+     Curve search finds all 55, processed (108 curves), committed and pushed
 691: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 6 newforms, committed and pushed.
+     1-100 done, 6 newforms, committed and pushed.
+     Curve search finds all 6, processed (8 curves), committed and pushed
 692 (173): geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 29 newforms, committed and pushed.
+     1-100 done, 29 newforms, committed and pushed.
+     Curve search finds all 29, processed (64 curves), committed and pushed
 695: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 58 newforms, committed and pushed.
+     1-100 done, 58 newforms, committed and pushed.
+     Curve search finds all 58, processed (112 curves), committed and pushed
 696 (174): geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 46 newforms, committed and pushed.
+     1-100 done, 46 newforms, committed and pushed.
+     Curve search finds all 46, processed (180 curves), committed and pushed
 699: geodata done, torsion agrees
-     1-15 (lovelace) done, 0 newforms, committed and pushed.
-     1-100 (lovelace) done, 11 newforms, committed and pushed.
+     1-100 done, 11 newforms, committed and pushed.
+     Curve search finds all 11, processing (28 curves), committed and pushed
 
 D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
 '703 707 708 712 715 719 723 724 727 728 731 739 740 743 744 751 755 759 760 763 767 771 772 776 779 787 788 791 795 799'
 d700 = [-D if D%2 else -D//4 for D in D700]
 '703 707 177 178 715 719 723 181 727 182 731 739 185 743 186 751 755 759 190 763 767 771 193 194 779 787 197 791 795 799'
 
+700-1000 level norms up to 15, with curves
+
 703: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     16-100 (fermat)...
 707: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (16 curves), committed and pushed.
+     16-100 (fermat) done, 11 more newforms
 708 (177): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     16-100 (fermat)...
 712 (178): geodata done, GL2 torsion 2^18 * 4^3 not 2^19 * 4^2
                          SL2 torsion 2^3        not 2^2
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
+     16-100 (fermat) done, 26 more newforms
 715: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (12 curves), committed and pushed.
+     16-100 (fermat) done, 32 more newforms
 719: geodata done, torsion agrees
      1-15 (lovelace) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (8 curves), committed and pushed.
+     16-100 (fermat) done, 5 more newforms
 723: geodata done, torsion agrees
      1-15 (lovelace) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
+     16-100 (fermat waiting)...
 724 (181): geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     16-100 (fermat waiting)...
 727: geodata done, GL2 torsion 2^22 * 148^2 not 2^22 * 74^2
                    SL2 torsion 74^2         not 37^2
      1-15 (lovelace) done, 0 newforms, committed and pushed.
+     16-100 (fermat waiting)...
 728 (182): geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (24 curves), committed and pushed.
+     16-100 (fermat waiting)...
 731: geodata done, GL2 torsion 2^17 * 4 * 16^2 not 2^18 * 16^2
                    SL2 torsion 2 * 8^2         not 8^2
      1-15 (lovelace) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
+     16-100 (fermat waiting)...
 739: geodata done, torsion agrees
      1-15 (lovelace) done, 0 newforms, committed and pushed.
 740 (185): geodata done, torsion agrees
@@ -1066,7 +1103,7 @@ for (D,d) in zip(D1000,d1000):
 
 echo $d -1 $N1 $N2 | ./nflist_loop
 
-1000-1100: 30/31 done
+1000-1100: 30/31 done (1076 issues)
 
 1003: geodata done, GL2 torsion 2^36*6*12 not 2^36*6^2
                     SL2 torsion 3*6 not 3^2
@@ -1149,7 +1186,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1099: geodata (laptop), torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
-1100-1200 running lehner parallel*4: 20/28 done
+1100-1200 running lehner parallel*4: 25/28 done (1140,1160,1172 running lehner)
 
 1103: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
@@ -1167,24 +1204,26 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1135: geodata, torsion agrees, homtest OK
 1139: geodata, torsion agrees, homtest OK
 1140 (285): geodata...
-1144 (286): geodata, torsion agrees
+1144 (286): geodata, torsion agrees, homtest OK
 1147: geodata, torsion agrees, homtest OK
 1151: geodata, torsion agrees, homtest OK
 1155: geodata, torsion agrees, homtest OK
 1159: geodata, torsion agrees, homtest OK
 1160 (290): geodata...
 1163: geodata, torsion agrees, homtest OK
-1167: geodata...
+1167: geodata, torsion agrees, homtest OK
 1171: geodata, GL2 torsion 2^39 * 4 * 28^2 not 2^40 * 28^2
                SL2 torsion 2 * 14^2 not 14^2
+      homtest OK
 1172 (293): geodata...
-1187:
-1191:
-1192 (298):
-1195:
-1199 (laptop): geodata, torsion agrees
+1187: geodata, torsion agrees, homtest OK
+1191: geodata, GL2 torsion 2^22 * 1162 * 2342 not 2^22 * 1162^2
+               SL2 torsion 2 * 9296^2 not 9296^2
+1192 (298): geodata, torsion agrees, homtest OK
+1195: geodata, torsion agrees, homtest OK
+1199: geodata, torsion agrees, homtest OK
 
-1200-1300 running atkin parallel*4: 20/32 done
+1200-1300 running atkin parallel*4: 29/32 done (1256, 1272, 1284 missing: 2 running, one not)
 
 1203: geodata, torsion agrees, homtest OK
 1204 (301): geodata, torsion agrees, homtest OK
@@ -1213,26 +1252,30 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1243: geodata, torsion agrees, homtest OK
 1247: geodata, torsion agrees, homtest OK
 
-(below this point Gunnells-Yasaki only have GL2 results)
+============= below this point Gunnells-Yasaki only have GL2 results ============================
 
 1252 (313): geodata, torsion agrees, homtest OK
 1255: geodata, torsion agrees, homtest OK
 1256 (314): geodata...
 1259: geodata, torsion agrees, homtest OK
-1263: geodata...
+1263: geodata, torsion agrees, homtest OK
 1267: geodata, torsion agrees, homtest OK
-1268 (317): geodata...
-1271: geodata...
-1272 (318):
-1279:
-1283:
-1284 (321):
-1288 (322):
-1291:
-1295:
-1299:
+1268 (317): geodata, torsion agrees, homtest OK
+1271: geodata, torsion agrees, homtest OK
+1272 (318): geodata...
+1279: geodata, torsion agrees, homtest OK
+1283: geodata, torsion agrees, homtest OK
+1284 (321): (laptop) geodata...
+1288 (322): geodata, GL2 torsion 2^30 * 4 * 8^2 * 16 not 2^30 * 4^2 * 8^2
+     homtest OK
+1291: geodata, torsion agrees, homtest OK
+1295: geodata, torsion agrees, homtest OK
+1299: geodata, GL2 torsion 2^26 * 4^3 * 8^2 not 2^27 * 4^2 * 8^2
+      homtest OK
 
-1303:
+1300-1400: 1/329 done
+
+1303: (laptop) geodata, torsion agrees, homtest OK
 1304 (326):
 1307:
 1311:
@@ -1261,6 +1304,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1391:
 1396 (349):
 1399:
+
 1403:
 1407:
 1411:
@@ -1590,22 +1634,43 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
 # sage: dimdat = read_dimtabeis_new(d, f"dimtabnew.{d}.{N1}-{N2}")
 # sage: sl2_levels = []
 # sage: if D in [1,2,3,7,11,19,43,67,163,20]:
-# sage:    sl2_levels = read_data("sl2_levels_{}".format(D), str)
-# sage:    write_bmf_upload_file(dimdat, "bmf_dims.{}.{}-{}.sl2".format(d,N1,N2), 'dims', sl2=True)
-# sage: write_bmf_upload_file(dimdat, "bmf_dims.{}.{}-{}.no_sl2".format(d,N1,N2), 'dims', sl2=False)
-# sage: formdat = read_newforms(d, "newforms.{}.{}-{}".format(d,N1,N2))
-# sage: write_bmf_upload_file(formdat, "bmf_forms.{}.{}-{}".format(d,N1,N2), 'forms', True)
+# sage:    sl2_levels = read_data(f"sl2_levels_{D}", str)
+# sage:    write_bmf_upload_file(dimdat, f"bmf_dims.{d}.{N1}-{N2}.sl2", 'dims', sl2=True)
+# sage: write_bmf_upload_file(dimdat, f"bmf_dims.{d}.{N1}-{N2}.no_sl2", 'dims', sl2=False)
+# sage: formdat = read_newforms(d, f"newforms.{d}.{N1}-{N2}")
+# sage: write_bmf_upload_file(formdat, f"bmf_forms.{d}.{N1}-{N2}", 'forms', True)
 
-# Copy the three files to legendre in bmf-upload/.
+or simply (for any fields with no sl2 data)
+
+# sage: dimdat = read_dimtabeis_new(d, f"dimtabnew.{d}.{N1}-{N2}")
+# sage: sl2_levels = []
+# sage: write_bmf_upload_file(dimdat, f"bmf_dims.{d}.{N1}-{N2}", 'dims', sl2=False)
+# sage: formdat = read_newforms(d, f"newforms.{d}.{N1}-{N2}")
+# sage: write_bmf_upload_file(formdat, f"bmf_forms.{d}.{N1}-{N2}", 'forms', True)
+
+or for several fields d together, same N1 and N2 (and no sl2 data)
+
+# sage: dimdat = read_dimtabeis_many(dlist, N1, N2)
+# sage: sl2_levels = []
+# sage: Dlist = [d if d%4==3 else 4*d for d in dlist]
+# sage: DD = "-".join(str(D) for D in Dlist)
+# sage: write_bmf_upload_file(dimdat, f"bmf_dims.{DD}.{N1}-{N2}", 'dims', sl2=False)
+# sage: formdat = read_newforms_many(dlist, N1, N2)
+# sage: write_bmf_upload_file(formdat, f"bmf_forms.{DD}.{N1}-{N2}", 'forms', True)
+
+
+# Copy the two/three files to legendre in bmf-upload/.
 # Do the upload as follows:
 # sage: from lmfdb import db
 # sage: d=43
 # sage: N1=1
 # sage: N2=1000
 # sage: db.bmf_forms.copy_from(f"/scratch/home/jcremona/bmf-upload/bmf_forms.{d}.{N1}-{N2}")
+and
 # sage: db.bmf_dims.update_from_file(f"/scratch/home/jcremona/bmf-upload/bmf_dims.{d}.{N1}-{N2}.sl2")
 # sage: db.bmf_dims.copy_from(f"/scratch/home/jcremona/bmf-upload/bmf_dims.{d}.{N1}-{N2}.no_sl2")
-
+or just
+# sage: db.bmf_dims.copy_from(f"/scratch/home/jcremona/bmf-upload/bmf_dims.{d}.{N1}-{N2}")
 
 3. cd ~/bianchi-data
    git add 2.0.$D.1 # add the raw newform data files
@@ -1625,8 +1690,14 @@ After computing Bianchi newforms for field d, levels from N1 to N2:
    sage: # eg
    sage: d=5
    sage: D=20
+   sage: N1=1
    sage: N2=1000
-   sage: magma_search(d, bmf_filename=f"/home/jec/bianchi-data/newforms/newforms.{d}.1-{N2}", outfilename=f"rawcurves.2.0.{D}.1", verbose=True)
+   sage: magma_search(d, bmf_filename=f"/home/jec/bianchi-data/newforms/newforms.{d}.{N1}-{N2}", outfilename=f"rawcurves.2.0.{D}.1.{N1}-{N2}", verbose=True)
+   # or
+   sage: magma_search(d, bmf_filename=f"/home/jec/bianchi-data/newforms/newforms.{d}.1-{N2}", min_norm=N1, outfilename=f"rawcurves.2.0.{D}.1.{N1}-{N2}", verbose=True)
+
+NB For searching on a range with N1>1 there is no need to make a
+separate newforms file, use the min_norm parameter of magma_search().
 
    Check the rawcurves file for gaps.
    Move the rawcurves file to ECNF_DIR/IQF
@@ -1652,12 +1723,12 @@ Use this to process several fields (replace '1-100' as appropriate)
 
 sage: def proc(D):
 ....:     field_label = f'2.0.{D}.1'
-....:     rawcurvesfile = ".".join(['rawcurves', field_label,'1-100'])
+....:     rawcurvesfile = ".".join(['rawcurves', field_label,'16-100'])
 ....:     data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
 ....:     n = len(list(data))
 ....:     print(f"{n} raw curves over field {field_label}")
 ....:     data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
-....:     curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128)
+....:     curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128, backend='pari')
 
 
    sage: %runfile files.py
@@ -1668,7 +1739,7 @@ sage: def proc(D):
    sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
    sage: len(list(data))
    sage: data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
-   sage: curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128)
+   sage: curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128, backend='pari')
 
 This produces files of the form curves.2.0.251.1.part.  If complete,
 remove the ".part".
@@ -1676,13 +1747,19 @@ remove the ".part".
 export fnames='curves isoclass local_data mwdata galrep'
 DD='299 251'
 for D in $DD; do for f in ${fnames}; do wc -l ${f}.2.0.${D}.1.part; done; done
+EITHER (if a first run from norm 1)
 for D in $DD; do for f in ${fnames}; do mv ${f}.2.0.${D}.1.part ${f}.2.0.${D}.1; done; done
+OR (if a subsequent run)
+for D in $DD; do for f in ${fnames}; do cat ${f}.2.0.${D}.1.part >> ${f}.2.0.${D}.1; done; done
 for D in $DD; do for f in ${fnames}; do wc -l ${f}.2.0.${D}.1; done; done
 for D in $DD; do for f in ${fnames}; do git add ${f}.2.0.${D}.1; done; done
 
    sage: # to make upload files
    sage: %runfile upload.py
    sage: make_upload_file(['IQF'], [field_label], outfilename='ec_nfcurves.'+field_label)
+or
+   sage: make_upload_file(['IQF'], fields, outfilename='ec_nfcurves.'+"-".join(fields))
+(where fields is a list of field labels)
 
 # Do the upload as follows:
 # sage: from lmfdb import db
