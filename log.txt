@@ -578,7 +578,7 @@ d500 = [-D if D%2 else -D//4 for D in D500]
      1-15 (lovelace) done, 14 newforms, committed and pushed.
      All 14 curves found, processed (20 curves), committed and pushed.
      1-100 (lovelace) done, 88 newforms, committed and pushed
-     Curve search 16-100 on laptop finds 70/74, processing (galois)...
+     Curve search 16-100 on laptop finds 70/74, processed (galois)...
      No curve found to match newform 2.0.516.1-64.1-bcde: No elliptic curves have the specified 'Traces'
 519: geodata done, torsion agrees
      1-15 (lovelace) done, 4 newforms, committed and pushed.
@@ -712,7 +712,6 @@ d500 = [-D if D%2 else -D//4 for D in D500]
      1-100 (lovelace) done, 52 newforms, committed and pushed
      Curve search 16-100 on laptop finds all 48
 
-========== Curve search to 100 done to here ===========================================
 
 D600=[D for D in srange(-600,-700,-1) if D.is_fundamental_discriminant()]
 '607 611 615 616 619 623 627 628 631 632 635 643 644 647 651 655 659 660 663 664 667 671 679 680 683 687 691 692 695 696 699'
@@ -821,6 +820,8 @@ d600 = [-D if D%2 else -D//4 for D in D600]
 699: geodata done, torsion agrees
      1-100 done, 11 newforms, committed and pushed.
      Curve search finds all 11, processing (28 curves), committed and pushed
+
+========== Newforms and curve search to 100 done to here ===========================================
 
 D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
 '703 707 708 712 715 719 723 724 727 728 731 739 740 743 744 751 755 759 760 763 767 771 772 776 779 787 788 791 795 799'
@@ -1203,19 +1204,19 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1131: geodata, torsion agrees, homtest OK
 1135: geodata, torsion agrees, homtest OK
 1139: geodata, torsion agrees, homtest OK
-1140 (285): geodata...
+1140 (285): geodata (lehner running)...
 1144 (286): geodata, torsion agrees, homtest OK
 1147: geodata, torsion agrees, homtest OK
 1151: geodata, torsion agrees, homtest OK
 1155: geodata, torsion agrees, homtest OK
 1159: geodata, torsion agrees, homtest OK
-1160 (290): geodata...
+1160 (290): geodata (lehner running)...
 1163: geodata, torsion agrees, homtest OK
 1167: geodata, torsion agrees, homtest OK
 1171: geodata, GL2 torsion 2^39 * 4 * 28^2 not 2^40 * 28^2
                SL2 torsion 2 * 14^2 not 14^2
       homtest OK
-1172 (293): geodata...
+1172 (293): geodata (lehner running)...
 1187: geodata, torsion agrees, homtest OK
 1191: geodata, GL2 torsion 2^22 * 1162 * 2342 not 2^22 * 1162^2
                SL2 torsion 2 * 9296^2 not 9296^2
@@ -1223,7 +1224,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1195: geodata, torsion agrees, homtest OK
 1199: geodata, torsion agrees, homtest OK
 
-1200-1300 running atkin parallel*4: 29/32 done (1256, 1272, 1284 missing: 2 running, one not)
+1200-1300 29/32 done (1256, 1272 on atkin, 1284 on laptop)
 
 1203: geodata, torsion agrees, homtest OK
 1204 (301): geodata, torsion agrees, homtest OK
@@ -1256,16 +1257,16 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 
 1252 (313): geodata, torsion agrees, homtest OK
 1255: geodata, torsion agrees, homtest OK
-1256 (314): geodata...
+1256 (314): geodata (atkin running > 12 days)...
 1259: geodata, torsion agrees, homtest OK
 1263: geodata, torsion agrees, homtest OK
 1267: geodata, torsion agrees, homtest OK
 1268 (317): geodata, torsion agrees, homtest OK
 1271: geodata, torsion agrees, homtest OK
-1272 (318): geodata...
+1272 (318): geodata (atkin running > 8 days)...
 1279: geodata, torsion agrees, homtest OK
 1283: geodata, torsion agrees, homtest OK
-1284 (321): (laptop) geodata...
+1284 (321): (laptop running ~5 days) geodata...
 1288 (322): geodata, GL2 torsion 2^30 * 4 * 8^2 * 16 not 2^30 * 4^2 * 8^2
      homtest OK
 1291: geodata, torsion agrees, homtest OK
@@ -1275,7 +1276,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 
 1300-1400: 1/329 done
 
-1303: (laptop) geodata, torsion agrees, homtest OK
+1303: geodata, torsion agrees, homtest OK
 1304 (326):
 1307:
 1311:
