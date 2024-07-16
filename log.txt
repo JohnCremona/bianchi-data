@@ -859,7 +859,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      16-100 (fermat) done, 5 more newforms
 724 (181): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 23 more newforms
 727: geodata done, GL2 torsion 2^22 * 148^2 not 2^22 * 74^2
                    SL2 torsion 74^2         not 37^2
      1-15 done, 0 newforms, committed and pushed.
@@ -872,10 +872,10 @@ d700 = [-D if D%2 else -D//4 for D in D700]
                    SL2 torsion 2 * 8^2         not 8^2
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 24 more newforms
 739: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 2 more newforms
 740 (185): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 (fermat)...
@@ -884,11 +884,13 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      16-100 (fermat)...
 744 (186): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 48 more newforms
 751: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
+     16-100 (fermat)...
 755: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
+     16-100 (fermat)...
 759: geodata done, torsion agrees
      1-15 done, 24 newforms, committed and pushed.
      All 24 curves found, processed (52 curves), committed and pushed.
@@ -1108,7 +1110,7 @@ for (D,d) in zip(D1000,d1000):
 
 echo $d -1 $N1 $N2 | ./nflist_loop
 
-1000-1100: 30/31 done (1076 issues)
+1000-1100: done
 
 1003: geodata done, GL2 torsion 2^36*6*12 not 2^36*6^2
                     SL2 torsion 3*6 not 3^2
@@ -1168,8 +1170,9 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1067: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 12 newforms
 
-*1076 (269): geodata (has a new polyhedron, fixed code) rerunning on lovelace...
-
+1076 (269): geodata done, GL2 torsion 2^12 * 4^4 * 148 * 296 not 2^12 * 4^4 * 148^2
+                          SL2 torsion 2^4 * 74 * 148 not 2^4 * 74^2
+      homtest OK
 1079: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
@@ -1191,7 +1194,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1099: geodata (laptop), torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
-1100-1200 running lehner parallel*4: 25/28 done (1140,1160,1172 running lehner)
+1100-1200 running lehner parallel*4: 27/28 done (1172 running lehner)
 
 1103: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
@@ -1208,27 +1211,28 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1131: geodata, torsion agrees, homtest OK
 1135: geodata, torsion agrees, homtest OK
 1139: geodata, torsion agrees, homtest OK
-1140 (285): geodata (lehner running) (lovelace running)...
+1140 (285): geodata (lovelace running) torsion OK
 1144 (286): geodata, torsion agrees, homtest OK
 1147: geodata, torsion agrees, homtest OK
 1151: geodata, torsion agrees, homtest OK
 1155: geodata, torsion agrees, homtest OK
 1159: geodata, torsion agrees, homtest OK
-1160 (290): geodata (lehner running)...
+1160 (290): geodata, torsion agrees, homtest OK
 1163: geodata, torsion agrees, homtest OK
 1167: geodata, torsion agrees, homtest OK
 1171: geodata, GL2 torsion 2^39 * 4 * 28^2 not 2^40 * 28^2
                SL2 torsion 2 * 14^2 not 14^2
       homtest OK
-1172 (293): geodata (lehner running)...
+*1172 (293): geodata (lehner rerunning)...
 1187: geodata, torsion agrees, homtest OK
 1191: geodata, GL2 torsion 2^22 * 1162 * 2342 not 2^22 * 1162^2
                SL2 torsion 2 * 9296^2 not 9296^2
+      homtest OK
 1192 (298): geodata, torsion agrees, homtest OK
 1195: geodata, torsion agrees, homtest OK
 1199: geodata, torsion agrees, homtest OK
 
-1200-1300 29/32 done (1256, 1272 on atkin, 1284 on laptop)
+1200-1300 30/32 done (1256 on atkin, 1284 on lovelace)
 
 1203: geodata, torsion agrees, homtest OK
 1204 (301): geodata, torsion agrees, homtest OK
@@ -1261,16 +1265,16 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 
 1252 (313): geodata, torsion agrees, homtest OK
 1255: geodata, torsion agrees, homtest OK
-1256 (314): geodata (atkin running > 12 days)...
+*1256 (314): geodata (atkin running > 12 days)...
 1259: geodata, torsion agrees, homtest OK
 1263: geodata, torsion agrees, homtest OK
 1267: geodata, torsion agrees, homtest OK
 1268 (317): geodata, torsion agrees, homtest OK
 1271: geodata, torsion agrees, homtest OK
-1272 (318): geodata (atkin running > 8 days)...
+1272 (318): geodata, torsion agrees, homtest OK
 1279: geodata, torsion agrees, homtest OK
 1283: geodata, torsion agrees, homtest OK
-1284 (321): (laptop running ~5 days) geodata...
+*1284 (321):  geodata (running lovelace)...
 1288 (322): geodata, GL2 torsion 2^30 * 4 * 8^2 * 16 not 2^30 * 4^2 * 8^2
      homtest OK
 1291: geodata, torsion agrees, homtest OK
