@@ -772,7 +772,7 @@ d600 = [-D if D%2 else -D//4 for D in D600]
      1-100 done, 11 newforms, committed and pushed.
      Curve search finds all 11, processing (28 curves), committed and pushed
 
-========== Newforms and curve search to 100 done to here ===========================================
+========== Newforms, curve search and processing to 100 done to here ===========================================
 
 D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
 '703 707 708 712 715 719 723 724 727 728 731 739 740 743 744 751 755 759 760 763 767 771 772 776 779 787 788 791 795 799'
@@ -829,7 +829,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      16-100 (fermat) done, 2 more newforms
 740 (185): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 73 more newforms
 743: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 (fermat)...
@@ -1183,7 +1183,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1195: geodata, torsion agrees, homtest OK
 1199: geodata, torsion agrees, homtest OK
 
-1200-1300 30/32 done (1256 on atkin, 1284 on lovelace)
+1200-1300 31/32 done (1284 on lovelace)
 
 1203: geodata, torsion agrees, homtest OK
 
@@ -1224,7 +1224,7 @@ sage: ddstr
 
 1252 (313): geodata, torsion agrees, homtest OK
 1255: geodata, torsion agrees, homtest OK
-*1256 (314): geodata (atkin running > 12 days)...
+1256 (314): geodata, torsion agrees, homtest OK
 1259: geodata, torsion agrees, homtest OK
 1263: geodata, torsion agrees, homtest OK
 1267: geodata, torsion agrees, homtest OK
