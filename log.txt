@@ -783,7 +783,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 
 703: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 32 more newforms
 707: geodata done, torsion agrees
      1-15 done, 6 newforms, committed and pushed.
      All 6 curves found, processed (16 curves), committed and pushed.
@@ -800,7 +800,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (12 curves), committed and pushed.
      16-100 (fermat) done, 32 more newforms
-719: geodata done, torsion agrees
+*719: geodata done, torsion agrees
      1-15 done, 6 newforms, committed and pushed.
      All 6 curves found, processed (8 curves), committed and pushed.
      16-100 (fermat) done, 5 more newforms
@@ -818,7 +818,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 728 (182): geodata done, torsion agrees
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (24 curves), committed and pushed.
-     16-100 (fermat)...
+     16-100 (fermat) done, 53 more newforms
 731: geodata done, GL2 torsion 2^17 * 4 * 16^2 not 2^18 * 16^2
                    SL2 torsion 2 * 8^2         not 8^2
      1-15 done, 4 newforms, committed and pushed.
@@ -830,7 +830,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 740 (185): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 (fermat) done, 73 more newforms
-743: geodata done, torsion agrees
+*743: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 (fermat)...
 744 (186): geodata done, torsion agrees
@@ -839,29 +839,37 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 751: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 (fermat)...
+     16-100 (fermat) done, 16 more newforms
 755: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (fermat)...
-759: geodata done, torsion agrees
+     16-100 (fermat) done, 14 more newforms
+*759: geodata done, torsion agrees
      1-15 done, 24 newforms, committed and pushed.
      All 24 curves found, processed (52 curves), committed and pushed.
+     16-100 (fermat)...
 760 (190): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
+     16-100 (fermat) done, 48 more newforms
 763: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
-767: geodata done, torsion agrees
+     16-100 (fermat) done, 9 more newforms
+*767: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
+     16-100 (fermat)...
 771: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
+     16-100 (fermat) done, 9 more newforms
 772 (193): geodata done, torsion agrees
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (6 curves), committed and pushed.
-776 (194): geodata done, GL2 2^8 * 4^7 not 2^9 * 4^6
+     16-100 (fermat) done, 15 more newforms
+*776 (194): geodata done, GL2 2^8 * 4^7 not 2^9 * 4^6
                          SL2 2^7       not 2^6
      1-15 done, 2 newforms, committed and pushed.
      0/2 curves found:
      9.1-a, 9.3-a "no curves have the specified traces"
-779: geodata done, torsion agrees
+     16-100 (fermat)...
+*779: geodata done, torsion agrees
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
 787: geodata done, torsion agrees
@@ -885,59 +893,75 @@ D800=[D for D in srange(-800,-900,-1) if D.is_fundamental_discriminant()]
 d800 = [-D if D%2 else -D//4 for D in D800]
 '803 201 807 202 811 815 205 823 206 827 831 835 209 839 210 843 851 213 214 859 863 217 871 218 879 883 221 887 222 895 899'
 
+makenf_loop from 16 to 100 running on atkin *8...
+
 803: geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (6 curves), committed and pushed.
+     16-100 (atkin) done, 10 newforms
 804 (201): geodata done, torsion agrees
      1-15 (fermat) done, 18 newforms, committed and pushed.
      All 18 curves found, processed (24 curves), committed and pushed.
-807: geodata done, torsion agrees
+     16-100 (atkin) done, 50 newforms
+*807: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (atkin) ...
 808 (202): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (atkin) done, 10 newforms
 811: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-
-815: geodata done, torsion agrees
+     16-100 (atkin) done, 0 newforms
+*815: geodata done, torsion agrees
      1-15 (fermat) done, 10 newforms, committed and pushed.
      All 10 curves found, committed and pushed.
      9.1-b is self-twist, CM by -163.
      Finding its isogeny class is slow, needs tweaked Sage
-
+     16-100 (atkin) ...
 820 (205): geodata done, GL2 torsion 2^23 * 4^2 * 8^2 not 2^25 * 8^2
                          SL2 torsion 2^2 * 4^2        not 4^2
      1-15 (fermat) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (16 curves), committed and pushed.
+     16-100 (atkin) done, 70 newforms
 823: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-824 (206): geodata done, torsion agrees
+     16-100 (atkin) done, 12 newforms
+*824 (206): geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (8 curves), committed and pushed.
 827: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-831: geodata done, torsion agrees
+     16-100 (atkin) done, 2 newforms
+*831: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (atkin) ...
 835: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (atkin) done, 10 newforms
 836 (209): geodata done, torsion agrees
      1-15 (fermat) done, 12 newforms, committed and pushed.
      All 12 curves found, processed (28 curves), committed and pushed.
-839: geodata done, GL2 2^18 * 4 not 2^19
+     16-100 (atkin) done, 62 newforms
+*839: geodata done, GL2 2^18 * 4 not 2^19
                    SL2 2 not 1
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (atkin) ...
 840 (210): geodata done, torsion agrees
      1-15 (fermat) done, 16 newforms, committed and pushed.
      All 16 curves found, processed (116 curves), committed and pushed.
+     16-100 (atkin) done, 137 newforms
 843: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (atkin) done, 11 newforms
 851: geodata done, torsion agrees
      1-15 (fermat) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
-852 (213): geodata done, torsion agrees
+     16-100 (atkin) done, 34 newforms
+*852 (213): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-856 (214): geodata done, torsion agrees
+*856 (214): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-859: geodata done, torsion agrees
+*859: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
 863: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
@@ -972,35 +996,41 @@ D900=[D for D in srange(-900,-1000,-1) if D.is_fundamental_discriminant()]
 d900 = [-D if D%2 else -D//4 for D in D900]
 '903 226 907 911 915 229 919 230 923 233 935 939 943 947 237 951 238 955 959 241 967 971 979 983 246 987 991 995 249'
 
-903: geodata done, torsion agrees
+makenf_loop from 16 to 100 running on lehner *8...
+
+*903: geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (8 curves), committed and pushed.
 904 (226): geodata done, GL2 torsion 2^17 * 4^9 * 12 * 24 not 2^20 * 4^6 * 12^2
                          SL2 torsion 2^9 * 6 * 12         not 2^6 * 6^2
      1-15 (fermat) done, 0 newforms, committed and pushed.
+     16-100 (lehner) done, 38 newforms
 907: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-911: geodata done, torsion agrees
+     16-100 (lehner) done, 62 newforms
+*911: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
 915: geodata done, torsion agrees
      1-15 (fermat) done, 24 newforms, committed and pushed.
      All 24 curves found, processed (60 curves), committed and pushed.
+     16-100 (lehner) done, 61 newforms
 916 (229): geodata done, GL2 torsion 2^19 * 4^3 * 8^2 not 2^20 * 4^4
                          SL2 torsion 2^3 * 4^4        not 2^4 * 4^2
      1-15 (fermat) done, 0 newforms, committed and pushed.
-919: geodata done, torsion agrees
+     16-100 (lehner) done, 27 newforms
+*919: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-920 (230): geodata done, torsion agrees
+*920 (230): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-923: geodata done, torsion agrees
+*923: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-932 (233): geodata done, torsion agrees
+*932 (233): geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-935: geodata done, torsion agrees
+*935: geodata done, torsion agrees
      1-15 (fermat) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (12 curves), committed and pushed.
-939: geodata done, torsion agrees
+*939: geodata done, torsion agrees
      1-15 (fermat) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (6 curves), committed and pushed.
 943: geodata done, torsion agrees
@@ -1120,13 +1150,11 @@ echo $d -1 $N1 $N2 | ./nflist_loop
       makenf done to norm 15, 25 ap, 8 newforms
 1067: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 12 newforms
-
 1076 (269): geodata done, GL2 torsion 2^12 * 4^4 * 148 * 296 not 2^12 * 4^4 * 148^2
                           SL2 torsion 2^4 * 74 * 148 not 2^4 * 74^2
       homtest OK
 1079: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-
 1087: geodata SL2 torsion 6*11418^2 not 3*5709^2
               GL2 torsion 2^38 * 4 * 7612 * 22836 not 2^39 * 3806 * 11418
       homtest OK
@@ -1145,7 +1173,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1099: geodata (laptop), torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
-1100-1200 running lehner parallel*4: 27/28 done (1172 running lehner)
+1100-1200 done
 
 1103: geodata, torsion agrees, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
@@ -1162,7 +1190,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1131: geodata, torsion agrees, homtest OK
 1135: geodata, torsion agrees, homtest OK
 1139: geodata, torsion agrees, homtest OK
-1140 (285): geodata (lovelace running) torsion OK
+1140 (285): geodata, torsion agrees, homtest OK
 1144 (286): geodata, torsion agrees, homtest OK
 1147: geodata, torsion agrees, homtest OK
 1151: geodata, torsion agrees, homtest OK
@@ -1174,7 +1202,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1171: geodata, GL2 torsion 2^39 * 4 * 28^2 not 2^40 * 28^2
                SL2 torsion 2 * 14^2 not 14^2
       homtest OK
-*1172 (293): geodata (lehner rerunning)...
+1172 (293): geodata, torsion agrees, homtest OK
 1187: geodata, torsion agrees, homtest OK
 1191: geodata, GL2 torsion 2^22 * 1162 * 2342 not 2^22 * 1162^2
                SL2 torsion 2 * 9296^2 not 9296^2
@@ -1183,7 +1211,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1195: geodata, torsion agrees, homtest OK
 1199: geodata, torsion agrees, homtest OK
 
-1200-1300 31/32 done (1284 on lovelace)
+1200-1300 done
 
 1203: geodata, torsion agrees, homtest OK
 
@@ -1222,107 +1250,116 @@ sage: ddstr
 
 ============= below this point Gunnells-Yasaki only have GL2 results ============================
 
-1252 (313): geodata, torsion agrees, homtest OK
-1255: geodata, torsion agrees, homtest OK
-1256 (314): geodata, torsion agrees, homtest OK
-1259: geodata, torsion agrees, homtest OK
-1263: geodata, torsion agrees, homtest OK
-1267: geodata, torsion agrees, homtest OK
-1268 (317): geodata, torsion agrees, homtest OK
-1271: geodata, torsion agrees, homtest OK
-1272 (318): geodata, torsion agrees, homtest OK
-1279: geodata, torsion agrees, homtest OK
-1283: geodata, torsion agrees, homtest OK
-*1284 (321):  geodata (running lovelace)...
+1252 (313): geodata, GL2 torsion agrees, homtest OK
+1255: geodata, GL2 torsion agrees, homtest OK
+1256 (314): geodata, GL2 torsion agrees, homtest OK
+1259: geodata, GL2 torsion agrees, homtest OK
+1263: geodata, GL2 torsion agrees, homtest OK
+1267: geodata, GL2 torsion agrees, homtest OK
+1268 (317): geodata, GL2 torsion agrees, homtest OK
+1271: geodata, GL2 torsion agrees, homtest OK
+1272 (318): geodata, GL2 torsion agrees, homtest OK
+1279: geodata, GL2 torsion agrees, homtest OK
+1283: geodata, GL2 torsion agrees, homtest OK
+1284 (321):  geodata, GL2 torsion 2^9 * 4^4 * 12^2 not 2^11 * 4^2 * 12^2
+     homtest OK
 1288 (322): geodata, GL2 torsion 2^30 * 4 * 8^2 * 16 not 2^30 * 4^2 * 8^2
      homtest OK
-1291: geodata, torsion agrees, homtest OK
-1295: geodata, torsion agrees, homtest OK
+1291: geodata, GL2 torsion agrees, homtest OK
+1295: geodata, GL2 torsion agrees, homtest OK
 1299: geodata, GL2 torsion 2^26 * 4^3 * 8^2 not 2^27 * 4^2 * 8^2
       homtest OK
 
-1300-1400: 1/329 done
+1300-1330: 3/9 done
 
-1303: geodata, torsion agrees, homtest OK
-1304 (326):
-1307:
-1311:
-1315:
-1316 (329):
-1319:
-1320 (330):
+1303: geodata, GL2 torsion agrees, homtest OK
+1304 (326): geodata (laptop)...
+1307: geodata, GL2 torsion agrees, homtest OK
+1311: geodata (laptop)...
+1315: geodata, GL2 torsion agrees, homtest OK
+1316 (329): geodata (laptop)...
+1319: geodata, GL2 torsion agrees
+1320 (330): geodata (laptop)...
 1327:
-1335:
-1336 (334):
-1339:
-1343:
-1347:
-1348 (337):
-1351:
-1355:
-1363:
-1364 (341):
-1367:
-1371:
-1379:
-1380 (345):
-1383:
-1384 (346):
-1387:
-1391:
-1396 (349):
-1399:
 
-1403:
-1407:
-1411:
+1330-1400: running on lovelace*20 - done 17/20
+
+1335: geodata, GL2 torsion agrees
+1336 (334): geodata, GL2 torsion agrees
+1339: geodata, GL2 torsion 2^47 * 4 * 8^2 * 152^2 * 2004 not 2^48 * 8^2 * 152^2
+1343: geodata, GL2 torsion agrees
+1347: geodata, GL2 torsion agrees
+1348 (337): geodata, GL2 torsion agrees
+1351: geodata, GL2 torsion 2^35 * 31766 * 63532 not 2^35 * 31766^2
+1355: geodata, GL2 torsion agrees
+1363: geodata, GL2 torsion agrees
+1364 (341):
+1367: geodata, GL2 torsion 2^47 * 11964418 * 23928836 not 2^47 * 11964418^2
+1371: geodata, GL2 torsion 2^25 * 12 * 24 not 2^25 * 12^2
+1379: geodata, GL2 torsion agrees
+1380 (345):
+1383: geodata, GL2 torsion agrees
+1384 (346): geodata, GL2 torsion 2^30 * 4^11 * 8 * 248^2 not 2^30 * 4^12 * 124^2
+1387: geodata, GL2 torsion 2^49 * 6 * 1001 * 2004 not 2^49 * 6 * 1001^2
+1391: geodata, GL2 torsion agrees
+1396 (349):
+1399: geodata, GL2 torsion agrees
+
+1400-1500: running on lovelace*20 - done 23/32
+
+1403: geodata, GL2 torsion agrees
+1407: geodata, GL2 torsion agrees
+1411: geodata, GL2 torsion 2^55 * 4 * 1376^2 not 2^56 * 1376^2
 1412 (353):
-1415:
+1415: geodata, GL2 torsion agrees
 1416 (354):
-1419:
-1423:
-1427:
+1419: geodata, GL2 torsion agrees
+1423: geodata, GL2 torsion agrees
+1427: geodata, GL2 torsion agrees
 1428 (357):
-1432 (358):
-1435:
-1439:
-1443:
-1447:
+1432 (358): geodata, GL2 torsion agrees
+1435: geodata, GL2 torsion agrees
+1439: geodata, GL2 torsion agrees
+1443: geodata, GL2 torsion 2^35 * 4 not 2^36
+1447: geodata, GL2 torsion agrees
 1448 (362):
-1451:
-1455:
-1459:
+1451: geodata, GL2 torsion agrees
+1455: geodata, GL2 torsion agrees
+1459: geodata, GL2 torsion agrees
 1460 (365):
-1463:
+1463: geodata, GL2 torsion agrees
 1464 (366):
-1471:
-1479:
+1471: geodata, GL2 torsion agrees
+1479: geodata, GL2 torsion agrees
 1480 (370):
-1483:
-1487:
-1491:
+1483: geodata, GL2 torsion agrees
+1487: geodata, GL2 torsion agrees
+1491: geodata, GL2 torsion agrees
 1492 (373):
-1495:
+1495: geodata, GL2 torsion 2^58 * 4^6 * 16^2 * 240^2 not 2^60 * 4^4 * 16^2 * 240^2
 1496 (374):
-1499:
-1507:
+1499: geodata, GL2 torsion agrees
+
+1500-1600: running on lovelace*20 - done 11/31
+
+1507: geodata, GL2 torsion agrees
 1508 (377):
-1511:
-1515:
-1523:
+1511: geodata, GL2 torsion agrees (overflow)
+1515: geodata, GL2 torsion agrees
+1523: geodata, GL2 torsion 2^54 * 4 * 183428^2 not 2^55 * 183428^2
 1524 (381):
-1527:
+1527: geodata, GL2 torsion 2^33 * 4 * 3056^2 not 2^34 * 3056^2
 1528 (382):
-1531:
-1535:
+1531: geodata, GL2 torsion agrees
+1535: geodata, GL2 torsion agrees (overflow)
 1540 (385):
-1543:
+1543: geodata, GL2 torsion agrees
 1544 (386):
-1547:
+1547: geodata, GL2 torsion agrees
 1551:
-1555:
+1555: geodata, GL2 torsion agrees
 1556 (389):
-1559:
+1559: geodata, GL2 torsion agrees
 1560 (390):
 1563:
 1567:
@@ -1336,6 +1373,9 @@ sage: ddstr
 1592 (398):
 1595:
 1599:
+
+1600-1700: running on lovelace*20 - done 0/41
+
 1603:
 1604 (401):
 1607:
@@ -1367,6 +1407,7 @@ sage: ddstr
 1691:
 1695:
 1699:
+
 1703:
 1704 (426):
 1707:
