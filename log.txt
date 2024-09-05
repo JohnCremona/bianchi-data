@@ -809,7 +809,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      1-15 done, 6 newforms, committed and pushed.
      All 6 curves found, processed (8 curves), committed and pushed.
      16-60 done
-     61-100 running galois, reached 78.3
+     61-100 running galois, reached 80.5
 723: geodata done, torsion agrees
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
@@ -840,7 +840,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      1-15 done, 0 newforms, committed and pushed.
      16-72.4 done
      72.5 (&72.6) crashed on fermat and galois
-     73-100 running galois...reached 94.2
+     73-100 running galois...reached 96.4
 744 (186): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 48 more newforms
@@ -854,7 +854,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      1-15 done, 24 newforms, committed and pushed.
      All 24 curves found, processed (52 curves), committed and pushed.
      16-60 done
-     61-100 running galois, reached 90.1
+     61-100 running galois, reached 96.2
 760 (190): geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 48 more newforms
@@ -864,7 +864,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 *767: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-72.2 (fermat)...reached 72.2 then stopped
-     72.4-100 running galois, reached 83.1...
+     72.4-100 running galois, reached 93.1
 771: geodata done, torsion agrees
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 9 more newforms
@@ -878,7 +878,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      0/2 curves found:
      9.1-a, 9.3-a "no curves have the specified traces"
      16-100 (fermat)...reached 90.2 then stopped
-     90-100 (galois) reached 90.3...
+     90-100 (galois) reached 99.2
 779: geodata done, torsion agrees
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
@@ -893,7 +893,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 *791: geodata done, torsion agrees
      1-15 (laptop) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
-     16-100 (fermat)...reached 63.2
+     16-100 (fermat)...reached 66.2
 795: geodata done, torsion agrees
      1-15 (laptop) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (32 curves), committed and pushed.
@@ -935,7 +935,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      All 10 curves found, committed and pushed.
      9.1-b is self-twist, CM by -163.
      Finding its isogeny class is slow, needs tweaked Sage
-     16-100 (atkin) ...reached 72.4
+     16-100 (atkin) ...reached 72.5
 820 (205): geodata done, GL2 torsion 2^23 * 4^2 * 8^2 not 2^25 * 8^2
                          SL2 torsion 2^2 * 4^2        not 4^2
      1-15 (fermat) done, 8 newforms, committed and pushed.
@@ -944,16 +944,16 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 823: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (atkin) done, 12 newforms
-*824 (206): geodata done, torsion agrees
+824 (206): geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (8 curves), committed and pushed.
-     16-100 (atkin) ...reached 100.1
+     16-100 (atkin) done, 32 newforms
 827: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (atkin) done, 2 newforms
 *831: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 72.2
+     16-100 (atkin) ... reached 76.1
 835: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (atkin) done, 10 newforms
@@ -964,7 +964,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 *839: geodata done, GL2 2^18 * 4 not 2^19
                    SL2 2 not 1
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 70.1
+     16-100 (atkin) ... reached 70.4
 840 (210): geodata done, torsion agrees
      1-15 (fermat) done, 16 newforms, committed and pushed.
      All 16 curves found, processed (116 curves), committed and pushed.
@@ -987,7 +987,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 (atkin) done, 2 newforms
 *863: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 72.4
+     16-100 (atkin) ... stopped doing 72.4
 868 (217): geodata done, torsion agrees
      1-15 (fermat) done, 12 newforms, committed and pushed.
      All 12 curves found, processed (32 curves), committed and pushed.
@@ -1000,7 +1000,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 (atkin) done, 16 newforms
 *879: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 64.3
+     16-100 (atkin) ... reached 66.2
 883: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (atkin) done, 2 newforms
@@ -1011,18 +1011,18 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 (atkin) done, 78 newforms
 *887: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 52.3
+     16-100 (atkin) ... reached 54.3
 888 (222): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (atkin) done, 46 newforms
 *895: geodata done, GL2 torsion 2^30 * 4 * 8^6 not 2^31 * 8^6
                    SL2 torsion 2 * 4^6        not 4^6
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 64.3
+     16-100 (atkin) ... reached 80.1
 899: geodata done, GL2 torsion 2^20 * 6^3 * 12 not 2^20 * 6^4
                    SL2 torsion 3^3 * 6         not 3^4
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... not started
+     16-100 (atkin) ... reached 77.1
 
 D900=[D for D in srange(-900,-1000,-1) if D.is_fundamental_discriminant()]
 '903 904 907 911 915 916 919 920 923 932 935 939 943 947 948 951 952 955 959 964 967 971 979 983 984 987 991 995 996'
@@ -1046,7 +1046,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      16-100 (lehner) done, 62 newforms
 *911: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 60.5
+     16-100 (lehner) reached 60.6
 915: geodata done, torsion agrees
      1-15 (fermat) done, 24 newforms, committed and pushed.
      All 24 curves found, processed (60 curves), committed and pushed.
@@ -1057,7 +1057,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      16-100 (lehner) done, 27 newforms
 *919: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 88.1
+     16-100 (lehner) reached 100.1
 920 (230): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (lehner) reached 89, stopped on 90.1
@@ -1088,7 +1088,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      16-100 (lehner) done, 50 newforms
 *951: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 60.1
+     16-100 (lehner) reached 60.2
 952 (238): geodata done, torsion agrees
      1-15 (fermat) done, 8 newforms, committed and pushed.
      9.1-a/b/c/d: no curve has specified traces
@@ -1101,7 +1101,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
                    SL2 torsion 3^2 * 9 * 18^2 * 36  not 3^2 * 9^2 * 18 * 36
      1-15 (fermat) done, 8 newforms, committed and pushed.
      All 8 curves found, processed (12 curves), committed and pushed.
-     16-100 (lehner) reached 44.2
+     16-100 (lehner) reached 48.2
 964 (241): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-100 (lehner) done, 23 newforms
@@ -1111,24 +1111,25 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 *971: geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     16-100 (lehner) reached 84.1
+     16-100 (lehner) reached 95.1
 979: geodata done, torsion agrees
      1-15 (fermat) done, 6 newforms, committed and pushed.
      All 6 curves found, processed (10 curves), committed and pushed.
      16-100 (lehner) done, 20 newforms
 *983: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 28.1
+     16-100 (lehner) reached 36.5
 *984 (246): geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 45.1
-*987: geodata done, torsion agrees
+     16-100 (lehner) reached 85.2
+987: geodata done, torsion agrees
      1-15 (fermat) done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
-     16-100 (lehner) reached 36.1
-991: geodata done, torsion agrees
+     16-100 (lehner) done, 32 newforms
+*991: geodata done, torsion agrees
      1-15 (fermat) done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
+     16-100 (lehner) reached 52.1
 995: geodata done, torsion agrees
      1-15 (fermat) done, 0 newforms, committed and pushed.
 996 (249): geodata done, torsion agrees
@@ -1526,7 +1527,7 @@ sage: ddstr
 1895: geodata, GL2 torsion agrees, homtest OK
 1896 (474): geodata, GL2 torsion agrees, homtest OK
 
-1900-2000: geodata done, homtest OK except 2 running (494, 497)
+1900-2000: geodata done, homtest OK except 1 running (494)
 
 1903: geodata, GL2 torsion agrees, homtest OK
 1907: geodata, GL2 torsion 2^59 * 6^5 * 12 * 8165052^2 not 2^59 * 6^6 * 8165052^2, homtest OK
@@ -1549,18 +1550,18 @@ sage: ddstr
 1963: geodata, GL2 torsion agrees, homtest OK
 1967: geodata, GL2 torsion agrees, homtest OK
 1972 (493): geodata, GL2 torsion agrees, homtest OK
-*1976 (494): running
+1976 (494): geodata, GL2 torsion agrees
 1979: geodata, GL2 torsion agrees, homtest OK
 1983: geodata, GL2 torsion agrees, homtest OK
 1987: geodata, GL2 torsion 2^74 * 880916 * 1761832 not 2^74 * 880916^2, homtest OK
-*1988 (497): running
+1988 (497): geodata done, GL2 torsion agrees, homtest OK
 1991: geodata, GL2 torsion agrees, homtest OK
 1992 (498): geodata, GL2 torsion agrees, homtest OK
 1995: geodata, GL2 torsion agrees, homtest OK
 1999: geodata, GL2 torsion agrees, homtest OK
 ​
-2000-2100: geodata  22/30 geodata done, homtest OK
-                    6/30 running lovelace (506, 509, 510, 514, 518, 521)
+2000-2100: geodata  27/30 geodata done, homtest OK
+                    3/30 running lovelace (506, 509, 521)
 
 2003: geodata, GL2 torsion agrees, homtest OK
 2004 (501): geodata, GL2 torsion agrees, homtest OK
@@ -1574,20 +1575,18 @@ sage: ddstr
 2031: geodata, GL2 torsion 2^34 * 36^2 * 491290416^2 not 2^34 * 18^2 * 491290416^2, homtest OK
 2035: geodata, GL2 torsion 2^85 * 4 not 2^86, homtest OK
 *2036 (509): running
-
 2039: geodata, GL2 torsion agrees, homtest OK
-*2040 (510): running
+2040 (510): geodata, GL2 torsion agrees, homtest OK
 2047: geodata, GL2 torsion agrees, homtest OK
 2051: geodata, GL2 torsion agrees, homtest OK
 2055: geodata, GL2 torsion 2^42 * 4^12 * 869876^2 not 2^44 * 4^10 * 869876^2, homtest OK
-*2056 (514): running
+2056 (514): geodata, GL2 torsion 2^42 * 4^15*8^7*162496^2 not 2^44 *4^14*8^6*162496^2, homtest OK
 2059: geodata, GL2 torsion agrees, homtest OK
-
 2063: geodata, GL2 torsion agrees, homtest OK
 2067: geodata, GL2 torsion agrees, homtest OK
 2068 (517): geodata, GL2 torsion agrees, homtest OK
 2071: geodata, GL2 torsion agrees, homtest OK
-*2072 (518): running
+2072 (518): geodata, GL2 torsion agrees, homtest OK
 2083: geodata, GL2 torsion agrees, homtest OK
 *2084 (521): running
 2087: geodata, GL2 torsion agrees, homtest OK
@@ -1597,10 +1596,10 @@ sage: ddstr
 
 Up to 2100: 8 fields not yet complete
 
-- geodata done & homtest OK & int hom done except 494, 497, 506, 509, 510, 514, 518, 521
-- geodata running (8): 494 497 506 509 510 514 518 521
+- geodata done & homtest OK & int hom done except 494, 506, 509, 521
+- geodata running (4): 494 506 509 521
 
-2103: geodata running lovelace
+2103: geodata done, homtest OK
 
 To complete the 25 fields of class number 5:
 
