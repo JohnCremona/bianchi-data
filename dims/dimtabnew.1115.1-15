@@ -1,0 +1,17 @@
+# Table of dimensions of weight 2 Bianchi cuspidal forms and newforms for GL2 over Q(sqrt(-1115))
+# (with trivial character)
+# Field	Weight	Level	dim(cuspidal)	dim(cuspidal, new)
+	1115	2	1.1		0		0
+	1115	2	3.1		0		0
+	1115	2	3.2		0		0
+	1115	2	4.1		0		0
+	1115	2	5.1		0		0
+	1115	2	9.1		45		45
+	1115	2	9.2		0		0
+	1115	2	9.3		45		45
+	1115	2	12.1		0		0
+	1115	2	12.2		0		0
+	1115	2	13.1		0		0
+	1115	2	13.2		0		0
+	1115	2	15.1		0		0
+	1115	2	15.2		0		0
