@@ -803,7 +803,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      1-15 done, 6 newforms, committed and pushed.
      All 6 curves found, processed (8 curves), committed and pushed.
      16-60 done
-     61-100 running galois, reached 90.1
+     61-100 running galois, reached 90.3
 723: geodata done
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
@@ -831,9 +831,8 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 *743: geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-72.4 done
-     72.5 (&72.6) crashed on fermat and galois
-     73-100 running galois...reached 96.3 but 96.4 crashed
-     96.4-100 running lovelace, reached 100.2
+     72.5/6 crashed on fermat and galois, running lovelace
+     73-100 running done
 744 (186): geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 48 more newforms
@@ -855,9 +854,8 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      16-100 done, 9 more newforms
 *767: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-72.2 (fermat)...reached 72.2 then stopped
-     72.4-100 running galois, reached 96.2; 96.3 killed
-     96.3-100 running lovelace, reached 96.5
+     16-96.2 done
+     96.3-100 running lovelace, reached 99.2
 771: geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 9 more newforms
@@ -875,21 +873,21 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      All 2 curves found, processed (4 curves), committed and pushed.
      16-100 done, 10 more newforms
 787: geodata done
-     1-15 (laptop) done, 0 newforms, committed and pushed.
+     1-15 done, 0 newforms, committed and pushed.
      16-100 done, 0 newforms
 788 (197): geodata done
-     1-15 (laptop) done, 0 newforms, committed and pushed.
+     1-15 done, 0 newforms, committed and pushed.
      16-100 done, 11 newforms
 *791: geodata done
-     1-15 (laptop) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
      16-100 (fermat)...reached 72.5
 795: geodata done
-     1-15 (laptop) done, 4 newforms, committed and pushed.
+     1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (32 curves), committed and pushed.
      16-100 done, 21 newforms
 799: geodata done
-     1-15 (laptop) done, 4 newforms, committed and pushed.
+     1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (8 curves), committed and pushed.
      16-100 done, 32 newforms
 
@@ -902,113 +900,112 @@ d800 = [-D if D%2 else -D//4 for D in D800]
         level norms 16-100 done except 831, 839, 879, 887 (atkin), 815, 863 (lovelace)
 
 803: geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (6 curves), committed and pushed.
-     16-100 (atkin) done, 10 newforms
+     16-100 done, 10 newforms
 804 (201): geodata done
-     1-15 (fermat) done, 18 newforms, committed and pushed.
+     1-15 done, 18 newforms, committed and pushed.
      All 18 curves found, processed (24 curves), committed and pushed.
-     16-100 (atkin) done, 50 newforms
+     16-100 done, 50 newforms
 807: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 21 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 21 newforms
 808 (202): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 10 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 10 newforms
 811: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 0 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 0 newforms
 *815: geodata done
-     1-15 (fermat) done, 10 newforms, committed and pushed.
+     1-15 done, 10 newforms, committed and pushed.
      All 10 curves found, committed and pushed.
      9.1-b is self-twist, CM by -163.
      Finding its isogeny class is slow, needs tweaked Sage
-     16-100 (atkin) ...reached 72.4,  stopped on 72.5
-     72-100 (lovelace) reached 72.6
+     16-71 done
+     72-100 (lovelace) reached 78.3
 820 (205): geodata done
-     1-15 (fermat) done, 8 newforms, committed and pushed.
+     1-15 done, 8 newforms, committed and pushed.
      All 8 curves found, processed (16 curves), committed and pushed.
-     16-100 (atkin) done, 70 newforms
+     16-100 done, 70 newforms
 823: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 12 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 12 newforms
 824 (206): geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (8 curves), committed and pushed.
-     16-100 (atkin) done, 32 newforms
+     16-100 done, 32 newforms
 827: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 2 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 2 newforms
 *831: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
+     1-15 done, 0 newforms, committed and pushed.
      16-100 (atkin) ... reached 80.4
 835: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 10 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 10 newforms
 836 (209): geodata done
-     1-15 (fermat) done, 12 newforms, committed and pushed.
+     1-15 done, 12 newforms, committed and pushed.
      All 12 curves found, processed (28 curves), committed and pushed.
-     16-100 (atkin) done, 62 newforms
+     16-100 done, 62 newforms
 *839: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 72.5
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 (atkin) ... reached 72.6
 840 (210): geodata done
-     1-15 (fermat) done, 16 newforms, committed and pushed.
+     1-15 done, 16 newforms, committed and pushed.
      All 16 curves found, processed (116 curves), committed and pushed.
-     16-100 (atkin) done, 137 newforms
+     16-100 done, 137 newforms
 843: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 11 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 11 newforms
 851: geodata done
-     1-15 (fermat) done, 4 newforms, committed and pushed.
+     1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
-     16-100 (atkin) done, 34 newforms
+     16-100 done, 34 newforms
 852 (213): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 22 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 22 newforms
 856 (214): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 8 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 8 newforms
 859: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 2 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 2 newforms
 *863: geodata done
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... stopped doing 72.4
-     72-100 (lovelace) reached 72.5
+     16-71 done
+     72-100 (lovelace) reached 76.1
 868 (217): geodata done
-     1-15 (fermat) done, 12 newforms, committed and pushed.
+     1-15 done, 12 newforms, committed and pushed.
      All 12 curves found, processed (32 curves), committed and pushed.
-     16-100 (atkin) done, 52 newforms
+     16-100 done, 52 newforms
 871: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 34 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 34 newforms
 872 (218): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 16 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 16 newforms
 *879: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 80.3
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 (atkin) ... reached 80.4
 883: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 2 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 2 newforms
 884 (221): geodata done
-     1-15 (fermat) done, 16 newforms, committed and pushed.
+     1-15 done, 16 newforms, committed and pushed.
      All 16 curves found, processed (32 curves), committed and pushed.
-     16-100 (atkin) done, 78 newforms
+     16-100 done, 78 newforms
 *887: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 66.2
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 (atkin) ... reached 66.4
 888 (222): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 46 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 46 newforms
 895: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 42 newforms
-899: geodata done, GL2 torsion 2^20 * 6^3 * 12 not 2^20 * 6^4
-                   SL2 torsion 3^3 * 6         not 3^4
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (atkin) done, 8 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 42 newforms
+899: geodata done
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 8 newforms
 
 D900=[D for D in srange(-900,-1000,-1) if D.is_fundamental_discriminant()]
 '903 904 907 911 915 916 919 920 923 932 935 939 943 947 948 951 952 955 959 964 967 971 979 983 984 987 991 995 996'
@@ -1016,113 +1013,113 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 '903 226 907 911 915 229 919 230 923 233 935 939 943 947 237 951 238 955 959 241 967 971 979 983 246 987 991 995 249'
 
 900-1000 level norms up to 15, with curves
-         level norms 16-100 done except 911, 919, 959, 983, 991, 996 (lehner, paused),
-                                        920 (230), 935, 951 (lovelace)
-
+         level norms 16-100 done except 911, 920 (230), 935, 951, 959, 983, 991, 996 (249) (lovelace)
+                                        919 (atkin)
 903: geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (8 curves), committed and pushed.
-     16-100 (lehner) done, 94 newforms
+     16-100 done, 94 newforms
 904 (226): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 38 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 38 newforms
 907: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 62 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 62 newforms
 *911: geodata done
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 60.6 - paused
+     16-59 done
+     60-100 (lovelace) reached 60.6
 915: geodata done
-     1-15 (fermat) done, 24 newforms, committed and pushed.
+     1-15 done, 24 newforms, committed and pushed.
      All 24 curves found, processed (60 curves), committed and pushed.
-     16-100 (lehner) done, 61 newforms
+     16-100 done, 61 newforms
 916 (229): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 27 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 27 newforms
 *919: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 100.4 - paused
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 (atkin) reached 100.4
 *920 (230): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 89, stopped on 90.1
-     90-100 (lovelace) reached 92.1
+     1-15 done, 0 newforms, committed and pushed.
+     16-89 done
+     90-100 (lovelace) reached 99.2
 923: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 4 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 4 newforms
 932 (233): geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     16-100 (lehner) done, 21 newforms
+     16-100 done, 21 newforms
 *935: geodata done
-     1-15 (fermat) done, 4 newforms, committed and pushed.
+     1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (12 curves), committed and pushed.
-     16-100 (lehner) reached 60.2 then stopped (out of memory)
-     60-100 (lovelace) reached 66.1
+     16-59 done
+     60-100 (lovelace) reached 72.2
 939: geodata done
-     1-15 (fermat) done, 4 newforms, committed and pushed.
+     1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (6 curves), committed and pushed.
-     16-100 (lehner) done, 11 newforms
+     16-100 done, 11 newforms
 943: geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
-     16-100 (lehner) done, 22 newforms
+     16-100 done, 22 newforms
 947: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 2 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 2 newforms
 948 (237): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 50 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 50 newforms
 *951: geodata done
      1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 60.2, crashed on 60.3
-     60-100 (lovelace) reached 64.2
+     16-59 done
+     60-100 (lovelace) reached 68.3
 952 (238): geodata done
-     1-15 (fermat) done, 8 newforms, committed and pushed.
+     1-15 done, 8 newforms, committed and pushed.
      9.1-a/b/c/d: no curve has specified traces
      4/8 curves found, processed (24 curves), committed and pushed.
-     16-100 (lehner) done, 41 newforms
+     16-100 done, 41 newforms
 955: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 14 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 14 newforms
 *959: geodata done
-     1-15 (fermat) done, 8 newforms, committed and pushed.
+     1-15 done, 8 newforms, committed and pushed.
      All 8 curves found, processed (12 curves), committed and pushed.
-     16-100 (lehner) reached 50.1 - paused
+     16-100 (lovelace) reached 54.1
 964 (241): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 23 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 23 newforms
 967: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 4 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 4 newforms
 971: geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     16-100 (lehner) done, 4 newforms
+     16-100 done, 4 newforms
 979: geodata done
-     1-15 (fermat) done, 6 newforms, committed and pushed.
+     1-15 done, 6 newforms, committed and pushed.
      All 6 curves found, processed (10 curves), committed and pushed.
-     16-100 (lehner) done, 20 newforms
+     16-100 done, 20 newforms
 *983: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) reached 48.4 - paused
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 (lovelace) reached 53.1
 984 (246): geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 46 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 46 newforms
 987: geodata done
-     1-15 (fermat) done, 4 newforms, committed and pushed.
+     1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (4 curves), committed and pushed.
-     16-100 (lehner) done, 32 newforms
+     16-100 done, 32 newforms
 *991: geodata done
-     1-15 (fermat) done, 2 newforms, committed and pushed.
+     1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     16-100 (lehner) reached 72.2 - paused
+     16-100 (lovelace) reached 80.1
 995: geodata done
-     1-15 (fermat) done, 0 newforms, committed and pushed.
-     16-100 (lehner) done, 18 newforms
+     1-15 done, 0 newforms, committed and pushed.
+     16-100 done, 18 newforms
 *996 (249): geodata done
-     1-15 (fermat) done, 8 newforms, committed and pushed.
+     1-15 done, 8 newforms, committed and pushed.
      All 8 curves found, processed (8 curves), committed and pushed.
-     16-100 (lehner) reached 88.1 - paused
+     16-100 (lovelace) reached 100.1
 
 =========== curve  finding   done to here (levels to 15)  ========================
 =========== curve processing done to here (levels to 15)  ========================
@@ -1137,7 +1134,7 @@ for (D,d) in zip(D1000,d1000):
 
 echo $d -1 $N1 $N2 | ./nflist_loop
 
-1000-1100: geodata done, homtest OK, newforms 1-15
+1000-1100: geodata done, homtest OK, newforms 1-15 done
 
 1003: geodata done, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
@@ -1198,10 +1195,10 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1095: geodata, homtest OK
 1096 (274): geodata done, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-1099: geodata (laptop), homtest OK
+1099: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
-1100-1200 geodata done, homtest OK, newforms 1-15
+1100-1200 geodata done, homtest OK, newforms 1-15 done
 
 1103: geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
@@ -1260,7 +1257,7 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 1199: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
 
-1200-1300 geodata done, homtest OK, newforms 1-15
+1200-1300 geodata done, homtest OK, newforms 1-15 done
 
 sage: DD = [-D for D in srange(-1204,-2100,-1) if D.is_fundamental_discriminant()]
 sage: dd = [D if D%2 else D//4 for D in DD]
@@ -1334,7 +1331,7 @@ sage: ddstr
 1299: geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms
 
-1300-1400: geodata done, homtest OK, newforms 1-15
+1300-1400: geodata done, homtest OK, newforms 1-15 done
 
 1303: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
@@ -1395,7 +1392,7 @@ sage: ddstr
 1399: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
-1400-1500: geodata done, homtest OK
+1400-1500: geodata done, homtest OK, newforms 1-15 done
 
 1403: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
@@ -1405,129 +1402,128 @@ sage: ddstr
       makenf done to norm 15, 25 ap, 4 newforms
 1412 (353): geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
-
 1415: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1416 (354): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 12 newforms
 1419: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1423: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1427: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1428 (357): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 8 newforms
 1432 (358): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1435: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1439: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1443: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1447: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1448 (362): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
-
+      makenf done to norm 15, 25 ap, 4 newforms
 1451: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1455: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1459: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1460 (365): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1463: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1464 (366): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1471: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1479: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1480 (370): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1483: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1487: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1491: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1492 (373): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1495: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1496 (374): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 6 newforms
 1499: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 
-1500-1600: geodata done, homtest OK
+1500-1600: geodata done, homtest OK, newforms 1-15 done except 1559
 
 1507: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1508 (377): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1511: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1515: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1523: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1524 (381): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1527: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1528 (382): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1531: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1535: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1540 (385): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 16 newforms
 1543: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1544 (386): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 10 newforms
 1547: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 8 newforms
 1551: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 28 newforms
 1555: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1556 (389): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
-1559: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
+*1559: geodata, homtest OK
+      makenf done to 12.2, 25 ap, 2 newforms
+      12.3-15 running laptop
 1560 (390): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 8 newforms
 1563: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1567: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1571: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1572 (393): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 8 newforms
 1576 (394): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1579: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1583: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1588 (397): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1591: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1592 (398): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 6 newforms
 1595: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1599: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 
 1600-1700: geodata done, homtest OK
 
