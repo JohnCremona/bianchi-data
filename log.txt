@@ -800,7 +800,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      1-15 done, 6 newforms, committed and pushed.
      All 6 curves found, processed (8 curves), committed and pushed.
      16-60 done
-     61-100 running galois, reached 90.5
+     61-100 running galois, reached 93.2
 723: geodata done
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
@@ -875,7 +875,7 @@ d700 = [-D if D%2 else -D//4 for D in D700]
 *791: geodata done
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (4 curves), committed and pushed.
-     16-100 (fermat, lovelace)...reached 80.4
+     16-100 (lovelace)...reached 84.3
 795: geodata done
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (32 curves), committed and pushed.
@@ -916,7 +916,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      9.1-b is self-twist, CM by -163.
      Finding its isogeny class is slow, needs tweaked Sage
      16-71 done
-     72-100 (lovelace) reached 84.3
+     72-100 (lovelace) reached 84.6
 820 (205): geodata done
      1-15 done, 8 newforms, committed and pushed.
      All 8 curves found, processed (16 curves), committed and pushed.
@@ -933,7 +933,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 done, 2 newforms
 *831: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 84.2
+     16-100 (atkin) ... reached 84.3
 835: geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 10 newforms
@@ -943,7 +943,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 done, 62 newforms
 *839: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 76.3
+     16-100 (atkin) ... reached 80.3
 840 (210): geodata done
      1-15 done, 16 newforms, committed and pushed.
      All 16 curves found, processed (116 curves), committed and pushed.
@@ -967,7 +967,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 *863: geodata done
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-71 done
-     72-100 (lovelace) reached 96.3
+     72-100 (lovelace) reached 96.4
 868 (217): geodata done
      1-15 done, 12 newforms, committed and pushed.
      All 12 curves found, processed (32 curves), committed and pushed.
@@ -980,7 +980,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 done, 16 newforms
 *879: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 80.5
+     16-100 (atkin) ... reached 86.1
 883: geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 2 newforms
@@ -990,7 +990,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      16-100 done, 78 newforms
 *887: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 72.3
+     16-100 (atkin) ... reached 72.4
 888 (222): geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 46 newforms
@@ -1022,7 +1022,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 *911: geodata done
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-59 done
-     60-100 (lovelace) reached 72.5
+     60-100 (lovelace) reached 72.6
 915: geodata done
      1-15 done, 24 newforms, committed and pushed.
      All 24 curves found, processed (60 curves), committed and pushed.
@@ -1047,7 +1047,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (12 curves), committed and pushed.
      16-59 done
-     60-100 (lovelace) reached 78.3
+     60-100 (lovelace) reached 80.3
 939: geodata done
      1-15 done, 4 newforms, committed and pushed.
      All 4 curves found, processed (6 curves), committed and pushed.
@@ -1065,7 +1065,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 *951: geodata done
      1-15 (fermat) done, 0 newforms, committed and pushed.
      16-59 done
-     60-100 (lovelace) reached 75.2
+     60-100 (lovelace) reached 80.3
 952 (238): geodata done
      1-15 done, 8 newforms, committed and pushed.
      9.1-a/b/c/d: no curve has specified traces
@@ -1077,7 +1077,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 *959: geodata done
      1-15 done, 8 newforms, committed and pushed.
      All 8 curves found, processed (12 curves), committed and pushed.
-     16-100 (lovelace) reached 60.4
+     16-100 (lovelace) reached 60.6
 964 (241): geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 23 newforms
@@ -1094,7 +1094,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      16-100 done, 20 newforms
 *983: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (lovelace) reached 69.1
+     16-100 (lovelace) reached 72.4
 984 (246): geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 46 newforms
@@ -1105,7 +1105,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 *991: geodata done
      1-15 done, 2 newforms, committed and pushed.
      All 2 curves found, processed (2 curves), committed and pushed.
-     16-100 (lovelace) reached 100.2
+     16-100 (lovelace) reached 100.4
 995: geodata done
      1-15 done, 0 newforms, committed and pushed.
      16-100 done, 18 newforms
@@ -1647,7 +1647,9 @@ sage: ddstr
 1799: geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms
 
-1800-1900: geodata done and homtest OK, newforms 1-15 running
+1800-1900: geodata done and homtest OK, newforms 1-15 done except
+                                        1847 (rerun lovelace)
+                                        1895
 
 1803: geodata, homtest OK
       makenf done to norm 15, 25 ap, 6 newforms
@@ -1661,9 +1663,8 @@ sage: ddstr
       makenf done to norm 15, 25 ap, 0 newforms
 1819: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-*1823: geodata, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms
-      crash on 12.3, running lovelace
+1823: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 1828 (457): geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms
 1831: geodata, homtest OK
@@ -1687,95 +1688,101 @@ sage: ddstr
       makenf done to norm 15, 25 ap, 0 newforms
 1855: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-*1860 (465): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+1860 (465): geodata, homtest OK
+      makenf done to norm 15, 25 ap, 16 newforms
 1864 (466): geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms
 1867: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-*1871: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+1871: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 1876 (469): geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
-*1879: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 2 newforms
-*1880 (470): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+1879: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 4 newforms
+1880 (470): geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 1883: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1887: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1891: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1892 (473): geodata, homtest OK
+      makenf done to norm 15, 25 ap, 12 newforms
+*1895: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
-1895: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      12.3 crash
 1896 (474): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 
-1900-2000: geodata done, homtest OK
-
+1900-2000: geodata done, homtest OK, newforms 1-15
+                                     done except 1943,1959,1967,1991 running lovelace
+                                                 1983 running
 1903: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1907: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1912 (478): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1915: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1919: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1923: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1924 (481): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1927: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1928 (482): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1931: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 2 newforms
 1939: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1940 (485): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1943: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
+      crash on 12.3
 1947: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 4 newforms
 1951: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1955: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1956 (489): geodata, homtest OK
+      makenf done to norm 15, 25 ap, 2 newforms
+*1959: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
-1959: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      crash on 12.2
 1963: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
+*1967: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
-1967: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      crash on 12.3
 1972 (493): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1976 (494): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1979: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
-1983: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
+*1983: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
 1987: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1988 (497): geodata done, homtest OK
+      makenf done to norm 15, 25 ap, 4 newforms
+*1991: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
-1991: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      crash on 12.1
 1992 (498): geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 1995: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 8 newforms
 1999: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+      makenf done to norm 15, 25 ap, 0 newforms
 ​
 2000-2100: geodata, homtest OK
 
