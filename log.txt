@@ -102,26 +102,22 @@ odd class numbers >1: d = 23, 31, 47, 59, 71, 79, 83
  -2000 complete, 1384 more newforms, all curves found, processed, uploaded.
  -3000 complete, 1429 more newforms, all curves found, processed, uploaded.
 
-31: 1-5000 complete, 5163 newforms, all curves found, processed,
-uploaded.  reached 5120.19
+31: 1-5000 complete, 5163 newforms, all curves found, processed, uploaded.
+  reached 5120.19
 
-47: 1-1000 complete, 1288 newforms, all curves found, processed,
-uploaded.
+47: 1-1000 complete, 1288 newforms, all curves found, processed, uploaded.
 
-59: 1-1000 complete, 564 newforms, 562/564 curves found, processed,
-uploaded.  1001-1200 complete, 109 newforms.  No curve search yet.
+59: 1-1000 complete, 564 newforms, 562/564 curves found, processed, uploaded.
+  1001-1200 complete, 109 newforms.  No curve search yet.
 
 newform 2.0.59.1-675.5-b has no curve (bc=-1, cm=0)
 newform 2.0.59.1-675.8-b has no curve (bc=-1, cm=0)
 
-71: 1-1000 complete, 1774 newforms, all curves found, processed,
-uploaded.
+71: 1-1000 complete, 1774 newforms, all curves found, processed, uploaded.
 
-79: 1-1000 complete, 802 newforms, all curves found, processed,
-uploaded.
+79: 1-1000 complete, 802 newforms, all curves found, processed, uploaded.
 
-83: 1-1000 complete, 302 newforms, all curves found, processed,
-uploaded.
+83: 1-1000 complete, 302 newforms, all curves found, processed, uploaded.
 
 ===========================================================================
 even class numbers: d = 5, 6, 10, 13, 14, 15, 17, 21, 22, 35, 39, 51,
@@ -965,7 +961,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      All 94 curves 1-100 found, processed (246 curves), committed and pushed.
 *887: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 72.5
+     16-100 (atkin) ... crash on 72.5
 888 (222): geodata done
      1-100 done, 46 newforms, committed and pushed.
      All 46 curves 1-100 found, processed (176 curves), committed and pushed.
@@ -1082,33 +1078,34 @@ level norms 16-100 done except
 
 galois:
 
-719: 96.5 96.6 98.1 98.2 98.3 100.1 100.2 100.3 100.4 100.5
+719: 96.6 98.1 98.2 98.3 100.1 100.2 100.3 100.4 100.5
 
 atkin:
 
-831: 88.2 88.3 88.4 90.1 90.2 91.1 91.2 95.1 95.2 96.1 96.2 96.3 98.1 98.2 98.3 99.1 100.1 100.2 100.3 100.4 100.5
+831: 88.4 90.1 90.2 91.1 91.2 95.1 95.2 96.1 96.2 96.3 98.1 98.2 98.3 99.1 100.1 100.2 100.3 100.4 100.5
 
-839: 80.5 81.1 81.2 81.3 84.1 84.2 84.3 84.4 84.5 84.6 86.1 86.2 90.1 90.2 90.3 90.4 90.5 90.6 92.1 92.2 92.3 94.1 94.2 95.1 95.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 100.1 100.2 100.3 100.4 100.5
+839: 84.1 84.2 84.3 84.4 84.5 84.6 86.1 86.2 90.1 90.2 90.3 90.4 90.5 90.6 92.1 92.2 92.3 94.1 94.2 95.1 95.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 100.1 100.2 100.3 100.4 100.5
 
-879: 88.4 89.1 90.1 90.2 92.1 92.2 92.3 93.1 94.1 94.2 96.1 96.2 96.3 97.1 98.1 99.1 100.1 100.2 100.3 100.4 100.5
+879: 89.1 90.1 90.2 92.1 92.2 92.3 93.1 94.1 94.2 96.1 96.2 96.3 97.1 98.1 99.1 100.1 100.2 100.3 100.4 100.5
 
-887: 72.5 72.6 74.1 74.2 75.1 76.1 76.2 76.3 77.1 77.2 78.1 78.2 78.3 78.4 81.1 81.2 81.3 83.1 84.1 84.2 84.3 84.4 84.5 84.6 86.1 86.2 88.1 88.2 88.3 88.4 91.1 91.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 99.1 99.2 99.3 100.1 100.2
 
 lovelace:
 
-791: 90.4 90.5 90.6 94.1 94.2 95.1 95.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 99.1 99.2 99.3 100.1 100.2 100.3 100.4 100.5
+791: 96.2 96.3 96.4 96.5 96.6 98.1 99.1 99.2 99.3 100.1 100.2 100.3 100.4 100.5
 
-815: 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 100.1 100.2
+815: 96.3 96.4 96.5 96.6 98.1 98.2 98.3 100.1 100.2
 
-911: 80.5 81.1 81.2 81.3 82.1 82.2 86.1 86.2 89.1 90.1 90.2 90.3 90.4 90.5 90.6 92.1 92.2 92.3 93.1 93.2 95.1 95.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 100.1 100.2 100.3 100.4 100.5
+887: 72.5 72.6 74.1 74.2 75.1 76.1 76.2 76.3 77.1 77.2 78.1 78.2 78.3 78.4 81.1 81.2 81.3 83.1 84.1 84.2 84.3 84.4 84.5 84.6 86.1 86.2 88.1 88.2 88.3 88.4 91.1 91.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 99.1 99.2 99.3 100.1 100.2
 
-935: 90.2 90.3 92.1 92.2 92.3 96.1 96.2 96.3 96.4 96.5 96.6 97.1 98.1 99.1 99.2 100.1 100.2
+911: 89.1 90.1 90.2 90.3 90.4 90.5 90.6 92.1 92.2 92.3 93.1 93.2 95.1 95.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 100.1 100.2 100.3 100.4 100.5
+
+935: 90.3 92.1 92.2 92.3 96.1 96.2 96.3 96.4 96.5 96.6 97.1 98.1 99.1 99.2 100.1 100.2
 
 951: 84.3 85.1 85.2 86.1 86.2 87.1 90.1 90.2 93.1 94.1 94.2 96.1 96.2 96.3 98.1 98.2 98.3 100.1 100.2 100.3 100.4 100.5
 
-959: 72.4 72.5 72.6 74.1 74.2 75.1 75.2 75.3 77.1 78.1 78.2 78.3 78.4 80.1 80.2 80.3 80.4 80.5 81.1 81.2 81.3 82.1 82.2 83.1 84.1 84.2 84.3 88.1 88.2 88.3 88.4 89.1 90.1 90.2 90.3 90.4 90.5 90.6 91.1 93.1 93.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 97.1 98.1 99.1 99.2 99.3 100.1 100.2 100.3 100.4 100.5
+959: 72.5 72.6 74.1 74.2 75.1 75.2 75.3 77.1 78.1 78.2 78.3 78.4 80.1 80.2 80.3 80.4 80.5 81.1 81.2 81.3 82.1 82.2 83.1 84.1 84.2 84.3 88.1 88.2 88.3 88.4 89.1 90.1 90.2 90.3 90.4 90.5 90.6 91.1 93.1 93.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 97.1 98.1 99.1 99.2 99.3 100.1 100.2 100.3 100.4 100.5
 
-983: 72.6 74.1 74.2 75.1 76.1 76.2 76.3 79.1 81.1 81.2 81.3 82.1 82.2 84.1 84.2 84.3 84.4 84.5 84.6 86.1 86.2 89.1 92.1 92.2 92.3 93.1 93.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 100.1 100.2
+983: 76.3 79.1 81.1 81.2 81.3 82.1 82.2 84.1 84.2 84.3 84.4 84.5 84.6 86.1 86.2 89.1 92.1 92.2 92.3 93.1 93.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 100.1 100.2
 
 
 =========== curve  finding   done to here (levels to 100, 13 fields not yet)  ========================
@@ -2093,9 +2090,8 @@ sage: ddstr
       makenf done to norm 15, 25 ap, 0 newforms
 2011: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-*2015: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
-      1-15: 12.3 quit
+2015: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 2019: geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms
 2020 (505): geodata, homtest OK
@@ -2104,17 +2100,17 @@ sage: ddstr
       makenf done to norm 15, 25 ap, 4 newforms
 2027: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-*2031: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
-      1-15: 12.2 quit
+2031: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 0 newforms
 2035: geodata, homtest OK
       makenf done to norm 15, 25 ap, 8 newforms
 2036 (509): geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
-*2039: geodata, homtest OK
-      makenf done to norm 1, 25 ap, 0 newforms
+2039: geodata, homtest OK
+      makenf done to norm 15, 25 ap, 2 newforms
 2040 (510): geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
+      makenf 1-15 running glaois
 2047: geodata, homtest OK
       makenf done to norm 1, 25 ap, 0 newforms
 2051: geodata, homtest OK
@@ -2150,16 +2146,25 @@ sage: ddstr
 
 Up to 2100: geodata done & homtest & int hom done
 
+Runs on fermat:
+(a) Loop on 526 2111 2119 530 2123 2127 2131 ... 2199 now running 526
+    *** when 526 ends kill the loop!
+(b) Parallel*4 on 2111...2199 now running 2111 530 2127 533
+
 2103: geodata done, homtest OK
 2104 (526): geodata running fermat
 2111: geodata done, integral homology running fermat
-2119: geodata done, integral homology running fermat
+2119: geodata and integral homology done
+      GL2 0 (2^74,262^2,3200316638^2)
+      SL2 78 (131^2,11201108233^2)
 2120 (530): geodata running fermat
-2123: geodata done, integral homology running fermat
--2123 GL2 7 (2^68,6540484^2)
--2123 SL2 89 (2^2,26161936^2)
-2127: geodata running fermat
-2131:
+2123: geodata and integral homology done
+      GL2 7 (2^68,6540484^2)
+      SL2 89 (2^2,26161936^2)
+2127: geodata done, integral homology running fermat
+2131: geodata and integral homology done
+      GL2 0 (2^74,322362902^2)
+      SL2 82 (161181451^2)
 2132 (533):
 2135:
 2136 (534):
@@ -2183,27 +2188,148 @@ Up to 2100: geodata done & homtest & int hom done
 2195:
 2199:
 
-To complete the 25 fields of class number 5:
+dlist='2203 2207 2211 553 2215 554 2219 2227 557 2231 2235 2239 2243
+561 2247 562 2251 2255 565 2263 566 2267 2271 569 2279 570 2283 2287
+2291 573 574 2307 577 2311 2315 2319 2323 581 2327 582 2335 2339 2343
+586 2347 2351 2355 589 2359 590 2363 2371 593 2379 2383 2387 597 2391
+598 2395 2399 601 2407 602 2411 2415 2419 2423 606 2427 2431 2435 609
+610 2443 2447 2451 613 2455 614 2459 2463 2467 617 2471 618 2479 2483
+2487 622 2491 2495'
+Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
+2243 2244 2247 2248 2251 2255 2260 2263 2264 2267 2271 2276 2279 2280
+2283 2287 2291 2292 2296 2307 2308 2311 2315 2319 2323 2324 2327 2328
+2335 2339 2343 2344 2347 2351 2355 2356 2359 2360 2363 2371 2372 2379
+2383 2387 2388 2391 2392 2395 2399 2404 2407 2408 2411 2415 2419 2423
+2424 2427 2431 2435 2436 2440 2443 2447 2451 2452 2455 2456 2459 2463
+2467 2468 2471 2472 2479 2483 2487 2488 2491 2495'
 
 2203: geodata done, homtest OK
--2203 GL2 integral homology: (Z/2Z)^85 x (Z/144540186Z)^2
--2203 SL2 integral homology: Z^89 x (Z/72270093Z)^2
+      GL2: (Z/2Z)^85 x (Z/144540186Z)^2
+      SL2: Z^89 x (Z/72270093Z)^2
       1-15 done, 0 newforms
+2207: geodata and integral homology done
+      GL2 0 (2^77,4^4,4892706246175956^2)
+      SL2 73 (2^6,4^8,934506893019607596^2)
+2211: geodata and integral homology done
+      GL2 38 (2^38,3878^2)
+      SL2 125 (5817^2)
+2212 (553): geodata running lehner
+2215: geodata and integral homology done
+      GL2: 0 (2^90,4^4,8^8,191269618496^2)
+      SL2: 102 (2^4,4^8,44^2,95634809248^2)
+2216 (554): geodata running lehner
+2219: geodata and integral homology done
+      GL2: 13 (2^54,572210^2)
+      SL2: 94 (7^2,2002735^2)
+2227: geodata and integral homology done
+      GL2: 0 (2^89,6,9006^2)
+      SL2: 95 (3,4503^2)
+2228 (557): geodata running lehner
+2231: geodata done, integral homology running lehner
+2235: geodata and integral homology done
+      GL2 36 (2^62,314,942)
+      SL2 143 (157,471)
+2239: geodata and integral homology done
+      GL2 0 (2^74,92892218583386^2)
+      SL2 76 (23733961848055123^2)
+2243: geodata and integral homology done
+      GL2: 0 (2^71,8^8,26229248^2)
+      SL2: 86 (4^8,52458496^2)
+2244 (561): geodata running lehner
+2247: geodata running lehner
+2248 (562): geodata running lehner
+2251: geodata and integral homology done
+      GL2 0 (2^85,16^2,3915386992^2)
+      SL2 90 (2^2,16^2,3915386992^2)
+2255: geodata done, integral homology running lehner
+2260 (565): geodata running lehner
+2263: geodata done, integral homology running lehner
+2264 (566):
+2267:
+2271:
+2276 (569):
+2279:
+2280 (570):
+2283:
+2287:
+2291:
+2292 (573):
+2296 (574):
+
+2307:
+2308 (577):
+2311:
+2315:
+2319:
+2323:
+2324 (581):
+2327:
+2328 (582):
+2335:
+2339:
+2343:
+2344 (586):
 2347: geodata done, homtest OK
 -2347 GL2 integral homology: (Z/2Z)^91 x (Z/8843678Z)^2
 -2347 SL2 integral homology: Z^95 x (Z/4421839Z)^2
       1-15 done, 0 newforms
+2351:
+2355:
+2356 (589):
+2359:
+2360 (590):
+2363:
+2371:
+2372 (593):
+2379:
+2383:
+2387:
+2388 (597):
+2391:
+2392 (598):
+2395:
+2399:
+
+2404 (601):
+2407:
+2408 (602):
+2411:
+2415:
+2419:
+2423:
+2424 (606):
+2427:
+2431:
+2435:
+2436 (609):
+2440 (610):
+2443:
+2447:
+2451:
+2452 (613):
+2455:
+2456 (614):
+2459:
+2463:
+2467:
+2468 (617):
+2471:
+2472 (618):
+2479:
+2483:
+2487:
+2488 (622):
+2491:
+2495:
+
+
+To complete the 25 fields of class number 5:
+
 2683: geodata done, homtest OK
 -2683 GL2 integral homology: (Z/2Z)^105 x (Z/21656393502Z)^2
 -2683 SL2 integral homology: Z^109 x (Z/10828196751Z)^2
       1-15 done, 0 newforms
 
--2203 GL2 integral homology: (Z/2Z)^85 x (Z/144540186Z)^2
--2203 SL2 integral homology: Z^89 x (Z/72270093Z)^2
--2347 GL2 integral homology: (Z/2Z)^91 x (Z/8843678Z)^2
--2347 SL2 integral homology: Z^95 x (Z/4421839Z)^2
--2683 GL2 integral homology: (Z/2Z)^105 x (Z/21656393502Z)^2
--2683 SL2 integral homology: Z^109 x (Z/10828196751Z)^2
 
 Tessellation run status:
  - all done to |D| <= 2103
