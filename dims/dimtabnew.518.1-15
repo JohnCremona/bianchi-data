@@ -1,0 +1,18 @@
+# Table of dimensions of weight 2 Bianchi cuspidal forms and newforms for GL2 over Q(sqrt(-518))
+# (with trivial character)
+# Field	Weight	Level	dim(cuspidal)	dim(cuspidal, new)
+	518	2	1.1		36		36
+	518	2	2.1		72		0
+	518	2	3.1		72		0
+	518	2	3.2		72		0
+	518	2	4.1		116		8
+	518	2	6.1		144		0
+	518	2	6.2		144		0
+	518	2	7.1		308		236
+	518	2	8.1		160		0
+	518	2	9.1		180		72
+	518	2	9.2		220		76
+	518	2	9.3		180		72
+	518	2	12.1		232		0
+	518	2	12.2		232		0
+	518	2	14.1		620		4
