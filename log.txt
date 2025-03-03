@@ -880,7 +880,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 '803 201 807 202 811 815 205 823 206 827 831 835 209 839 210 843 851 213 214 859 863 217 871 218 879 883 221 887 222 895 899'
 
 800-900 level norms up to 15, with curves
-        level norms 16-100 done except 831, 839, 879, 887
+        level norms 16-100 done except 831, 839, 887
         no curves to 100 yet for:
 
 803: geodata done
@@ -925,7 +925,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
 *831: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 90.2
+     16-100 (atkin) done except 100.5
 835: geodata done
      1-100 done, 10 newforms, committed and pushed.
      All 10 curves 1-100 found, processed (36 curves), committed and pushed.
@@ -934,7 +934,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      All 74 curves 1-100 found, processed (192 curves), committed and pushed.
 *839: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 84.3
+     16-100 (atkin) 2 levels left
 840 (210): geodata done
      1-100 done, 153 newforms, committed and pushed.
      All 153 curves 1-100 found, processed (684 curves), committed and pushed.
@@ -965,9 +965,9 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 872 (218): geodata done
      1-100 done, 16 newforms, committed and pushed.
      All 16 curves 1-100 found, processed (48 curves), committed and pushed.
-*879: geodata done
-     1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) ... reached 90.2
+879: geodata done - need curves
+     1-100 done, 35 newforms, committed and pushed.
+     All 35 curves 1-100 found, processed (60 curves), committed and pushed.
 883: geodata done
      1-100 done, 2 newforms, committed and pushed.
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
@@ -976,7 +976,7 @@ d800 = [-D if D%2 else -D//4 for D in D800]
      All 94 curves 1-100 found, processed (246 curves), committed and pushed.
 *887: geodata done
      1-15 done, 0 newforms, committed and pushed.
-     16-100 (lovelace) reached 84.5...
+     16-100 (lovelace) reached 98
 888 (222): geodata done
      1-100 done, 46 newforms, committed and pushed.
      All 46 curves 1-100 found, processed (176 curves), committed and pushed.
@@ -993,8 +993,8 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 '903 226 907 911 915 229 919 230 923 233 935 939 943 947 237 951 238 955 959 241 967 971 979 983 246 987 991 995 249'
 
 900-1000 level norms up to 15, with curves
-         level norms 16-100 done except 951, 959, 983  (lovelace)
-         no curves yet for 16-100 for these and: 935
+         level norms 16-100 done except 959  (lovelace)
+         no curves yet for 16-100 for these
 
 903: geodata done
      1-100 done, 96 newforms, committed and pushed.
@@ -1031,7 +1031,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      2 curves not found: 64.1-ac
 935: geodata done
      1-100 done, 76 newforms, committed and pushed.
-     All 4 curves 1-15 found, processed (12 curves), committed and pushed.
+     All 76 curves 1-100 found, processing (220 curves), committed and pushed.
 939: geodata done
      1-100 done, 15 newforms, committed and pushed.
      All 15 curves 1-100 found, processed (38 curves), committed and pushed.
@@ -1044,21 +1044,21 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 948 (237): geodata done
      1-100 done, 50 newforms, committed and pushed.
      All 50 curves 1-100 found, processed (156 curves), committed and pushed.
-*951: geodata done
-     1-15 done, 0 newforms, committed and pushed.
-     16-59 done
-     60-100 (lovelace) reached 90.2
+951: geodata done
+     1-110 done, 15 newforms, committed and pushed.
+     All 50 curves 1-100 found, processed (132 curves), committed and pushed.
 952 (238): geodata done
      1-100 done, 49 newforms, committed and pushed.
      4/8 curves 1-15 found, processed (24 curves), committed and pushed.
-     Only 41/49 curves 1-100 found, 8 do not exist: 9.1-abcd, 81.1-abcd, processed (172 curves), committed and pushed.
+     Only 41/49 curves 1-100 found, processed (172 curves), committed and pushed.
+     8 do not exist: 9.1-abcd, 81.1-abcd.
 955: geodata done
      1-100 done, 14 newforms, committed and pushed.
      All 14 curves 1-100 found, processed (56 curves), committed and pushed.
 *959: geodata done
      1-15 done, 8 newforms, committed and pushed.
      All 8 curves 1-15 found, processed (12 curves), committed and pushed.
-     16-100 (lovelace) reached 75.2
+     16-100 (lovelace) 7 levels left
 964 (241): geodata done
      1-100 done, 23 newforms, committed and pushed.
      All 23 curves 1-100 found, processed (58 curves), committed and pushed.
@@ -1071,9 +1071,9 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 979: geodata done
      1-100 done, 26 newforms, committed and pushed.
      All 26 curves 1-100 found, processed (46 curves), committed and pushed.
-*983: geodata done
-     1-15 done, 0 newforms, committed and pushed.
-     16-100 (lovelace) reached 98.1
+983: geodata done
+     1-100 done, 30 newforms, committed and pushed.
+     All 30 curves 1-100 found, processed (30 curves), committed and pushed.
 984 (246): geodata done
      1-100 done, 46 newforms, committed and pushed.
      All 46 curves 1-100 found, processed (216 curves), committed and pushed.
@@ -1091,39 +1091,24 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      All 70 curves 1-100 found, processed (176 curves), committed and pushed.
 
 level norms 16-100 done except:
-57 levels (not counting conjugates), over
-7 fields: 831, 839, 879, 887, 951, 959, 983
+10 levels (not counting conjugates), over
+4 fields: 831, 839, 887, 959
 
-atkin:       831, 879, 887      (1+1+19 =    21 left)
-lovelace:    983                (3 =          3 left)
-galois:      839, 951, 959      (10+2+9  =   21 left)
-lehner:      959                (5  =         5 left)
-not running: 839 (84.6)
-             887 (84.6)
-             951 (98.3)
-             959 (84.2, 84.3)
+lovelace:    887, 959                    (2+2+1 = 5 left)
+not running: 831 (100.5), 839 (84.6), 887 (84.6), 959 (84.2, 100.4) (5 left)
 
-831 (1) atkin: 100.5
+831 (1) none: 100.5 (crashed)
+839 (1) none:  84.6 (crashed) + conjugate 84.7
+887 (1) none:  84.6 (crashed) + conjugate 84.7
+959 (1) none:  84.2 (crashed) + conjugate 84.5
+959 (1) none: 100.4 (crashed)  + conjugate 100.6
 
-839 (1) none: 84.6
-839 (10) galois: 96.5 96.6 98.1 98.2 98.3 100.1 100.2 100.3 100.4 100.5
+887 (2) lovelace: 100.1 100.2 + conjugate 100.3
+959 (2) lovelace:  90.5 90.6  + conjugates 90.7,90.8
+959 (1) lovelace: 100.5
 
-879 (1) atkin: 100.5
-
-887 (1) none: 84.6
-887 (19) atkin (paused): 88.4 91.1 91.2 94.1 94.2 96.1 96.2 96.3 96.4 96.5 96.6 98.1 98.2 98.3 99.1 99.2 99.3 100.1 100.2
-
-951 (1) none:   98.3
-951 (2) galois: 100.4 100.5
-
-959 (2) none:    84.2 84.3
-959 (5) lehner:  90.2 90.3 90.4 90.5 90.6
-959 (9) galois:  98.1 99.1 99.2 99.3 100.1 100.2 100.3 100.4 100.5
-
-983 (3) lovelace: 98.3 100.1 100.2
-
-=========== curve  finding   done to here (levels to 100, 12 fields not yet)  ========================
-=========== curve processing done to here (levels to 100, 12 fields not yet)  ========================
+=========== curve  finding   done to here (levels to 100, 4 fields not yet)  ========================
+=========== curve processing done to here (levels to 100, 4 fields not yet)  ========================
 
 D1000 = [D for D in srange(-1000,-1100,-1) if D.is_fundamental_discriminant()]
 d1000 = [-D if D%2 else -D//4 for D in D1000]
@@ -2157,8 +2142,6 @@ sage: ddstr
 2099: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms
 
-Up to 2100: geodata done & homtest & int hom done
-
 2103: geodata and integral homology done, homtest OK
 2104 (526): geodata and integral homology done, homtest OK
 2111: geodata and integral homology done, homtest OK
@@ -2190,8 +2173,6 @@ Up to 2100: geodata done & homtest & int hom done
 2195: geodata and integral homology done, homtest OK
 2199: geodata and integral homology done, homtest OK
 
-Up to 2200: geodata done & homtest & int hom done
-
 dlist='2203 2207 2211 553 2215 554 2219 2227 557 2231 2235 2239 2243
 561 2247 562 2251 2255 565 2263 566 2267 2271 569 2279 570 2283 2287
 2291 573 574 2307 577 2311 2315 2319 2323 581 2327 582 2335 2339 2343
@@ -2206,10 +2187,6 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
 2383 2387 2388 2391 2392 2395 2399 2404 2407 2408 2411 2415 2419 2423
 2424 2427 2431 2435 2436 2440 2443 2447 2451 2452 2455 2456 2459 2463
 2467 2468 2471 2472 2479 2483 2487 2488 2491 2495'
-
-30/31 done
-1 running lehner: 569
-int hom needed:
 
 2203: geodata and integral homology done, homtest OK
       1-15 done, 0 newforms
@@ -2235,7 +2212,7 @@ int hom needed:
 2264 (566): geodata and integral homology done, homtest OK
 2267: geodata and integral homology done, homtest OK
 2271: geodata and integral homology done, homtest OK
-*2276 (569):
+2276 (569): geodata and integral homology done, homtest OK
 2279: geodata and integral homology done, homtest OK
 2280 (570): geodata and integral homology done, homtest OK
 2283: geodata and integral homology done, homtest OK
@@ -2244,17 +2221,13 @@ int hom needed:
 2292 (573): geodata and integral homology done, homtest OK
 2296 (574): geodata and integral homology done, homtest OK
 
-26/30 done
-4 running fermat: 2324 2356 2360 2372 (581 589 590 593)
-need int hom:
-
 2307: geodata and integral homology done, homtest OK
 2308 (577): geodata and integral homology done, homtest OK
 2311: geodata and integral homology done, homtest OK
 2315: geodata and integral homology done, homtest OK
 2319: geodata and integral homology done, homtest OK
 2323: geodata and integral homology done, homtest OK
-*2324 (581):
+2324 (581): geodata done and integral homology done, homtest OK
 2327: geodata and integral homology done, homtest OK
 2328 (582): geodata and integral homology done, homtest OK
 2335: geodata and integral homology done, homtest OK
@@ -2265,12 +2238,12 @@ need int hom:
       1-15 done, 0 newforms
 2351: geodata and integral homology done, homtest OK
 2355: geodata and integral homology done, homtest OK
-*2356 (589):
+2356 (589): geodata and integral homology done, homtest OK
 2359: geodata and integral homology done, homtest OK
-*2360 (590):
+2360 (590): geodata and integral homology done, homtest OK
 2363: geodata and integral homology done, homtest OK
 2371: geodata and integral homology done, homtest OK
-*2372 (593):
+2372 (593): geodata and integral homology done, homtest OK
 2379: geodata and integral homology done, homtest OK
 2383: geodata and integral homology done, homtest OK
 2387: geodata and integral homology done, homtest OK
@@ -2280,13 +2253,9 @@ need int hom:
 2395: geodata and integral homology done, homtest OK
 2399: geodata and integral homology done, homtest OK
 
-27/31 done
-4 running atkin: 2404 2408 2436 2456
-need int hom:
-
-*2404 (601):
+2404 (601): geodata and integral homology done, homtest OK
 2407: geodata and integral homology done, homtest OK
-*2408 (602):
+2408 (602): geodata and integral homology done, homtest OK
 2411: geodata and integral homology done, homtest OK
 2415: geodata and integral homology done, homtest OK
 2419: geodata and integral homology done, homtest OK
@@ -2295,14 +2264,14 @@ need int hom:
 2427: geodata and integral homology done, homtest OK
 2431: geodata and integral homology done, homtest OK
 2435: geodata and integral homology done, homtest OK
-*2436 (609):
+2436 (609): geodata and integral homology done, homtest OK
 2440 (610): geodata and integral homology done, homtest OK
 2443: geodata and integral homology done, homtest OK
 2447: geodata and integral homology done, homtest OK
 2451: geodata and integral homology done, homtest OK
 2452 (613): geodata and integral homology done, homtest OK
 2455: geodata and integral homology done, homtest OK
-*2456 (614):
+2456 (614): geodata  and integral homology done, homtest OK
 2459: geodata and integral homology done, homtest OK
 2463: geodata and integral homology done, homtest OK
 2467: geodata and integral homology done, homtest OK
@@ -2316,6 +2285,8 @@ need int hom:
 2491: geodata and integral homology done, homtest OK
 2495: geodata and integral homology done, homtest OK
 
+Up to 2500: geodata done & homtest & int hom done
+
 ======================================================================
 
 To complete the 25 fields of class number 5:
@@ -2327,11 +2298,7 @@ To complete the 25 fields of class number 5:
 
 ======================================================================
 
-Tessellation run status:
- all |D| <= 2500 done except 9 fields:
- lehner 2276
- fermat 2324 2356 2360 2372
- atkin  2404 2408 2436 2456
+Tessellation run status: all |D| <= 2500 done
 
 ======================================================================
 
