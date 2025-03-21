@@ -761,14 +761,16 @@ d600 = [-D if D%2 else -D//4 for D in D600]
      1-100 done, 11 newforms, committed and pushed.
      Curve search finds all 11, processing (28 curves), committed and pushed
 
-========== Newforms, curve search and processing to 100 done to here ===========================================
+========== Newforms to 100, curve search and processing to 100 done to here ===========================================
 
 D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
 '703 707 708 712 715 719 723 724 727 728 731 739 740 743 744 751 755 759 760 763 767 771 772 776 779 787 788 791 795 799'
 d700 = [-D if D%2 else -D//4 for D in D700]
 '703 707 177 178 715 719 723 181 727 182 731 739 185 743 186 751 755 759 190 763 767 771 193 194 779 787 197 791 795 799'
 
-700-800 level norms up to 100, with curves, all committed and pushed.
+700-800: - level norms up to 100 done
+         - curves found and processed
+         - all committed and pushed
 
 703: geodata done
      1-100 done, 32 newforms, committed and pushed.
@@ -879,9 +881,9 @@ D800=[D for D in srange(-800,-900,-1) if D.is_fundamental_discriminant()]
 d800 = [-D if D%2 else -D//4 for D in D800]
 '803 201 807 202 811 815 205 823 206 827 831 835 209 839 210 843 851 213 214 859 863 217 871 218 879 883 221 887 222 895 899'
 
-800-900 level norms up to 15, with curves
-        level norms 16-100 done except 831, 839, 887
-        no curves to 100 yet for:
+800-900: - level norms up to 100 done
+         - curves found and processed
+         - all committed and pushed
 
 803: geodata done
      1-100 done, 12 newforms, committed and pushed.
@@ -910,7 +912,6 @@ d800 = [-D if D%2 else -D//4 for D in D800]
           [in isogeny_small_degree.py, isogenies_prime_degree(), near the
           end, comment out "and E.base_field() is QQ;"]
      All 112 curves 1-100 found, processed (180 curves), committed and pushed.
-
 820 (205): geodata done
      1-100 done, 78 newforms, committed and pushed.
      All 78 curves 1-100 found, processed (258 curves), committed and pushed.
@@ -923,18 +924,18 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 827: geodata done
      1-100 done, 2 newforms, committed and pushed.
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
-*831: geodata done
-     1-15 done, 0 newforms, committed and pushed.
-     16-100 done except 100.5
+831: geodata done
+     1-100 done, 45 newforms, committed and pushed.
+     All 45 curves 1-100 found, processed (72 curves), committed and pushed.
 835: geodata done
      1-100 done, 10 newforms, committed and pushed.
      All 10 curves 1-100 found, processed (36 curves), committed and pushed.
 836 (209): geodata done
      1-100 done, 74 newforms, committed and pushed.
      All 74 curves 1-100 found, processed (192 curves), committed and pushed.
-*839: geodata done
-     1-15 done, 0 newforms, committed and pushed.
-     16-100 (atkin) done except 84.6/7
+839: geodata done
+     1-100 done, 64 newforms, committed and pushed.
+     All 74 curves 1-100 found, processing (76 curves), committed and pushed.
 840 (210): geodata done
      1-100 done, 153 newforms, committed and pushed.
      All 153 curves 1-100 found, processed (684 curves), committed and pushed.
@@ -974,9 +975,10 @@ d800 = [-D if D%2 else -D//4 for D in D800]
 884 (221): geodata done
      1-100 done, 94 newforms, committed and pushed.
      All 94 curves 1-100 found, processed (246 curves), committed and pushed.
-*887: geodata done
-     1-15 done, 0 newforms, committed and pushed.
-     16-100 (lovelace) done except 84.6/7
+887: geodata done
+     1-100 done, 54 newforms, committed and pushed.
+     Only 50/54 curves 1-100 found, processed (68 curves), committed and pushed.
+     4 curves not found: 54.2-a, 54.3-c, 54.6-c, 54.7-a
 888 (222): geodata done
      1-100 done, 46 newforms, committed and pushed.
      All 46 curves 1-100 found, processed (176 curves), committed and pushed.
@@ -992,9 +994,9 @@ D900=[D for D in srange(-900,-1000,-1) if D.is_fundamental_discriminant()]
 d900 = [-D if D%2 else -D//4 for D in D900]
 '903 226 907 911 915 229 919 230 923 233 935 939 943 947 237 951 238 955 959 241 967 971 979 983 246 987 991 995 249'
 
-900-1000 level norms up to 15, with curves
-         level norms 16-100 done except 959
-         no curves yet for 16-100 for these
+900-1000: - level norms up to 100 done
+          - curves found and processed
+          - all committed and pushed
 
 903: geodata done
      1-100 done, 96 newforms, committed and pushed.
@@ -1055,10 +1057,14 @@ d900 = [-D if D%2 else -D//4 for D in D900]
 955: geodata done
      1-100 done, 14 newforms, committed and pushed.
      All 14 curves 1-100 found, processed (56 curves), committed and pushed.
-*959: geodata done
+959: geodata done
      1-15 done, 8 newforms, committed and pushed.
      All 8 curves 1-15 found, processed (12 curves), committed and pushed.
-     16-100 (lovelace) all except 84.2, 90.6, 100.4 (and conjugates 84.5, 90.7, 100.6)
+     1-100 done, 123 newforms
+     87/123 curves found, processed (184 curves)
+     36 missing: 16.1-abc, 16.5-abc, 32.2-abcd, 32.5-abcd, 60.5-abcd,
+     60.8-abcd, 64.1-abc, 64.7-abc, 90.3-ab, 90.4-ab, 90.9-ab,
+     90.10-ab
 964 (241): geodata done
      1-100 done, 23 newforms, committed and pushed.
      All 23 curves 1-100 found, processed (58 curves), committed and pushed.
@@ -1090,21 +1096,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      1-100 done, 70 newforms, committed and pushed.
      All 70 curves 1-100 found, processed (176 curves), committed and pushed.
 
-level norms 16-100 done except for 5 levels (not counting conjugates), over 4 fields:
-831 missing 1: 100.5
-839 missing 1: 84.6 (and conjugate 84.7)
-887 missing 1: 84.6 (and conjugate 84.7)
-959 missing 2: 84.2, 100.4 (and conjugates 84.5, 100.6)
-
-running lovelace:
-831-100.5
-839-84.6
-887-84.6
-959-84.2
-959-100.4
-
-=========== curve  finding   done to here (levels to 100, 4 fields not yet)  ========================
-=========== curve processing done to here (levels to 100, 4 fields not yet)  ========================
+========== Newforms to 100, curve search and processing to 100 done to here ===========================================
 
 D1000 = [D for D in srange(-1000,-1100,-1) if D.is_fundamental_discriminant()]
 d1000 = [-D if D%2 else -D//4 for D in D1000]
