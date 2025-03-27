@@ -2063,9 +2063,6 @@ sage: ddstr
 1999: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-
-=========== curve  finding   done to here (levels to 15)  ========================
-=========== curve processing done to here (levels to 15)  ========================
 ​
 2000-2100: geodata, homtest OK, newforms 1-15 done
 
@@ -2081,19 +2078,19 @@ sage: ddstr
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2019: geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
-      Only 2/4 curves found, missing 4.1a/b, processed (2 curves)
+      Only 2/4 curves found, missing 4.1a/b, processed (2 curves), committed and pushed
 2020 (505): geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2024 (506): geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
-      All 4 curves found, processed (12 curves)
+      All 4 curves found, processed (12 curves), committed and pushed
 2027: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2031: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2035: geodata, homtest OK
       makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
-      All 8 curves found, processed (20 curves)
+      All 8 curves found, processed (20 curves), committed and pushed
 2036 (509): geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2039: geodata, homtest OK
@@ -2101,41 +2098,41 @@ sage: ddstr
       0/2 curves found
 2040 (510): geodata, homtest OK
       makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
-      All 8 curves found, processed (64 curves)
+      All 8 curves found, processed (64 curves), committed and pushed
 2047: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2051: geodata, homtest OK
       makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
-      All 6 curves found, processed (12 curves)
+      All 6 curves found, processed (12 curves), committed and pushed
 2055: geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
-      All 4 curves found, processed (32 curves)
+      All 4 curves found, processed (32 curves), committed and pushed
 2056 (514): geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
-      All 2 curves found, processed (4 curves)
+      All 2 curves found, processed (4 curves), committed and pushed
 2059: geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
-      All 2 curves found, processed (4 curves)
+      All 2 curves found, processed (4 curves), committed and pushed
 2063: geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
-      All 2 curves found, processed (4 curves)
+      All 2 curves found, processed (4 curves), committed and pushed
 2067: geodata, homtest OK
       makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
-      All 8 curves found, processed (24 curves)
+      All 8 curves found, processed (24 curves), committed and pushed
 2068 (517): geodata, homtest OK
       makenf done to norm 15, 25 ap, 20 newforms, committed and pushed
-      All 20 curves found, processed (28 curves)
+      All 20 curves found, processed (28 curves), committed and pushed
 2071: geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
-      All 4 curves found, processed (4 curves)
+      All 4 curves found, processed (4 curves), committed and pushed
 2072 (518): geodata, homtest OK
       makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
-      All 4 curves found, processed (24 curves)
+      All 4 curves found, processed (24 curves), committed and pushed
 2083: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2084 (521): geodata, homtest OK
       makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
-      All 2 curves found, processed (2 curves)
+      All 2 curves found, processed (2 curves), committed and pushed
 2087: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 2091: geodata, homtest OK
@@ -2145,6 +2142,9 @@ sage: ddstr
 2099: geodata, homtest OK
       makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 
+=========== curve  finding   done to here (levels to 15)  ========================
+=========== curve processing done to here (levels to 15)  ========================
+​
 Dlist='2103 2104 2111 2119 2120 2123 2127 2131 2132 2135 2136 2139 2143 2147 2148 2152 2155 2159 2163 2164 2167 2168 2171 2179 2180 2183 2184 2191 2195 2199'
 dlist='2103 526 2111 2119 530 2123 2127 2131 533 2135 534 2139 2143 2147 537 538 2155 2159 2163 541 2167 542 2171 2179 545 2183 546 2191 2195 2199'
 
@@ -2225,6 +2225,9 @@ dlist='2103 526 2111 2119 530 2123 2127 2131 533 2135 534 2139 2143 2147 537 538
       makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
 
+=========== curve  finding   done to here (levels to 11)  ========================
+=========== curve processing done to here (levels to 11)  ========================
+​
 dlist='2203 2207 2211 553 2215 554 2219 2227 557 2231 2235 2239 2243 561 2247 562 2251 2255 565 2263 566 2267 2271 569 2279 570 2283 2287 2291 573 574 2307 577 2311 2315 2319 2323 581 2327 582 2335 2339 2343 586 2347 2351 2355 589 2359 590 2363 2371 593 2379 2383 2387 597 2391 598 2395 2399 601 2407 602 2411 2415 2419 2423 606 2427 2431 2435 609 610 2443 2447 2451 613 2455 614 2459 2463 2467 617 2471 618 2479 2483 2487 622 2491 2495'
 Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
 2243 2244 2247 2248 2251 2255 2260 2263 2264 2267 2271 2276 2279 2280
@@ -2242,34 +2245,34 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2211: geodata and integral homology done, homtest OK
       1-11 done, 6 newforms, committed and pushed
-      All 6 curves found, processed (16 curves)
+      All 6 curves found, processed (16 curves), committed and pushed
 2212 (553): geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (4 curves)
+      All 4 curves found, processed (4 curves), committed and pushed
 2215: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2216 (554): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2219: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (4 curves)
+      All 4 curves found, processed (4 curves), committed and pushed
 2227: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2228 (557): geodata done and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2231: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (4 curves)
+      All 4 curves found, processed (4 curves), committed and pushed
 2235: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2239: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2243: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
-      All 2 curves found, processed (2 curves)
+      All 2 curves found, processed (2 curves), committed and pushed
 2244 (561): geodata and integral homology done, homtest OK
       1-11 done, 8 newforms, committed and pushed
-      All 8 curves found, processed (24 curves)
+      All 8 curves found, processed (24 curves), committed and pushed
 2247: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2248 (562): geodata and integral homology done, homtest OK
@@ -2278,37 +2281,37 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2255: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (12 curves)
+      All 4 curves found, processed (12 curves), committed and pushed
 2260 (565): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2263: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2264 (566): geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (8 curves)
+      All 4 curves found, processed (8 curves), committed and pushed
 2267: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
-      All 2 curves found, processed (2 curves)
+      All 2 curves found, processed (2 curves), committed and pushed
 2271: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2276 (569): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2279: geodata and integral homology done, homtest OK
       1-11 done, 8 newforms, committed and pushed
-      All 8 curves found, processed (10 curves)
+      All 8 curves found, processed (10 curves), committed and pushed
 2280 (570): geodata and integral homology done, homtest OK
       1-11 done, 8 newforms, committed and pushed
       0/8 curves found
       Missing 9.1-abcdefgh (all unramified twists, Cl=C4xC2xC2)
 2283: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (4 curves)
+      All 4 curves found, processed (4 curves), committed and pushed
 2287: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
-      All 2 curves found, processed (2 curves)
+      All 2 curves found, processed (2 curves), committed and pushed
 2291: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
-      All 4 curves found, processed (4 curves)
+      All 4 curves found, processed (4 curves), committed and pushed
 2292 (573): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2296 (574): geodata and integral homology done, homtest OK
@@ -2316,38 +2319,51 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       0/4 curves found
       Missing 9.1-abcd (all unramified twists, Cl=C8xC2)
 
+=========== curve  finding   done to here (levels to 11)  ========================
+=========== curve processing done to here (levels to 11)  ========================
+
+
 2300-2400 makenf levels 1-11 done
 
 2307: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2308 (577): geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves found, processed (4 curves), committed and pushed
 2311: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2315: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      0 curves 1-11 found
+      2.0.2315.1-9.1-a/b, 9.3-1/b: no curvehas specified traces
 2319: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2323: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (4 curves), committed and pushed
 2324 (581): geodata done and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2327: geodata and integral homology done, homtest OK
       1-11 done, 6 newforms, committed and pushed
+      All 6 curves 1-11 found, processed (20 curves), committed and pushed
 2328 (582): geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (8 curves), committed and pushed
 2335: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2339: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2343: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (12 curves), committed and pushed
 2344 (586): geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (4 curves), committed and pushed
 2347: geodata and integral homology done, homtest OK
       1-15 done, 0 newforms, committed and pushed
 2351: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (4 curves), committed and pushed
 2355: geodata and integral homology done, homtest OK
       1-15 done, 0 newforms, committed and pushed
 2356 (589): geodata and integral homology done, homtest OK
@@ -2362,29 +2378,40 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2372 (593): geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (2 curves), committed and pushed
 2379: geodata and integral homology done, homtest OK
       1-11 done, 24 newforms, committed and pushed
+      All 24 curves 1-11 found, processed (36 curves), committed and pushed
 2383: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2387: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (12 curves), committed and pushed
 2388 (597): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2391: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (4 curves), committed and pushed
 2392 (598): geodata and integral homology done, homtest OK
       1-11 done, 8 newforms, committed and pushed
+      0 curves 1-11 found: No elliptic curves have the specified 'Traces'
+      2.0.2392.1-1.1-a/b/c/d, 2.0.2392.1-9.1-a/b/c/d
 2395: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2399: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 
+=========== curve  finding   done to here (levels to 11)  ========================
+=========== curve processing done to here (levels to 11)  ========================
+​
 2400-2500 makenf levels 1-11 done
 
 2404 (601): geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (2 curves), committed and pushed
 2407: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (4 curves), committed and pushed
 2408 (602): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2411: geodata and integral homology done, homtest OK
@@ -2393,6 +2420,7 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2419: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (4 curves), committed and pushed
 2423: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2424 (606): geodata and integral homology done, homtest OK
@@ -2401,6 +2429,7 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2431: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (12 curves), committed and pushed
 2435: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2436 (609): geodata and integral homology done, homtest OK
@@ -2413,13 +2442,14 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2451: geodata and integral homology done, homtest OK
       1-11 done, 6 newforms, committed and pushed
-      All 6 curves 1-11 found
+      All 6 curves 1-11 found, processed (12 curves), committed and pushed
 2452 (613): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2455: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2456 (614): geodata  and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (4 curves), committed and pushed
 2459: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2463: geodata and integral homology done, homtest OK
@@ -2430,18 +2460,24 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
       1-11 done, 0 newforms, committed and pushed
 2471: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (8 curves), committed and pushed
 2472 (618): geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 2479: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (8 curves), committed and pushed
 2483: geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      All 2 curves 1-11 found, processed (4 curves), committed and pushed
 2487: geodata and integral homology done, homtest OK
-      1-11 running, 0 newforms, committed and pushed
+      1-11 done, 0 newforms, committed and pushed
 2488 (622): geodata and integral homology done, homtest OK
       1-11 done, 2 newforms, committed and pushed
+      0 curves found (No elliptic curves have the specified 'Traces')
+      2.0.2488.1-9.1-a/b
 2491: geodata and integral homology done, homtest OK
       1-11 done, 4 newforms, committed and pushed
+      All 4 curves 1-11 found, processed (6 curves), committed and pushed
 2495: geodata and integral homology done, homtest OK
       1-11 done, 0 newforms, committed and pushed
 
