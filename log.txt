@@ -107,11 +107,8 @@ odd class numbers >1: d = 23, 31, 47, 59, 71, 79, 83
 
 47: 1-1000 complete, 1288 newforms, all curves found, processed, uploaded.
 
-59: 1-1000 complete, 564 newforms, 562/564 curves found, processed, uploaded.
+59: 1-1000 complete, 564 newforms, all 564 curves found, processed, uploaded.
   1001-1200 complete, 109 newforms.  No curve search yet.
-
-newform 2.0.59.1-675.5-b has no curve (bc=-1, cm=0)
-newform 2.0.59.1-675.8-b has no curve (bc=-1, cm=0)
 
 71: 1-1000 complete, 1774 newforms, all curves found, processed, uploaded.
 
@@ -153,10 +150,11 @@ committed, uploaded.
 
 17: 1-1000 done. 776 newforms, comitted and pushed.
     Curve search found 772/776, processed, committed, uploaded.
-newform 2.0.68.1-901.1-a has no curve (bc=0, cm=0)
-newform 2.0.68.1-901.1-b has no curve (bc=0, cm=0)
-newform 2.0.68.1-901.2-a has no curve (bc=0, cm=0)
-newform 2.0.68.1-901.2-b has no curve (bc=0, cm=0)
+    4 curves missing:
+    newform 2.0.68.1-901.1-a has no curve (bc=0, cm=0)
+    newform 2.0.68.1-901.1-b has no curve (bc=0, cm=0)
+    newform 2.0.68.1-901.2-a has no curve (bc=0, cm=0)
+    newform 2.0.68.1-901.2-b has no curve (bc=0, cm=0)
 
 21: 1-1000 done. 688 newforms, curve search complete, processed,
 committed, uploaded.
@@ -167,28 +165,26 @@ committed, uploaded.
 35: 1-1000 done. 431 newforms, curve search complete, processed,
 committed, uploaded.
 
-39 1-1000: done. 1182 newforms, committed & pushed.  Curve search
+39: 1-1000: done. 1182 newforms, committed & pushed.  Curve search
  complete, all 1182 found, processed, committed, uploaded.
 
 51: 1-1000 done. 304 newforms, curve search complete, processed,
 committed, uploaded.
 
-55 1-1000 done. 863 newforms, committed & pushed. Curve search
+55: 1-1000 done. 863 newforms, committed & pushed. Curve search
  complete, all 863 found, processed, comitted, uploaded.
 
-87 1-1000 done. committed, 1018 newforms. Curve search complete, all
+87: 1-1000 done. committed, 1018 newforms. Curve search complete, all
  1018 found, processed, committed, uploaded.
 
 91: 1-1000 done. 219 newforms, curve search found 217/219 curves,
  processed, committed, uploaded.
 
-newform 2.0.91.1-784.1-a has no curve (bc=-6, cm=0)
 newform 2.0.91.1-784.1-b has no curve (bc=-6, cm=0)
+newform 2.0.91.1-784.1-c has no curve (bc=-6, cm=0)
 
 95: 1-1000 done. 1759 newforms, committed and pushed.  Curve search
  found all 1759, processed, committed, uploaded.
-
- (Previously were missing curves: 624.5-c and 624.5-d)
 
 Integral homology for absolute discriminants up to 2100 all agree with
 Gunnells-Yasaki.
@@ -230,7 +226,7 @@ export DD="${DD1} ${DD2}"
      Curve search found all 562, processed (1614 curves), committed and pushed.
 
 ===========================================================================
-[from here, level norm bound 100 for all fields up to 700, 25 for 700-1000]
+[from here, level norm bound 100 for all fields up to 1000]
 
 123: 1-100 done. 7 newforms, committed and pushed.
      Curve search found all 7, processed (28 curves), committed and pushed.
@@ -383,8 +379,8 @@ export DD="${DD1} ${DD2}"
           all 48 curves found, processed (120 curves), committed and pushed.
 296 (74): 1-100,  25ap   done, 40 newforms, committed and pushed.
           all 40 curves found, processed (96 curves), committed and pushed.
-299:      1-100,  25ap   done, 23 newforms, committed and pushed.
-          20 curves found, processed (42 curves), committed and pushed.
+299:      1-100,  25ap   done, 24 newforms, committed and pushed.
+          20/24 curves found, processed (42 curves), committed and pushed.
           No curves have given traces for: 2.0.299.1-92.1-abef
 
 D300=[D for D in srange(-300,-400,-1) if D.is_fundamental_discriminant()]
@@ -444,28 +440,23 @@ for d in ${DD}; do git add 2.0.$d.1; done
           All 33 curves found, processed (66 curves), committed and pushed.
 372 (93): 1-100   done, 34 newforms, committed and pushed.
           All 34 curves found, processed (144 curves), committed and pushed.
-
-dd='94 379 383 97 391 395 399'
-DD='376 379 383 388 391 395 399'
-
 376 (94): 1-100 done, 32 newforms, committed and pushed.
-    Curve search found 28/32 curves, processed (80 curves)
-    Missing: 2.0.376.1-9.1-a/b, 2.0.376.1-81.1-a/b (all twists) (no curve found)
+          Curve search found 28/32 curves, processed (80 curves)
+          Missing: 2.0.376.1-9.1-a/b, 2.0.376.1-81.1-a/b (all twists) (no curve found)
 379:      1-100 done,  2 newforms, committed and pushed.
-    Curve search found all 2 curves, processed (1 curves)
+          Curve search found all 2 curves, processed (1 curves)
 383:      1-100 done, 42 newforms, committed and pushed.
-    Curve search found 40/42 curves, processed (50 curves)
-    Missing: 2.0.383.1-42.3-a, 2.0.383.1-42.6-a (conjugates) (no curve found)
+          Curve search found all 42 curves, processed (52 curves)
 388 (97): 1-100 done, 19 newforms, committed and pushed.
-    Curve search found all 19 curves, processed (54 curves)
+          Curve search found all 19 curves, processed (54 curves)
 391:      1-100 done, 66 newforms, committed and pushed.
-    Curve search all 66 curves, processed (96 curves)
-    [Curves 2.0.391.1-70.2-a/b were added later on 2025-01-07]
+          Curve search all 66 curves, processed (96 curves)
+          [Curves 2.0.391.1-70.2-a/b were added later on 2025-01-07]
 395:      1-100 done, 30 newforms, committed and pushed.
-    Curve search found all 30 curves, processed (76 curves)
+          Curve search found all 30 curves, processed (76 curves)
 399:      1-100 done, 146 newforms, committed and pushed.
-    Curve search finds 138/146 curves, processed (372 curves)
-    2.0.399.1-81.1-a/b/c/d/g/h/i/j: no curves have given traces
+          Curve search finds 138/146 curves, processed (372 curves)
+          2.0.399.1-81.1-a/b/c/d/g/h/i/j: no curves have given traces
 
 D400=[D for D in srange(-400,-500,-1) if D.is_fundamental_discriminant()]
 d400 = [-D if D%2 else -D//4 for D in D400]
@@ -473,184 +464,147 @@ d400 = [-D if D%2 else -D//4 for D in D400]
 '403 101 407 102 411 415 419 105 106 427 431 435 109 439 110 443 447 451 113 455 114 463 467 471 118 479 483 487 122 491 499'
 
 403:       1-100   done,   4 newforms, committed and pushed.
-    Curve search found all 4 curves, processed (10 curves), committed and pushed.
+           Curve search found all 4 curves, processed (10 curves), committed and pushed.
 404 (101): 1-100   done,  51 newforms, committed and pushed.
-    Curve search found all 51 curves, processed (102 curves), committed and pushed.
+           Curve search found all 51 curves, processed (102 curves), committed and pushed.
 407:       1-100 (lehner) done, 108 newforms, committed and pushed.
-    Curve search found all 108 curves, processed (164 curves), committed and pushed.
+           Curve search found all 108 curves, processed (164 curves), committed and pushed.
 408 (102): 1-100   done,  38 newforms, committed and pushed.
-    Curve search found 34/38 curves, processed (160 curves), committed and pushed.
-    No curve has given traces for: 2.0.408.1-81.1-a/b/d/e
+           Curve search found 34/38 curves, processed (160 curves), committed and pushed.
+           No curve has given traces for: 2.0.408.1-81.1-a/b/d/e
 411:       1-100   done,  15 newforms, committed and pushed.
-    Curve search found all 15 curves, processed (36 curves), committed and pushed.
+           Curve search found all 15 curves, processed (36 curves), committed and pushed.
 415:       1-100   done,  24 newforms, committed and pushed.
-    Curve search found all 24 curves, processed (50 curves), committed and pushed.
+           Curve search found all 24 curves, processed (50 curves), committed and pushed.
 419:       1-100   done,  10 newforms, committed and pushed.
-    Curve search found all 10 curves, processed (14 curves), committed and pushed.
+           Curve search found all 10 curves, processed (14 curves), committed and pushed.
 420 (105): 1-100   done, 220 newforms, committed and pushed.
-    Curve search found all 220 curves, processed (808 curves), committed and pushed.
+           Curve search found all 220 curves, processed (808 curves), committed and pushed.
 424 (106): 1-100   done,  26 newforms, committed and pushed.
-    Curve search found all 26 curves, processed (66 curves), committed and pushed.
+           Curve search found all 26 curves, processed (66 curves), committed and pushed.
 427:       1-100   done,   7 newforms, committed and pushed.
-    Curve search found all 7 curves, processed (30 curves), committed and pushed.
+           Curve search found all 7 curves, processed (30 curves), committed and pushed.
 431:       1-100   done, 118 newforms, committed and pushed.
-    Curve search found all 118 curves, processed (196 curves), committed and pushed.
+           Curve search found all 118 curves, processed (196 curves), committed and pushed.
 435:       1-100   done,  29 newforms, committed and pushed.
-    Curve search found all 29 curves, processed (124 curves), committed and pushed.
+           Curve search found all 29 curves, processed (124 curves), committed and pushed.
 436 (109): 1-100   done,  17 newforms, committed and pushed.
-    Curve search found all 17 curves, processed (46 curves), committed and pushed.
+           Curve search found all 17 curves, processed (46 curves), committed and pushed.
 439:       1-100   done,  10 newforms, committed and pushed.
-    Curve search found all 10 curves, processed (20 curves), committed and pushed.
+           Curve search found all 10 curves, processed (20 curves), committed and pushed.
 440 (110): 1-100   done,  76 newforms, committed and pushed.
-    Curve search found all 76 curves, processed (312 curves), committed and pushed.
+           Curve search found all 76 curves, processed (312 curves), committed and pushed.
 443:       1-100   done,   4 newforms, committed and pushed.
-    Curve search found all 4 curves, processed (4 curves), committed and pushed.
+           Curve search found all 4 curves, processed (4 curves), committed and pushed.
 447:       1-100   done,  31 newforms, committed and pushed.
-    Curve search found all 31 curves, processed (56 curves), committed and pushed.
+           Curve search found all 31 curves, processed (56 curves), committed and pushed.
 451:       1-100   done,  10 newforms, committed and pushed.
-    Curve search found all 10 curves, processed (22 curves), committed and pushed.
+           Curve search found all 10 curves, processed (22 curves), committed and pushed.
 452 (113): 1-100   done,  67 newforms, committed and pushed.
-    Curve search found all 67 curves, processed (142 curves), committed and pushed.
+           Curve search found all 67 curves, processed (142 curves), committed and pushed.
 455:       1-100 (atkin)  done, 103 newforms, committed and pushed.
-    Curve search found all 103 curves, processed (316 curves), committed and pushed.
+           Curve search found all 103 curves, processed (316 curves), committed and pushed.
 456 (114): 1-100   done,  82 newforms, committed and pushed.
-    Curve search found 72/82 curves, processed (256 curves), committed and pushed.
-    Missing:
-    2.0.456.1-9.1-a/b      (no curve has the given traces)
-    2.0.456.1-49.1-a/b/c/d (no curve has the given traces)
-    2.0.456.1-81.1-a/b/e/f (no curve has the given traces)
+           Curve search found 72/82 curves, processed (256 curves), committed and pushed.
+           Missing:
+           2.0.456.1-9.1-a/b      (no curve has the given traces)
+           2.0.456.1-49.1-a/b/c/d (no curve has the given traces)
+           2.0.456.1-81.1-a/b/e/f (no curve has the given traces)
 463:       1-100   done,   4 newforms, committed and  pushed.
-    Curve search found all 4 curves, processed (6 curves), committed and pushed.
+           Curve search found all 4 curves, processed (6 curves), committed and pushed.
 467:       1-100   done,   8 newforms, committed and pushed.
-    Curve search found all 8 curves, processed (12 curves), committed and pushed.
+           Curve search found all 8 curves, processed (12 curves), committed and pushed.
 471:       1-100   done,  39 newforms, committed and pushed.
-    Curve search found 35/39 curves, processed (90 curves), committed and pushed.
-    Missing:
-    2.0.471.1-39.1-a/b (no curve has the given traces)
-    2.0.471.1-39.2-a/b (no curve has the given traces)
-472 (118): 1-100 (galois) done, 12 newforms, committed and pushed.
-    Curve search found all 12 curves, processed (44 curves), committed and pushed.
-479:       1-100 (galois) done, 92 newforms, committed and pushed.
-    Curve search found 88/92 curves, processed (128 curves), committed and pushed.
-    Missing (66.1a, 66.8a), (66.4a, 66.5a)
-483:       1-100 (galois) done, 28 newforms, committed and pushed.
-    Curve search found all 28 curves, processed (136 curves), committed and pushed.
-487:       1-100 (galois) done, 10 newforms, committed and pushed.
-    Curve search found all 10 curves, processed (10 curves), committed and pushed.
-488 (122): 1-100 (galois) done, 28 newforms
-    Curve search found all 28 curves, processed (62 curves), committed and pushed.
-491:       1-100 (galois) done, 10 newforms, committed and pushed.
-    Curve search found all 10 curves, processed (14 curves), committed and pushed.
-499:       1-100 (galois) done,  0 newforms, committed and pushed.
-    Curve search not needed for 0 curves, processed (0 curves), committed and pushed.
-
+           Curve search found 35/39 curves, processed (90 curves), committed and pushed.
+           Missing:
+           2.0.471.1-39.1-a/b (no curve has the given traces)
+           2.0.471.1-39.2-a/b (no curve has the given traces)
+472 (118): 1-100 done, 12 newforms, committed and pushed.
+           Curve search found all 12 curves, processed (44 curves), committed and pushed.
+479:       1-100 done, 92 newforms, committed and pushed.
+           Curve search found 90/92 curves, processed (130 curves), committed and pushed.
+           Missing 66.4-a, 66.5-a
+483:       1-100 done, 28 newforms, committed and pushed.
+           Curve search found all 28 curves, processed (136 curves), committed and pushed.
+487:       1-100 done, 10 newforms, committed and pushed.
+           Curve search found all 10 curves, processed (10 curves), committed and pushed.
+488 (122): 1-100 done, 28 newforms
+           Curve search found all 28 curves, processed (62 curves), committed and pushed.
+491:       1-100 done, 10 newforms, committed and pushed.
+           Curve search found all 10 curves, processed (14 curves), committed and pushed.
+499:       1-100 done,  0 newforms, committed and pushed.
+           Curve search not needed for 0 curves, processed (0 curves), committed and pushed.
 
 D500=[D for D in srange(-500,-600,-1) if D.is_fundamental_discriminant()]
 '503 511 515 516 519 520 523 527 532 535 536 543 547 548 551 552 555 559 563 564 568 571 579 580 583 584 587 591 595 596 599'
 d500 = [-D if D%2 else -D//4 for D in D500]
 '503 511 515 129 519 130 523 527 133 535 134 543 547 137 551 138 555 559 563 141 142 571 579 145 583 146 587 591 595 149 599'
 
-503: geodata done
-     1-100 done, 126 newforms, committed and pushed
-     Curve search finds 123/126, processed (185 curves), committed and pushed.
-     No curve found to match newform 2.0.503.1-16.2-a
-     No curve found to match newform 2.0.503.1-32.2-b
-     No curve found to match newform 2.0.503.1-84.1-a
-511: geodata done
-     1-100 done, 43 newforms, committed and pushed
+503: 1-100 done, 126 newforms, committed and pushed
+     Curve search finds all 126, processed (188 curves), committed and pushed.
+511: 1-100 done, 43 newforms, committed and pushed
      Curve search finds 39/43, processed (116 curves), committed and pushed
      No curve found to match newform 2.0.511.1-100.5-abcd
-515: geodata done
-     1-100 done, 14 newforms, committed and pushed
+515: 1-100 done, 14 newforms, committed and pushed
      Curve search finds all 14, processed (40 curves), committed and pushed
-516 (129): geodata done
-     1-100 done, 88 newforms, committed and pushed
+516 (129): 1-100 done, 88 newforms, committed and pushed
      Curve search finds 84/88, processed (204 curves), committed and pushed
      No curve found to match newform 2.0.516.1-64.1-bcde: No elliptic curves have the specified 'Traces'
-519: geodata done
-     1-100 done, 45 newforms, committed and pushed
+519: 1-100 done, 45 newforms, committed and pushed
      Curve search finds all 45, processed (96 curves)
-520 (130): geodata done
-     1-100 done, 48 newforms, committed and pushed
+520 (130): 1-100 done, 48 newforms, committed and pushed
      Curve search finds all 48, processed (212 curves), committed and pushed
-523: geodata done
-     1-100 done, 2 newforms, committed and pushed
+523: 1-100 done, 2 newforms, committed and pushed
      Curve search finds all 2, processed (2 curves), committed and pushed
-527: geodata done
-     1-100 done, 56 newforms, committed and pushed
-     Curve search finds 52/56, processed (116 curves), committed and pushed
-     No curve found to match newform 2.0.527.1-72.5-ab
-     No curve found to match newform 2.0.527.1-72.8-ab
-532 (133): geodata done
-     1-100 done, 44 newforms, committed and pushed
+527: 1-100 done, 56 newforms, committed and pushed
+     Curve search finds all 56, processed (120 curves), committed and pushed
+532 (133): 1-100 done, 44 newforms, committed and pushed
      Curve search finds all 44, processed (164 curves), committed and pushed
-535: geodata done
-     1-100 done, 14 newforms, committed and pushed
+535: 1-100 done, 14 newforms, committed and pushed
      Curve search finds all 14, processed (44 curves), committed and pushed
-536 (134): geodata done
-     1-100 done, 68 newforms, committed and pushed
+536 (134): 1-100 done, 68 newforms, committed and pushed
      Curve search finds all 68, processed (126 curves), committed and pushed
-543: geodata done
-     1-100 done, 21 newforms, committed and pushed
+543: 1-100 done, 21 newforms, committed and pushed
      Curve search finds all 21, processed (58 curves), committed and pushed
-547: geodata done
-     1-100 done, 2 newforms, committed and pushed
+547: 1-100 done, 2 newforms, committed and pushed
      Curve search finds all 2, processed (2 curves), committed and pushed
-548 (137): geodata done
-     1-100 done, 23 newforms, committed and pushed
+548 (137): 1-100 done, 23 newforms, committed and pushed
      Curve search finds all 23, processed (56 curves), committed and pushed
-551: geodata done
-     1-100 done, 94 newforms, committed and pushed
+551: 1-100 done, 94 newforms, committed and pushed
      Curve search finds all 94, processed (144 curves), committed and pushed
-552 (138): geodata done
-     1-100 done, 40 newforms, committed and pushed
+552 (138): 1-100 done, 40 newforms, committed and pushed
      Curve search finds all 40, processed (156 curves), committed and pushed
-555: geodata done
-     1-100 done, 29 newforms, committed and pushed
+555: 1-100 done, 29 newforms, committed and pushed
      Curve search finds all 29, processed (124 curves), committed and pushed
-559: geodata done
-     1-100 done, 34 newforms, committed and pushed
+559: 1-100 done, 34 newforms, committed and pushed
      Curve search finds all 34, processed (60 curves), committed and pushed
-563: geodata done
-     1-100 done, 20 newforms, committed and pushed
+563: 1-100 done, 20 newforms, committed and pushed
      Curve search finds all 20, processed (20 curves), committed and pushed
-564 (141): geodata done
-     1-100 done, 26 newforms, committed and pushed
+564 (141): 1-100 done, 26 newforms, committed and pushed
      Curve search finds all 26, processed (128 curves), committed and pushed
-568 (142): geodata done
-     1-100 done, 22 newforms, committed and pushed
+568 (142): 1-100 done, 22 newforms, committed and pushed
      Curve search finds 18/22, processed (56 curves), committed and pushed
      9.1-a/b: no curve has specified traces
      No curve found to match newform 2.0.568.1-81.1-ab: No elliptic curves have the specified 'Traces'
-571: geodata done
-     1-100 done, 2 newforms, committed and pushed
+571: 1-100 done, 2 newforms, committed and pushed
      Curve search finds all 2, processed (2 curves), committed and pushed
-579: geodata done
-     1-100 done, 17 newforms, committed and pushed
+579: 1-100 done, 17 newforms, committed and pushed
      Curve search finds all 17, processed (42 curves), committed and pushed
-580 (145): geodata done
-     1-100 done, 82 newforms, committed and pushed
+580 (145): 1-100 done, 82 newforms, committed and pushed
      Curve search finds all 82, processed (258 curves), committed and pushed
-583: geodata done
-     1-100 done, 42 newforms, committed and pushed
+583: 1-100 done, 42 newforms, committed and pushed
      Curve search finds all 42, processed (54 curves), committed and pushed
-584 (146): geodata done
-     1-100 done, 44 newforms, committed and pushed
+584 (146): 1-100 done, 44 newforms, committed and pushed
      Curve search finds all 44, processed (100 curves), committed and pushed
-587: geodata done
-     1-100 done, 8 newforms, committed and pushed
+587: 1-100 done, 8 newforms, committed and pushed
      Curve search finds all 8, processed (14 curves), committed and pushed
-591: geodata done
-     1-100 done, 51 newforms, committed and pushed
+591: 1-100 done, 51 newforms, committed and pushed
      Curve search finds all 51, processed (80 curves), committed and pushed
-595: geodata done
-     1-100 done, 37 newforms, committed and pushed
+595: 1-100 done, 37 newforms, committed and pushed
      Curve search finds all 37, processed (168 curves), committed and pushed
-596 (149): geodata done
-     1-100 done, 23 newforms, committed and pushed
+596 (149): 1-100 done, 23 newforms, committed and pushed
      Curve search finds all 23, processed (56 curves), committed and pushed
-599: geodata done
-     1-100 done, 52 newforms, committed and pushed
+599: 1-100 done, 52 newforms, committed and pushed
      Curve search finds all 52, processed (72 curves), committed and pushed.
 
 
@@ -661,107 +615,73 @@ d600 = [-D if D%2 else -D//4 for D in D600]
 
 600-700 level norms to 100
 
-607: geodata done
-     1-100 done, 8 newforms, committed and pushed.
+607: 1-100 done, 8 newforms, committed and pushed.
      Curve search finds all 8, processed (14 curves), committed and pushed
-611: geodata done
-     1-100 done, 36 newforms, committed and pushed.
-     Curve search finds 32/36, processed (54 curves), committed and pushed
-     No curve found to match newform 2.0.611.1-44.1-ab
-     No curve found to match newform 2.0.611.1-44.2-ab
-615: geodata done
-     1-100 done, 69 newforms, committed and pushed.
+611: 1-100 done, 36 newforms, committed and pushed.
+     Curve search finds all 36, processed (58 curves), committed and pushed
+615: 1-100 done, 69 newforms, committed and pushed.
      Curve search finds all 69, processed (188 curves), committed and pushed
-616 (154): geodata done
-     1-100 done, 76 newforms, committed and pushed.
+616 (154): 1-100 done, 76 newforms, committed and pushed.
      Curve search finds 70/76, processed (216 curves), committed and pushed
      No curve found to match newform 2.0.616.1-49.1-bcdefg: No elliptic curves have the specified 'Traces'
-619: geodata done
-     1-100 done, 2 newforms, committed and pushed.
+619: 1-100 done, 2 newforms, committed and pushed.
      Curve search finds all 2, processed (2 curves), committed and pushed
-623: geodata done
-     1-100 done, 59 newforms, committed and pushed.
+623: 1-100 done, 59 newforms, committed and pushed.
      Curve search finds all 59, processed (138 curves), committed and pushed
-627: geodata done
-     1-100 done, 42 newforms, committed and pushed.
+627: 1-100 done, 42 newforms, committed and pushed.
      Curve search finds all 42, processed (136 curves), committed and pushed
-628 (157): geodata done
-     1-100 done, 9 newforms, committed and pushed.
+628 (157): 1-100 done, 9 newforms, committed and pushed.
      Curve search finds all 9, processed (38 curves), committed and pushed
-631: geodata done
-     1-100 done, 20 newforms, committed and pushed.
+631: 1-100 done, 20 newforms, committed and pushed.
      Curve search finds all 20, processed (26 curves), committed and pushed
-632 (158): geodata done
-     1-100 done, 24 newforms, committed and pushed.
+632 (158): 1-100 done, 24 newforms, committed and pushed.
      Curve search finds all 24, processed (74 curves), committed and pushed
-635: geodata done
-     1-100 done, 18 newforms, committed and pushed.
+635: 1-100 done, 18 newforms, committed and pushed.
      Curve search finds all 18, processed (48 curves), committed and pushed
-643: geodata done
-     1-100 done, 8 newforms, committed and pushed.
+643: 1-100 done, 8 newforms, committed and pushed.
      Curve search finds all 8, processed (8 curves), committed and pushed
-644 (161): geodata done
-     1-100 done, 64 newforms, committed and pushed.
+644 (161): 1-100 done, 64 newforms, committed and pushed.
      Curve search finds all 64, processed (208 curves), committed and pushed
-647: geodata done
-     1-100 done, 30 newforms, committed and pushed.
+647: 1-100 done, 30 newforms, committed and pushed.
      Curve search finds all 30, processed (48 curves), committed and pushed
-651: geodata done
-     1-100 done, 40 newforms, committed and pushed.
+651: 1-100 done, 40 newforms, committed and pushed.
      Curve search finds 36/40, processed (140 curves), committed and pushed
      No curve found to match newform 2.0.651.1-81.1-cdef: No elliptic curves have the specified 'Traces'
-655: geodata done
-     1-100 done, 26 newforms, committed and pushed.
+655: 1-100 done, 26 newforms, committed and pushed.
      Curve search finds all 26, processed (72 curves), committed and pushed
-659: geodata done
-     1-100 done, 6 newforms, committed and pushed.
+659: 1-100 done, 6 newforms, committed and pushed.
      Curve search finds all 6, processed (6 curves), committed and pushed
-660 (165): geodata done
-     1-100 done, 153 newforms, committed and pushed.
+660 (165): 1-100 done, 153 newforms, committed and pushed.
      Curve search finds all 153, processed (628 curves), committed and pushed
-663: geodata done
-     1-100 done, 73 newforms, committed and pushed.
+663: 1-100 done, 73 newforms, committed and pushed.
      Curve search finds all 73, processed (204 curves), committed and pushed
-664 (166): geodata done
-     1-100 done, 14 newforms, committed and pushed.
+664 (166): 1-100 done, 14 newforms, committed and pushed.
      Curve search finds all 14, processed (50 curves), committed and pushed
-667: geodata done
-     1-100 done, 8 newforms, committed and pushed.
+667: 1-100 done, 8 newforms, committed and pushed.
      Curve search finds all 8, processed (16 curves), committed and pushed
-671: geodata done
-     1-100: done, 98 newforms, committed and pushed.
+671: 1-100: done, 98 newforms, committed and pushed.
      Curve search finds all 98, processed (164 curves), committed and pushed
-679: geodata done
-     1-100 done, 37 newforms, committed and pushed.
-     Curve search finds 35/37, processed (82 curves), committed and pushed
-     No curve found to match newform 2.0.679.1-70.1-ab
-680 (170): geodata done
-     1-100 done, 84 newforms, committed and pushed.
+679: 1-100 done, 37 newforms, committed and pushed.
+     Curve search finds all 37, processed (84 curves), committed and pushed
+680 (170): 1-100 done, 84 newforms, committed and pushed.
      Curve search finds 76/84, processed (280 curves), committed and pushed
      9.1-abcd, 9.3-abcd: no curves have specified traces
-683: geodata done
-     1-100 done, 6 newforms, committed and pushed.
+683: 1-100 done, 6 newforms, committed and pushed.
      Curve search finds all 6, processed (6 curves), committed and pushed
-687: geodata done
-     1-100 done, 55 newforms, committed and pushed.
+687: 1-100 done, 55 newforms, committed and pushed.
      Curve search finds all 55, processed (108 curves), committed and pushed
-691: geodata done
-     1-100 done, 6 newforms, committed and pushed.
+691: 1-100 done, 6 newforms, committed and pushed.
      Curve search finds all 6, processed (8 curves), committed and pushed
-692 (173): geodata done
-     1-100 done, 29 newforms, committed and pushed.
+692 (173): 1-100 done, 29 newforms, committed and pushed.
      Curve search finds all 29, processed (64 curves), committed and pushed
-695: geodata done
-     1-100 done, 58 newforms, committed and pushed.
+695: 1-100 done, 58 newforms, committed and pushed.
      Curve search finds all 58, processed (112 curves), committed and pushed
-696 (174): geodata done
-     1-100 done, 46 newforms, committed and pushed.
+696 (174): 1-100 done, 46 newforms, committed and pushed.
      Curve search finds all 46, processed (180 curves), committed and pushed
-699: geodata done
-     1-100 done, 11 newforms, committed and pushed.
+699: 1-100 done, 11 newforms, committed and pushed.
      Curve search finds all 11, processing (28 curves), committed and pushed
 
-========== Newforms to 100, curve search and processing to 100 done to here ===========================================
+========== Newforms to 100, curve search and processing to 100 done to here ===================
 
 D700=[D for D in srange(-700,-800,-1) if D.is_fundamental_discriminant()]
 '703 707 708 712 715 719 723 724 727 728 731 739 740 743 744 751 755 759 760 763 767 771 772 776 779 787 788 791 795 799'
@@ -772,94 +692,66 @@ d700 = [-D if D%2 else -D//4 for D in D700]
          - curves found and processed
          - all committed and pushed
 
-703: geodata done
-     1-100 done, 32 newforms, committed and pushed.
+703: 1-100 done, 32 newforms, committed and pushed.
      All 32 curves 1-100 found, processed 56 curves), committed and pushed.
-707: geodata done
-     1-100 done, 17 newforms, committed and pushed.
+707: 1-100 done, 17 newforms, committed and pushed.
      All 17 curves 1-100 found, processed (56 curves), committed and pushed.
-708 (177): geodata done
-     1-100 done, 54 newforms, committed and pushed.
+708 (177): 1-100 done, 54 newforms, committed and pushed.
      All 54 curves 1-100 found, processed (164 curves), committed and pushed.
-712 (178): geodata done
-     1-100 done, 28 newforms, committed and pushed.
+712 (178): `101-100 done, 28 newforms, committed and pushed.
      All 28 curves 1-100 found, processed (72 curves), committed and pushed.
-715: geodata done
-     1-100 done, 36 newforms, committed and pushed.
+715: 1-100 done, 36 newforms, committed and pushed.
      All 36 curves 1-100 found, processed (136 curves), committed and pushed.
-719: geodata done
-     1-100 done, 100 newforms, committed and pushed.
+719: 1-100 done, 100 newforms, committed and pushed.
      Found 95/100 curves, processed (121 curves), committed and pushed.
      No curve found to match newform 2.0.719.1-42.3-b
      No curve found to match newform 2.0.719.1-42.6-b
      No curve found to match newform 2.0.719.1-52.3-a
      No curve found to match newform 2.0.719.1-52.4-a
      No curve found to match newform 2.0.719.1-96.3-a
-723: geodata done
-     1-100 done, 7 newforms, committed and pushed.
+723: 1-100 done, 7 newforms, committed and pushed.
      All 7 curves 1-100 found, processed (26 curves), committed and pushed.
-724 (181): geodata done
-     1-100 done, 23 newforms, committed and pushed.
+724 (181): 1-100 done, 23 newforms, committed and pushed.
      All 23 curves 1-100 found, processed (54 curves), committed and pushed.
-727: geodata done
-     1-100 done, 4 newforms, committed and pushed.
+727: 1-100 done, 4 newforms, committed and pushed.
      All 4 curves 1-100 found, processed (6 curves), committed and pushed.
-728 (182): geodata done
-     1-100 done, 57 newforms, committed and pushed.
+728 (182): 1-100 done, 57 newforms, committed and pushed.
      All 57 curves 1-100 found, processed (192 curves), committed and pushed.
-731: geodata done
-     1-100 done, 28 newforms, committed and pushed.
+731: 1-100 done, 28 newforms, committed and pushed.
      All 28 curves 1-100 found, processed (60 curves), committed and pushed.
-739: geodata done
-     1-100 done, 2 newforms, committed and pushed.
+739: 1-100 done, 2 newforms, committed and pushed.
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
-740 (185): geodata done
-     1-100 done, 73 newforms, committed and pushed.
+740 (185): 1-100 done, 73 newforms, committed and pushed.
      All 73 curves 1-100 found, processed (228 curves), committed and pushed.
-743: geodata done
-     1-100 done, 22 newforms, committed and pushed.
+743: 1-100 done, 22 newforms, committed and pushed.
      All 22 curves 1-100 found, processed (28 curves), committed and pushed.
-744 (186): geodata done
-     1-100 done, 48 newforms, committed and pushed.
+744 (186): 1-100 done, 48 newforms, committed and pushed.
      All 48 curves 1-100 found, processed (208 curves), committed and pushed.
-751: geodata done
-     1-100 done, 16 newforms, committed and pushed.
+751: 1-100 done, 16 newforms, committed and pushed.
      All 16 curves 1-100 found, processed (28 curves), committed and pushed.
-755: geodata done
-     1-100 done, 14 newforms, committed and pushed.
+755: 1-100 done, 14 newforms, committed and pushed.
      All 14 curves 1-100 found, processed (56 curves), committed and pushed.
-759: geodata done
-     1-100 done, 142 newforms, committed and pushed.
+759: 1-100 done, 142 newforms, committed and pushed.
      All 142 curves 1-100 found, processed (348 curves), committed and pushed.
-760 (190): geodata done
-     1-100 done, 48 newforms, committed and pushed.
+760 (190): 1-100 done, 48 newforms, committed and pushed.
      All 48 curves 1-100 found, processed (212 curves), committed and pushed.
-763: geodata done
-     1-100 done, 9 newforms, committed and pushed.
+763: 1-100 done, 9 newforms, committed and pushed.
      All 9 curves 1-100 found, processed (32 curves), committed and pushed.
-767: geodata done
-     1-100 done, 28 newforms, committed and pushed.
+767: 1-100 done, 28 newforms, committed and pushed.
      All 28 curves 1-100 found, processed (66 curves), committed and pushed.
-771: geodata done
-     1-100 done, 9 newforms, committed and pushed.
+771: 1-100 done, 9 newforms, committed and pushed.
      All 9 curves 1-100 found, processed (32 curves), committed and pushed.
-772 (193): geodata done
-     1-100 done, 19 newforms, committed and pushed.
+772 (193): 1-100 done, 19 newforms, committed and pushed.
      All 19 curves 1-100 found, processed (54 curves), committed and pushed.
-776 (194): geodata done
-     1-100 done, 60 newforms, committed and pushed.
+776 (194): 1-100 done, 60 newforms, committed and pushed.
      Found 58/60 curves 1-100, 2 do not exist: 9.1-a, 9.3-a, processed (130 curves), committed and pushed.
-779: geodata done
-     1-100 done, 12 newforms, committed and pushed.
+779: 1-100 done, 12 newforms, committed and pushed.
      All 12 curves 1-100 found, processed (24 curves), committed and pushed.
-787: geodata done
-     1-100 done, 0 newforms, committed and pushed.
+787: 1-100 done, 0 newforms, committed and pushed.
      All 0 curves 1-100 found
-788 (197): geodata done
-     1-100 done, 11 newforms, committed and pushed.
+788 (197): 1-100 done, 11 newforms, committed and pushed.
      All 11 curves 1-100 found, processed (40 curves), committed and pushed.
-791: geodata done
-     1-100 done, 85 newforms, committed and pushed.
+791: 1-100 done, 85 newforms, committed and pushed.
      Found 69/85 curves 1-100, processed (140 curves), committed and pushed.
      No curve found to match newform 2.0.791.1-84.3-a/b
      No curve found to match newform 2.0.791.1-84.4-a/b
@@ -869,11 +761,9 @@ d700 = [-D if D%2 else -D//4 for D in D700]
      No curve found to match newform 2.0.791.1-90.7-c/d
      No curve found to match newform 2.0.791.1-90.8-c/d
      No curve found to match newform 2.0.791.1-90.11-a/b
-795: geodata done
-     1-100 done, 25 newforms, committed and pushed.
+795: 1-100 done, 25 newforms, committed and pushed.
      All 25 curves 1-100 found, processed (112 curves), committed and pushed.
-799: geodata done
-     1-100 done, 36 newforms, committed and pushed.
+799: 1-100 done, 36 newforms, committed and pushed.
      All 36 curves 1-100 found, processed (86 curves), committed and pushed.
 
 D800=[D for D in srange(-800,-900,-1) if D.is_fundamental_discriminant()]
@@ -885,23 +775,17 @@ d800 = [-D if D%2 else -D//4 for D in D800]
          - curves found and processed
          - all committed and pushed
 
-803: geodata done
-     1-100 done, 12 newforms, committed and pushed.
+803: 1-100 done, 12 newforms, committed and pushed.
      All 12 curves 1-100 found, processed (26 curves), committed and pushed.
-804 (201): geodata done
-     1-100 done, 68 newforms, committed and pushed.
+804 (201): 1-100 done, 68 newforms, committed and pushed.
      All 68 curves 1-100 found, processed (184 curves), committed and pushed.
-807: geodata done
-     1-100 done, 21 newforms, committed and pushed.
+807: 1-100 done, 21 newforms, committed and pushed.
      All 21 curves 1-100 found, processed (48 curves), committed and pushed.
-808 (202): geodata done
-     1-100 done, 10 newforms, committed and pushed.
+808 (202): 1-100 done, 10 newforms, committed and pushed.
      All 10 curves 1-100 found, processed (44 curves), committed and pushed.
-811: geodata done
-     1-100 done, 0 newforms, committed and pushed.
+811: 1-100 done, 0 newforms, committed and pushed.
      All 0 curves 1-100 found
-815: geodata done
-     1-100 done, 112 newforms, committed and pushed.
+815: 1-100 done, 112 newforms, committed and pushed.
      9.1-b is self-twist, CM by -163.
      9.3-b is self-twist, CM by -163.
      49.1-b is self-twist, CM by -163.
@@ -912,81 +796,56 @@ d800 = [-D if D%2 else -D//4 for D in D800]
           [in isogeny_small_degree.py, isogenies_prime_degree(), near the
           end, comment out "and E.base_field() is QQ;"]
      All 112 curves 1-100 found, processed (180 curves), committed and pushed.
-820 (205): geodata done
-     1-100 done, 78 newforms, committed and pushed.
+820 (205): 1-100 done, 78 newforms, committed and pushed.
      All 78 curves 1-100 found, processed (258 curves), committed and pushed.
-823: geodata done
-     1-100 done, 12 newforms, committed and pushed.
+823: 1-100 done, 12 newforms, committed and pushed.
      All 12 curves 1-100 found, processed (14 curves), committed and pushed.
-824 (206): geodata done
-     1-100 done, 34 newforms, committed and pushed.
+824 (206): 1-100 done, 34 newforms, committed and pushed.
      All 34 curves 1-100 found, processed (84 curves), committed and pushed.
-827: geodata done
-     1-100 done, 2 newforms, committed and pushed.
+827: 1-100 done, 2 newforms, committed and pushed.
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
-831: geodata done
-     1-100 done, 45 newforms, committed and pushed.
+831: 1-100 done, 45 newforms, committed and pushed.
      All 45 curves 1-100 found, processed (72 curves), committed and pushed.
-835: geodata done
-     1-100 done, 10 newforms, committed and pushed.
+835: 1-100 done, 10 newforms, committed and pushed.
      All 10 curves 1-100 found, processed (36 curves), committed and pushed.
-836 (209): geodata done
-     1-100 done, 74 newforms, committed and pushed.
+836 (209): 1-100 done, 74 newforms, committed and pushed.
      All 74 curves 1-100 found, processed (192 curves), committed and pushed.
-839: geodata done
-     1-100 done, 64 newforms, committed and pushed.
+839: 1-100 done, 64 newforms, committed and pushed.
      All 74 curves 1-100 found, processing (76 curves), committed and pushed.
-840 (210): geodata done
-     1-100 done, 153 newforms, committed and pushed.
+840 (210): 1-100 done, 153 newforms, committed and pushed.
      All 153 curves 1-100 found, processed (684 curves), committed and pushed.
-843: geodata done
-     1-100 done, 11 newforms, committed and pushed.
+843: 1-100 done, 11 newforms, committed and pushed.
      All 11 curves 1-100 found, processed (28 curves), committed and pushed.
-851: geodata done
-     1-100 done, 38 newforms, committed and pushed.
+851: 1-100 done, 38 newforms, committed and pushed.
      All 38 curves 1-100 found, processed (68 curves), committed and pushed.
-852 (213): geodata done
-     1-100 done, 22 newforms, committed and pushed.
+852 (213): 1-100 done, 22 newforms, committed and pushed.
      All 22 curves 1-100 found, processed (120 curves), committed and pushed.
-856 (214): geodata done
-     1-100 done, 8 newforms, committed and pushed.
+856 (214): 1-100 done, 8 newforms, committed and pushed.
      All 8 curves 1-100 found, processed (40 curves), committed and pushed.
-859: geodata done
-     1-100 done, 2 newforms, committed and pushed.
+859: 1-100 done, 2 newforms, committed and pushed.
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
-863: geodata done
-     1-100 done, 18 newforms, committed and pushed.
+863: 1-100 done, 18 newforms, committed and pushed.
      All 18 curves 1-100 found, processed (30 curves), committed and pushed.
-868 (217): geodata done
-     1-100 done, 64 newforms, committed and pushed.
+868 (217): 1-100 done, 64 newforms, committed and pushed.
      All 64 curves 1-100 found, processed (192 curves), committed and pushed.
-871: geodata done
-     1-100 done, 34 newforms, committed and pushed.
+871: 1-100 done, 34 newforms, committed and pushed.
      All 34 curves 1-100 found, processed (52 curves), committed and pushed.
-872 (218): geodata done
-     1-100 done, 16 newforms, committed and pushed.
+872 (218): 1-100 done, 16 newforms, committed and pushed.
      All 16 curves 1-100 found, processed (48 curves), committed and pushed.
-879: geodata done - need curves
-     1-100 done, 35 newforms, committed and pushed.
+879: 1-100 done, 35 newforms, committed and pushed.
      All 35 curves 1-100 found, processed (60 curves), committed and pushed.
-883: geodata done
-     1-100 done, 2 newforms, committed and pushed.
+883: 1-100 done, 2 newforms, committed and pushed.
      All 2 curves 1-100 found, processed (2 curves), committed and pushed.
-884 (221): geodata done
-     1-100 done, 94 newforms, committed and pushed.
+884 (221): 1-100 done, 94 newforms, committed and pushed.
      All 94 curves 1-100 found, processed (246 curves), committed and pushed.
-887: geodata done
-     1-100 done, 54 newforms, committed and pushed.
+887: 1-100 done, 54 newforms, committed and pushed.
      Only 50/54 curves 1-100 found, processed (68 curves), committed and pushed.
      4 curves not found: 54.2-a, 54.3-c, 54.6-c, 54.7-a
-888 (222): geodata done
-     1-100 done, 46 newforms, committed and pushed.
+888 (222): 1-100 done, 46 newforms, committed and pushed.
      All 46 curves 1-100 found, processed (176 curves), committed and pushed.
-895: geodata done
-     1-100 done, 42 newforms, committed and pushed.
+895: 1-100 done, 42 newforms, committed and pushed.
      All 42 curves 1-100 found, processed (92 curves), committed and pushed.
-899: geodata done
-     1-100 done, 8 newforms, committed and pushed.
+899: 1-100 done, 8 newforms, committed and pushed.
      All 8 curves 1-100 found, processed (16 curves), committed and pushed.
 
 D900=[D for D in srange(-900,-1000,-1) if D.is_fundamental_discriminant()]
@@ -1088,7 +947,7 @@ d900 = [-D if D%2 else -D//4 for D in D900]
      All 36 curves 1-100 found, processed (144 curves), committed and pushed.
 991: geodata done
      1-100 done, 12 newforms, committed and pushed.
-     Only 10/12 curves 1-100 found: missing/DNE 52.3-b, 52.4-b, processed (12 curves), committed and pushed.
+     All 12 curves 1-100 found, processed (14 curves), committed and pushed.
 995: geodata done
      1-100 done, 18 newforms, committed and pushed.
      All 18 curves 1-100 found, processed (64 curves), committed and pushed.
@@ -1110,186 +969,127 @@ echo $d -1 $N1 $N2 | ./nflist_loop
 
 1000-1100: geodata done, homtest OK, newforms 1-15 done
 
-1003: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1003: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1007: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1007: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1011: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1011: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1012 (253): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1012 (253): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1015: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1015: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1016 (254): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
+1016 (254): makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
       All 6 curves 1-15 found, processed (12 curves), committed and pushed
-1019: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1019: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1023: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
+1023: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed.
       All 6 curves 1-15 found, processed (16 curves), committed and pushed
-1027: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1027: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1028 (257): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1028 (257): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1031: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1031: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
       All 0 curves 1-15 found
-1032 (258): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
+1032 (258): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed.
       Only 0/2 curves 1-15 found, 2 do not exist: 9.1-ab
-1039: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1039: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
       All 0 curves 1-15 found
-1043: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1043: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
       All 0 curves 1-15 found
-1047: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
+1047: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed.
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1048 (262): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1048 (262): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
       All 0 curves 1-15 found
-1051: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
+1051: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed.
       All 0 curves 1-15 found
       makenf done to norm 63, 25 ap, 0 newforms, committed and pushed
-1055: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
+1055: makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
       All 12 curves 1-15 found, processed (16 curves), committed and pushed
-1059: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1059: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1060 (265): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1060 (265): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (16 curves), committed and pushed
-1063: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1063: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1064 (266): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1064 (266): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (32 curves), committed and pushed
-1067: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1067: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (18 curves), committed and pushed
-1076 (269): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1076 (269): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1079: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1079: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1087: geodatadone, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1087: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1091: geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1091: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1092 (273): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 32 newforms, committed and pushed
+1092 (273): makenf done to norm 15, 25 ap, 32 newforms, committed and pushed
       All 32 curves 1-15 found, processed (80 curves), committed and pushed
-1095: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1095: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (32 curves), committed and pushed
-1096 (274): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1096 (274): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1099: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1099: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 
-1100-1200 geodata done, homtest OK, newforms 1-15 done
+1100-1200 , newforms 1-15 done
 
-1103: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1103: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1108 (277): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1108 (277): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1111: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1111: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       All 6 curves 1-15 found, processed (10 curves), committed and pushed
-1112 (278): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1112 (278): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1115: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1115: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1119: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1119: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1123: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1123: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1124 (281): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1124 (281): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1128 (282): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1128 (282): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1131: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1131: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (24 curves), committed and pushed
-1135: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1135: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1139: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1139: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (12 curves), committed and pushed
-1140 (285): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1140 (285): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (64 curves), committed and pushed
-1144 (286): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1144 (286): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1147: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1147: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1151: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1151: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1155: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
+1155: makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
       All 16 curves 1-15 found, processed (88 curves), committed and pushed
-1159: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1159: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       All 6 curves 1-15 found, processed (8 curves), committed and pushed
-1160 (290): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1160 (290): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1163: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1163: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1167: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1167: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1171: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1171: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1172 (293): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1172 (293): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1187: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1187: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       Only 0/2 curves 1-15 found, 2 do not exist: 9.1-a, 9.3-a
-1191: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
-      Only 4/6 curves 1-15 found, 2 not found: 12.2-bc, processed (8 curves), committed and pushed
-1192 (298): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1191: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+      All 6 curves 1-15 found, processed (10 curves), committed and pushed
+1192 (298): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1195: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1195: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1199: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1199: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (6 curves), committed and pushed
 
 1200-1300 geodata done, homtest OK, newforms 1-15 done
@@ -1300,934 +1100,620 @@ sage: ddstr = " ".join(str(d) for d in dd)
 sage: ddstr
 '301 1207 302 1211 1219 305 1223 1227 1231 1235 309 1239 310 1243 1247 313 1255 314 1259 1263 1267 317 1271 318 1279 1283 321 322 1291 1295 1299 1303 326 1307 1311 1315 329 1319 330 1327 1335 334 1339 1343 1347 337 1351 1355 1363 341 1367 1371 1379 345 1383 346 1387 1391 349 1399 1403 1407 1411 353 1415 354 1419 1423 1427 357 358 1435 1439 1443 1447 362 1451 1455 1459 365 1463 366 1471 1479 370 1483 1487 1491 373 1495 374 1499 1507 377 1511 1515 1523 381 1527 382 1531 1535 385 1543 386 1547 1551 1555 389 1559 390 1563 1567 1571 393 394 1579 1583 397 1591 398 1595 1599 1603 401 1607 402 1615 1619 1623 406 1627 1631 1635 409 1639 410 1643 1651 413 1655 1659 1663 1667 417 1671 418 1679 421 1687 422 1691 1695 1699 1703 426 1707 1711 429 430 1723 1727 1731 433 1735 434 1739 1743 1747 437 1751 438 1759 1763 1767 442 1771 1779 445 1783 446 1787 1795 449 1799 1803 1807 1811 453 454 1819 1823 457 1831 458 1835 1839 1843 461 1847 462 1851 1855 465 466 1867 1871 469 1879 470 1883 1887 1891 473 1895 474 1903 1907 478 1915 1919 1923 481 1927 482 1931 1939 485 1943 1947 1951 1955 489 1959 1963 1967 493 494 1979 1983 1987 497 1991 498 1995 1999 2003 501 502 2011 2015 2019 505 506 2027 2031 2035 509 2039 510 2047 2051 2055 514 2059 2063 2067 517 2071 518 2083 521 2087 2091 2095 2099'
 
-
-1203: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1203: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1204 (301): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1204 (301): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (24 curves), committed and pushed
-1207: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1207: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1208 (302): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1208 (302): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
-1211: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1211: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
-1219: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1219: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1220 (305): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1220 (305): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1223: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1223: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1227: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1227: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1231: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1231: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1235: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1235: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1236 (309): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1236 (309): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1239: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1239: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1240 (310): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1240 (310): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1243: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1243: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (6 curves), committed and pushed
-1247: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1247: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1252 (313): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1252 (313): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1255: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1255: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1256 (314): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1256 (314): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1259: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1259: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       Only 0/2 curves 1-15 found, 2 do not exist: 9.1-a, 9.3-a
-1263: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
+1263: makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
       All 10 curves 1-15 found, processed (16 curves), committed and pushed
-1267: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1267: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1268 (317): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1268 (317): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1271: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1271: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1272 (318): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1272 (318): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1279: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1279: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1283: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1283: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1284 (321):  geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1284 (321):  makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1288 (322): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1288 (322): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (24 curves), committed and pushed
-1291: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1291: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1295: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1295: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
-1299: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1299: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
 
 1300-1400: geodata done, homtest OK, newforms 1-15 done
 
-1303: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1303: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1304 (326): geodata homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1304 (326): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       Only 0/2 curves 1-15 found, 2 not found: 9.1-a, 9.3-a
-1307: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1307: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1311: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1311: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1315: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1315: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1316 (329): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1316 (329): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (28 curves), committed and pushed
-1319: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1319: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1320 (330): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
+1320 (330): makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
       All 16 curves 1-15 found, processed (88 curves), committed and pushed
-1327: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1327: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1335: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1335: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (32 curves), committed and pushed
-1336 (334): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1336 (334): makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       Only 4/6 curves 1-15 found, 2 do not exist: 9.1-ef, processed (4 curves), committed and pushed
-1339: geodata, homtest OK
-      makenf done to norm 5, 25 ap, 2 newforms, committed and pushed
+1339: makenf done to norm 5, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1343: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1343: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1347: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1347: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1348 (337): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1348 (337): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1351: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1351: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (6 curves), committed and pushed
-1355: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1355: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1363: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1363: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1364 (341): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1364 (341): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (20 curves), committed and pushed
-1367: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1367: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1371: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1371: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1379: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1379: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1380 (345): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1380 (345): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (64 curves), committed and pushed
-1383: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1383: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1384 (346): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1384 (346): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1387: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1387: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1391: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
-      Only 2/6 curves 1-15 found, 4 not found: 14.2-ab, 14.3-ab, processed (4 curves), committed and pushed
-1396 (349): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1391: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+      All 6 curves 1-15 found, processed (8 curves), committed and pushed
+1396 (349): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1399: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1399: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 
 1400-1500: geodata done, homtest OK, newforms 1-15 done
 
-1403: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1403: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1407: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1407: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
-1411: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1411: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1412 (353): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1412 (353): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1415: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1415: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1416 (354): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
+1416 (354): makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
       All 12 curves 1-15 found, processed (12 curves), committed and pushed
-1419: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1419: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1423: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1423: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1427: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1427: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1428 (357): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1428 (357): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (48 curves), committed and pushed
-1432 (358): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1432 (358): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1435: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1435: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1439: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1439: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1443: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1443: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1447: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1447: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1448 (362): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1448 (362): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1451: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1451: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1455: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1455: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (32 curves), committed and pushed
-1459: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1459: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1460 (365): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1460 (365): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1463: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1463: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1464 (366): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1464 (366): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1471: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1471: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1479: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1479: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1480 (370): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1480 (370): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1483: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1483: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1487: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1487: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1491: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1491: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1492 (373): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1492 (373): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1495: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1495: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1496 (374): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1496 (374): makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       All 6 curves 1-15 found, processed (16 curves), committed and pushed
-1499: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1499: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 
 1500-1600: geodata done, homtest OK, newforms 1-15 done
 
-1507: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1507: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (6 curves), committed and pushed
-1508 (377): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1508 (377): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1511: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1511: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1515: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1515: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (32 curves), committed and pushed
-1523: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1523: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1524 (381): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1524 (381): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1527: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1527: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1528 (382): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1528 (382): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       Only 0/2 curves 1-15 found, 2 do not exist: 9.1-ab
-1531: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1531: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1535: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1535: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1540 (385): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
+1540 (385): makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
       All 16 curves 1-15 found, processed (72 curves), committed and pushed
-1543: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1543: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1544 (386): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
+1544 (386): makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
       All 10 curves 1-15 found, processed (18 curves), committed and pushed
-1547: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1547: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (8 curves), committed and pushed
-1551: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 28 newforms, committed and pushed
+1551: makenf done to norm 15, 25 ap, 28 newforms, committed and pushed
       All 28 curves 1-15 found, processed 60 curves), committed and pushed
-1555: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1555: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1556 (389): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1556 (389): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1559: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1559: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       Only 4/6 curves 1-15 found, 2 not found: 12.3-1, 12.4-a, processed (4 curves), committed and pushed
-1560 (390): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1560 (390): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (64 curves), committed and pushed
-1563: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1563: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1567: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1567: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1571: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1571: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1572 (393): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1572 (393): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (12 curves), committed and pushed
-1576 (394): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1576 (394): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1579: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1579: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1583: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1583: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1588 (397): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1588 (397): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1591: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1591: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1592 (398): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1592 (398): makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       All 6 curves 1-15 found, processed (12 curves), committed and pushed
-1595: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1595: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1599: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1599: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 
 1600-1700: geodata done, homtest OK, newforms 1-15 done
 
-1603: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1603: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1604 (401): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1604 (401): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1607: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1607: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (10 curves), committed and pushed
-1608 (402): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1608 (402): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       Only 0/2 curves 1-15 found, 2 do not exist: 9.1-ab
-1615: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1615: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1619: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1619: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1623: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1623: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1624 (406): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1624 (406): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (24 curves), committed and pushed
-1627: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1627: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1631: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1631: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1635: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
+1635: makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
       All 12 curves 1-15 found, processed (44 curves), committed and pushed
-1636 (409): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1636 (409): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1639: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1639: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (6 curves), committed and pushed
-1640 (410): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1640 (410): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (16 curves), committed and pushed
-1643: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1643: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1651: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1651: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1652 (413): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1652 (413): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (24 curves), committed and pushed
-1655: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1655: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1659: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1659: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
-1663: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1663: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1667: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1667: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1668 (417):geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1668 (417):makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1671: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1671: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1672 (418): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1672 (418): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1679: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1679: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1684 (421): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1684 (421): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1687: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1687: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1688 (422): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1688 (422): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1691: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1691: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1695: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1695: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (32 curves), committed and pushed
-1699: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1699: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 
 1700-1800: geodata done and homtest OK, newforms 1-15 done
 
-1703: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
+1703: makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
       All 10 curves 1-15 found, processed (24 curves), committed and pushed
-1704 (426): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1704 (426): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1707: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1707: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1711: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1711: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1716 (429): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1716 (429): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (24 curves), committed and pushed
-1720 (430): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1720 (430): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1723: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1723: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1727: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 18 newforms, committed and pushed
+1727: makenf done to norm 15, 25 ap, 18 newforms, committed and pushed
       Only 16/18 curves 1-15 found, 2 do not exist: 9.1-b, 9.3-b, processed (20 curves), committed and pushed
-1731: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1731: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       Only 2/4 curves 1-15 found, 2 not found: 9.1-ab, processed (4 curves), committed and pushed
-1732 (433): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1732 (433): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1735: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1735: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1736 (434): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
+1736 (434): makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
       All 12 curves 1-15 found, processed (32 curves), committed and pushed
-1739: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1739: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (12 curves), committed and pushed
-1743: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1743: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (8 curves), committed and pushed
-1747: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1747: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1748 (437): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1748 (437): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1751: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1751: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1752 (438): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1752 (438): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (8 curves), committed and pushed
-1759: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1759: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1763: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1763: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1767: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1767: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       Only 4/8 curves 1-15 found, 4 do not exist: 9.1-abcd, processed (4 curves), committed and pushed
-1768 (442): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
+1768 (442): makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
       All 16 curves 1-15 found, processed (32 curves), committed and pushed
-1771: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1771: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1779: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1779: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1780 (445): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1780 (445): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (12 curves), committed and pushed
-1783: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1783: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1784 (446): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
+1784 (446): makenf done to norm 15, 25 ap, 10 newforms, committed and pushed
       All 10 curves 1-15 found, processed (16 curves), committed and pushed
-1787: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1787: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1795: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1795: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1796 (449): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1796 (449): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1799: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1799: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
 
 1800-1900: geodata done and homtest OK, newforms 1-15 done
 
-1803: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1803: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       Only 4/6 curves 1-15 found, 2 do not exist: 4.1-ab, processed (6 curves), committed and pushed
-1807: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1807: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1811: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1811: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1812 (453): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1812 (453): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1816 (454): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1816 (454): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1819: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1819: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1823: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1823: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1828 (457): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1828 (457): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1831: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1831: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1832 (458): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1832 (458): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1835: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1835: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1839: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1839: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1843: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1843: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1844 (461): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1844 (461): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (4 curves), committed and pushed
-1847: geodata, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+1847: makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1848 (462): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
+1848 (462): makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
       All 16 curves 1-15 found, processed (72 curves), committed and pushed
-1851: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1851: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1855: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1855: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1860 (465): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
+1860 (465): makenf done to norm 15, 25 ap, 16 newforms, committed and pushed
       All 16 curves 1-15 found, processed (72 curves), committed and pushed
-1864 (466): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1864 (466): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1867: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1867: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1871: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1871: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1876 (469): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1876 (469): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (24 curves), committed and pushed
-1879: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1879: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (6 curves), committed and pushed
-1880 (470): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1880 (470): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1883: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1883: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (8 curves), committed and pushed
-1887: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1887: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1891: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1891: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1892 (473): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
+1892 (473): makenf done to norm 15, 25 ap, 12 newforms, committed and pushed
       All 12 curves 1-15 found, processed (20 curves), committed and pushed
-1895: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1895: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1896 (474): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1896 (474): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 
 1900-2000: geodata done, homtest OK, newforms 1-15 done.
 
-1903: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1903: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (6 curves), committed and pushed
-1907: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1907: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1912 (478): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1912 (478): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       Only 0/2 curves 1-15 found, 2 do not exist: 9.1-ab
-1915: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1915: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1919: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1919: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1923: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1923: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1924 (481): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1924 (481): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1927: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1927: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1928 (482): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1928 (482): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1931: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1931: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (2 curves), committed and pushed
-1939: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1939: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1940 (485): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1940 (485): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1943: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1943: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       All 6 curves 1-15 found, processed (8 curves), committed and pushed
-1947: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1947: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (12 curves), committed and pushed
-1951: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1951: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1955: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1955: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1956 (489): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+1956 (489): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves 1-15 found, processed (4 curves), committed and pushed
-1959: geodata, homtest OK 
-     makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1959: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1963: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1963: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1967: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1967: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1972 (493): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1972 (493): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1976 (494): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1976 (494): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1979: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1979: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1983: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1983: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (10 curves), committed and pushed
-1987: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1987: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1988 (497): geodata done, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+1988 (497): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves 1-15 found, processed (24 curves), committed and pushed
-1991: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+1991: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       Only 4/6 curves 1-15 found, 2 do not exist: 9.1-a, 9.3-a, processed (8 curves), committed and pushed
-1992 (498): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1992 (498): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
-1995: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+1995: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves 1-15 found, processed (64 curves), committed and pushed
-1999: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+1999: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
       All 0 curves 1-15 found
 ​
-2000-2100: geodata, homtest OK, newforms 1-15 done
+2000-2100: , newforms 1-15 done
 
-2003: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2004 (501): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2008 (502): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2011: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2015: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2019: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
-      Only 2/4 curves found, missing 4.1a/b, processed (2 curves), committed and pushed
-2020 (505): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2024 (506): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+2003: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2004 (501): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2008 (502): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2011: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2015: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2019: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+      Only 2/4 curves found,  4.1a/b do not exist, processed (2 curves), committed and pushed
+2020 (505): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2024 (506): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (12 curves), committed and pushed
-2027: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2031: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2035: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+2027: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2031: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2035: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves found, processed (20 curves), committed and pushed
-2036 (509): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2039: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
-      0/2 curves found
-2040 (510): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+2036 (509): makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2039: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+      0/2 curves found, missing 12.3-a, 12.4-a
+2040 (510): makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves found, processed (64 curves), committed and pushed
-2047: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2051: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
+2047: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2051: makenf done to norm 15, 25 ap, 6 newforms, committed and pushed
       All 6 curves found, processed (12 curves), committed and pushed
-2055: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+2055: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (32 curves), committed and pushed
-2056 (514): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+2056 (514): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
-2059: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+2059: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
-2063: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+2063: makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
-2067: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
+2067: makenf done to norm 15, 25 ap, 8 newforms, committed and pushed
       All 8 curves found, processed (24 curves), committed and pushed
-2068 (517): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 20 newforms, committed and pushed
+2068 (517): makenf done to norm 15, 25 ap, 20 newforms, committed and pushed
       All 20 curves found, processed (28 curves), committed and pushed
-2071: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+2071: makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2072 (518): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
+2072 (518): makenf done to norm 15, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (24 curves), committed and pushed
-2083: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2084 (521): geodata, homtest OK
-      makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
+2083: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2084 (521): makenf done to norm 15, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (2 curves), committed and pushed
-2087: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2091: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2095: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-2099: geodata, homtest OK
-      makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
-
-=========== curve  finding   done to here (levels to 15)  ========================
-=========== curve processing done to here (levels to 15)  ========================
+2087: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2091: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2095: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
+2099: makenf done to norm 15, 25 ap, 0 newforms, committed and pushed
 ​
 Dlist='2103 2104 2111 2119 2120 2123 2127 2131 2132 2135 2136 2139 2143 2147 2148 2152 2155 2159 2163 2164 2167 2168 2171 2179 2180 2183 2184 2191 2195 2199'
 dlist='2103 526 2111 2119 530 2123 2127 2131 533 2135 534 2139 2143 2147 537 538 2155 2159 2163 541 2167 542 2171 2179 545 2183 546 2191 2195 2199'
 
 2100-2200 makenf 1-11 done
 
-2103: geodata and integral homology done, homtest OK
-      makenf to norm 11, 25 ap, 0 newforms, committed and pushed
-2104 (526): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+2103: makenf to norm 11, 25 ap, 0 newforms, committed and pushed
+2104 (526): makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       0/2 curves found, missing 9.1-ab
-2111: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2119: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2120 (530): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+2111: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2119: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2120 (530): makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
-2123: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+2123: makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (6 curves), committed and pushed
-2127: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2131: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2132 (533): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2135: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2136 (534): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2139: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 4 newforms, committed and pushed
+2127: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2131: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2132 (533): makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2135: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2136 (534): makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2139: makenf done to norm 11, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (8 curves), committed and pushed
-2143: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2147: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+2143: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2147: makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
-2148 (537): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 8 newforms, committed and pushed
+2148 (537): makenf done to norm 11, 25 ap, 8 newforms, committed and pushed
       All 8 curves found, processed (12 curves), committed and pushed
-2152 (538): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2155: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2159: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 12 newforms, committed and pushed
+2152 (538): makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2155: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2159: makenf done to norm 11, 25 ap, 12 newforms, committed and pushed
       Only 8/12 curves found, processed (16 curves), committed and pushed
       2.0.2159.1-4.2-a/d (twists): no curve found
       2.0.2159.1-4.2-b/c (twists): no elliptic curves have the given traces
-2163: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 4 newforms, committed and pushed
+2163: makenf done to norm 11, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2164 (541): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2167: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+2164 (541): makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2167: makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (6 curves), committed and pushed
-2168 (542): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 6 newforms, committed and pushed
+2168 (542): makenf done to norm 11, 25 ap, 6 newforms, committed and pushed
       All 6 curves found, processed (12 curves), committed and pushed
-2171: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2179: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2180 (545): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 4 newforms, committed and pushed
+2171: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2179: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2180 (545): makenf done to norm 11, 25 ap, 4 newforms, committed and pushed
       All 4 curves found, processed (8 curves), committed and pushed
-2183: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2184 (546): geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2191: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2195: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
-2199: geodata and integral homology done, homtest OK
-      makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
+2183: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2184 (546): makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2191: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2195: makenf done to norm 11, 25 ap, 0 newforms, committed and pushed
+2199: makenf done to norm 11, 25 ap, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
 
-=========== curve  finding   done to here (levels to 11)  ========================
-=========== curve processing done to here (levels to 11)  ========================
-​
 dlist='2203 2207 2211 553 2215 554 2219 2227 557 2231 2235 2239 2243 561 2247 562 2251 2255 565 2263 566 2267 2271 569 2279 570 2283 2287 2291 573 574 2307 577 2311 2315 2319 2323 581 2327 582 2335 2339 2343 586 2347 2351 2355 589 2359 590 2363 2371 593 2379 2383 2387 597 2391 598 2395 2399 601 2407 602 2411 2415 2419 2423 606 2427 2431 2435 609 610 2443 2447 2451 613 2455 614 2459 2463 2467 617 2471 618 2479 2483 2487 622 2491 2495'
 Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
 2243 2244 2247 2248 2251 2255 2260 2263 2264 2267 2271 2276 2279 2280
@@ -2239,252 +1725,154 @@ Dlist='2203 2207 2211 2212 2215 2216 2219 2227 2228 2231 2235 2239
 
 2200-2300 makenf 1-11 done
 
-2203: geodata and integral homology done, homtest OK
-      1-15 done, 0 newforms, committed and pushed
-2207: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2211: geodata and integral homology done, homtest OK
-      1-11 done, 6 newforms, committed and pushed
+2203: 1-15 done, 0 newforms, committed and pushed
+2207: 1-11 done, 0 newforms, committed and pushed
+2211: 1-11 done, 6 newforms, committed and pushed
       All 6 curves found, processed (16 curves), committed and pushed
-2212 (553): geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2212 (553): 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2215: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2216 (554): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2219: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2215: 1-11 done, 0 newforms, committed and pushed
+2216 (554): 1-11 done, 0 newforms, committed and pushed
+2219: 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2227: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2228 (557): geodata done and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2231: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2227: 1-11 done, 0 newforms, committed and pushed
+2228 (557): 1-11 done, 0 newforms, committed and pushed
+2231: 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2235: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2239: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2243: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2235: 1-11 done, 0 newforms, committed and pushed
+2239: 1-11 done, 0 newforms, committed and pushed
+2243: 1-11 done, 2 newforms, committed and pushed
       All 2 curves found, processed (2 curves), committed and pushed
-2244 (561): geodata and integral homology done, homtest OK
-      1-11 done, 8 newforms, committed and pushed
+2244 (561): 1-11 done, 8 newforms, committed and pushed
       All 8 curves found, processed (24 curves), committed and pushed
-2247: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2248 (562): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2251: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2255: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2247: 1-11 done, 0 newforms, committed and pushed
+2248 (562): 1-11 done, 0 newforms, committed and pushed
+2251: 1-11 done, 0 newforms, committed and pushed
+2255: 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (12 curves), committed and pushed
-2260 (565): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2263: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2264 (566): geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2260 (565): 1-11 done, 0 newforms, committed and pushed
+2263: 1-11 done, 0 newforms, committed and pushed
+2264 (566): 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (8 curves), committed and pushed
-2267: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2267: 1-11 done, 2 newforms, committed and pushed
       All 2 curves found, processed (2 curves), committed and pushed
-2271: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2276 (569): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2279: geodata and integral homology done, homtest OK
-      1-11 done, 8 newforms, committed and pushed
+2271: 1-11 done, 0 newforms, committed and pushed
+2276 (569): 1-11 done, 0 newforms, committed and pushed
+2279: 1-11 done, 8 newforms, committed and pushed
       All 8 curves found, processed (10 curves), committed and pushed
-2280 (570): geodata and integral homology done, homtest OK
-      1-11 done, 8 newforms, committed and pushed
+2280 (570): 1-11 done, 8 newforms, committed and pushed
       0/8 curves found
       Missing 9.1-abcdefgh (all unramified twists, Cl=C4xC2xC2)
-2283: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2283: 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2287: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2287: 1-11 done, 2 newforms, committed and pushed
       All 2 curves found, processed (2 curves), committed and pushed
-2291: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2291: 1-11 done, 4 newforms, committed and pushed
       All 4 curves found, processed (4 curves), committed and pushed
-2292 (573): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2296 (574): geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2292 (573): 1-11 done, 0 newforms, committed and pushed
+2296 (574): 1-11 done, 4 newforms, committed and pushed
       0/4 curves found
       Missing 9.1-abcd (all unramified twists, Cl=C8xC2)
 
-=========== curve  finding   done to here (levels to 11)  ========================
-=========== curve processing done to here (levels to 11)  ========================
-
-
 2300-2400 makenf levels 1-11 done
 
-2307: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2308 (577): geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2307: 1-11 done, 0 newforms, committed and pushed
+2308 (577): 1-11 done, 2 newforms, committed and pushed
       All 2 curves found, processed (4 curves), committed and pushed
-2311: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2315: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2311: 1-11 done, 0 newforms, committed and pushed
+2315: 1-11 done, 4 newforms, committed and pushed
       0 curves 1-11 found
       2.0.2315.1-9.1-a/b, 9.3-1/b: no curvehas specified traces
-2319: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2323: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2319: 1-11 done, 0 newforms, committed and pushed
+2323: 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (4 curves), committed and pushed
-2324 (581): geodata done and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2327: geodata and integral homology done, homtest OK
-      1-11 done, 6 newforms, committed and pushed
+2324 (581): 1-11 done, 0 newforms, committed and pushed
+2327: 1-11 done, 6 newforms, committed and pushed
       All 6 curves 1-11 found, processed (20 curves), committed and pushed
-2328 (582): geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2328 (582): 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (8 curves), committed and pushed
-2335: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2339: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2343: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2335: 1-11 done, 0 newforms, committed and pushed
+2339: 1-11 done, 0 newforms, committed and pushed
+2343: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (12 curves), committed and pushed
-2344 (586): geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2344 (586): 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (4 curves), committed and pushed
-2347: geodata and integral homology done, homtest OK
-      1-15 done, 0 newforms, committed and pushed
-2351: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2347: 1-15 done, 0 newforms, committed and pushed
+2351: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (4 curves), committed and pushed
-2355: geodata and integral homology done, homtest OK
-      1-15 done, 0 newforms, committed and pushed
-2356 (589): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2359: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2360 (590): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2363: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2371: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2372 (593): geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2355: 1-15 done, 0 newforms, committed and pushed
+2356 (589): 1-11 done, 0 newforms, committed and pushed
+2359: 1-11 done, 0 newforms, committed and pushed
+2360 (590): 1-11 done, 0 newforms, committed and pushed
+2363: 1-11 done, 0 newforms, committed and pushed
+2371: 1-11 done, 0 newforms, committed and pushed
+2372 (593): 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (2 curves), committed and pushed
-2379: geodata and integral homology done, homtest OK
-      1-11 done, 24 newforms, committed and pushed
+2379: 1-11 done, 24 newforms, committed and pushed
       All 24 curves 1-11 found, processed (36 curves), committed and pushed
-2383: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2387: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2383: 1-11 done, 0 newforms, committed and pushed
+2387: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (12 curves), committed and pushed
-2388 (597): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2391: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2388 (597): 1-11 done, 0 newforms, committed and pushed
+2391: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (4 curves), committed and pushed
-2392 (598): geodata and integral homology done, homtest OK
-      1-11 done, 8 newforms, committed and pushed
+2392 (598): 1-11 done, 8 newforms, committed and pushed
       0 curves 1-11 found: No elliptic curves have the specified 'Traces'
       2.0.2392.1-1.1-a/b/c/d, 2.0.2392.1-9.1-a/b/c/d
-2395: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2399: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
+2395: 1-11 done, 0 newforms, committed and pushed
+2399: 1-11 done, 0 newforms, committed and pushed
 
-=========== curve  finding   done to here (levels to 11)  ========================
-=========== curve processing done to here (levels to 11)  ========================
-​
 2400-2500 makenf levels 1-11 done
 
-2404 (601): geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2404 (601): 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (2 curves), committed and pushed
-2407: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2407: 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (4 curves), committed and pushed
-2408 (602): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2411: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2415: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2419: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2408 (602): 1-11 done, 0 newforms, committed and pushed
+2411: 1-11 done, 0 newforms, committed and pushed
+2415: 1-11 done, 0 newforms, committed and pushed
+2419: 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (4 curves), committed and pushed
-2423: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2424 (606): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2427: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2431: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2423: 1-11 done, 0 newforms, committed and pushed
+2424 (606): 1-11 done, 0 newforms, committed and pushed
+2427: 1-11 done, 0 newforms, committed and pushed
+2431: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (12 curves), committed and pushed
-2435: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2436 (609): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2440 (610): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2443: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2447: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2451: geodata and integral homology done, homtest OK
-      1-11 done, 6 newforms, committed and pushed
+2435: 1-11 done, 0 newforms, committed and pushed
+2436 (609): 1-11 done, 0 newforms, committed and pushed
+2440 (610): 1-11 done, 0 newforms, committed and pushed
+2443: 1-11 done, 0 newforms, committed and pushed
+2447: 1-11 done, 0 newforms, committed and pushed
+2451: 1-11 done, 6 newforms, committed and pushed
       All 6 curves 1-11 found, processed (12 curves), committed and pushed
-2452 (613): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2455: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2456 (614): geodata  and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2452 (613): 1-11 done, 0 newforms, committed and pushed
+2455: 1-11 done, 0 newforms, committed and pushed
+2456 (614): 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (4 curves), committed and pushed
-2459: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2463: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2467: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2468 (617): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2471: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2459: 1-11 done, 0 newforms, committed and pushed
+2463: 1-11 done, 0 newforms, committed and pushed
+2467: 1-11 done, 0 newforms, committed and pushed
+2468 (617): 1-11 done, 0 newforms, committed and pushed
+2471: 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (8 curves), committed and pushed
-2472 (618): geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2479: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2472 (618): 1-11 done, 0 newforms, committed and pushed
+2479: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (8 curves), committed and pushed
-2483: geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2483: 1-11 done, 2 newforms, committed and pushed
       All 2 curves 1-11 found, processed (4 curves), committed and pushed
-2487: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
-2488 (622): geodata and integral homology done, homtest OK
-      1-11 done, 2 newforms, committed and pushed
+2487: 1-11 done, 0 newforms, committed and pushed
+2488 (622): 1-11 done, 2 newforms, committed and pushed
       0 curves found (No elliptic curves have the specified 'Traces')
       2.0.2488.1-9.1-a/b
-2491: geodata and integral homology done, homtest OK
-      1-11 done, 4 newforms, committed and pushed
+2491: 1-11 done, 4 newforms, committed and pushed
       All 4 curves 1-11 found, processed (6 curves), committed and pushed
-2495: geodata and integral homology done, homtest OK
-      1-11 done, 0 newforms, committed and pushed
+2495: 1-11 done, 0 newforms, committed and pushed
 
 2100 - 2500:
  - geodata done
  - homtest & int hom done
  - makenf done to 15 or 11
+ - curves found and processed
 
 ======================================================================
 
@@ -2510,80 +1898,6 @@ unnamed #3: 2 triangles + 4 squares
 unnamed #1: d = 101
 unnamed #2: d = 149
 unnamed #3: d = 471, 519, 615, 663, 519, 759, 807, 903, 951
-
-=======================MISSING CURVES================================
-
-Class number 1, Euclidean: 40, listed in detail in paper with Pacetti et al:
-
-2.0.3.1: 21: 9 are bct and 12 have associated genus 2 QM curves by Schembri:
-2.0.4.1:  4: none are bct but have associated genus 2 QM curves by Schembri:
-2.0.7.1:  7: 5 all are bc
-2.0.8.1:  8: all are bc
-
-Class number 1, Non-Euclidean:
-2.0.19.1: 2: 1849.1-a, 1849.3, NOT bct
-2.0.43.1:31: all bct
-
-Class number >1:
-
-2.0.56.1-127.1-a NOT twist of bc "No elliptic curve"
-2.0.56.1-127.1-b "
-2.0.56.1-127.2-a "
-2.0.56.1-127.2-b "
-2.0.56.1-529.1-a twist of bc of Q(sqrt(7)), CM "No elliptic curve"
-2.0.56.1-529.3-b "
-2.0.59.1-675.5-b twist of bc of Q "No curve found"
-2.0.59.1-675.8-b "
-2.0.68.1-901.1-a NOT twist of bc "No curve found"
-2.0.68.1-901.1-b "
-2.0.68.1-901.2-a "
-2.0.68.1-901.2-b "
-2.0.91.1-784.1-a twist of bc of Q(sqrt(6)) "No elliptic curve"
-2.0.91.1-784.1-b "
-
-2.0.111.1-27.1-a NOT bc or bct or CM
-2.0.111.1-27.1-b "
-2.0.111.1-27.1-c "
-2.0.111.1-27.1-d "
-2.0.183.1-9.1-a twist of bc of Q(sqrt(15)), not CM
-2.0.183.1-9.1-b "
-2.0.183.1-16.1-a twist of bc of Q(sqrt(15)), not CM
-2.0.183.1-16.1-b "
-2.0.183.1-16.5-a "
-2.0.183.1-16.5-b "
-2.0.183.1-27.1-a NOT bc or bct or CM
-2.0.183.1-27.1-b "
-2.0.183.1-27.1-c "
-2.0.183.1-27.1-d "
-2.0.183.1-61.1-a "
-2.0.183.1-61.1-b "
-2.0.183.1-61.1-c "
-2.0.183.1-61.1-d "
-2.0.183.1-61.1-g "
-2.0.183.1-61.1-h "
-2.0.183.1-61.1-i "
-2.0.183.1-61.1-j "
-2.0.184.1-9.1-a twist of bc of Q !! "No elliptic curves have the specified 'Traces'"
-2.0.184.1-9.1-b "
-2.0.184.1-81.1-a "
-2.0.184.1-81.1-b "
-2.0.212.1-9.1-a twist of bc of Q(sqrt(14)), not CM
-2.0.212.1-9.1-b "
-2.0.212.1-9.3-a "
-2.0.212.1-9.3-b "
-2.0.228.1-81.1-c twist of bc of Q(sqrt(10)), not CM
-2.0.228.1-81.1-d "
-2.0.228.1-81.1-e "
-2.0.228.1-81.1-f "
-2.0.239.1-81.2-a NOT bc or bct or CM
-2.0.239.1-81.4-a "
-
-(this list not yet continued for larger fields, but the information
-per field is above).
-
-NB
-2.0.59.1-675.5-b: (+/-)aP+2p = 4, 9, 9, ...
-2.0.59.1-675.8-b: (+/-)aP+2p = 4, 9, 9, ...
 
 
 ========================DIMENSION TABLES============================
@@ -2739,10 +2053,10 @@ sage: def proc(D):
 ....:     field_label = f'2.0.{D}.1'
 ....:     Nrange = '1-100' # replace as appropriate
 ....:     rawcurvesfile = ".".join(['rawcurves', field_label, Nrange])
-....:     data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
+....:     data = read_curves_magma(ECNF_DIR+"/rawdata/"+rawcurvesfile)
 ....:     n = len(list(data))
 ....:     print(f"{n} raw curves over field {field_label}")
-....:     data = read_curves_magma(ECNF_DIR+"/IQF/"+rawcurvesfile)
+....:     data = read_curves_magma(ECNF_DIR+"/raw/"+rawcurvesfile)
 ....:     curves = make_all_data_files1(data, field_type='IQF', field_label=field_label, verbose=0, prec=128, backend='pari')
 
 
