@@ -479,6 +479,8 @@ status0forms = ['2.0.183.1-9.1-a','2.0.183.1-9.1-b','2.0.183.1-16.1-a','2.0.183.
 
 Fields to 700: the other 193 ( = 209-16) missing curves really do not exist.
 
+---------------------------------------------------------------------------
+
 Fields 700-2500:  159 = 51+108 newforms have no curve (status != 1)
 
 Status 0 (no curve found) 51 newforms:
