@@ -9,6 +9,34 @@ Recorded in column 'curve_status' in table bmf_forms as 0 or -1 (and +1 if we ha
    specified 'Traces'.
 - (0) no curve found but not known whether it could exist.
 
+========================================================================
+sage: for F in db.bmf_forms.search({'curve_status':1}):
+....:     lab = F['label']
+....:     n = db.ec_nfcurves.count({'class_label': lab, 'number':1})
+....:     if n!=1:
+....:         print(f"{lab} has {n} matching curves")
+....:
+
+2.0.959.1-90.10-a has 0 matching curves [status 0] [fixed 8/7/25]
+2.0.959.1-90.10-b has 0 matching curves [status 0] [fixed 8/7/25]
+2.0.1731.1-9.1-a has 0 matching curves [status 0] [fixed 8/7/25]
+2.0.1731.1-9.1-b has 0 matching curves [status 0] [fixed 8/7/25]
+2.0.1727.1-9.1-b has 0 matching curves [status -1] [fixed 8/7/25]
+2.0.1727.1-9.3-b has 0 matching curves [status -1] [fixed 8/7/25]
+2.0.1991.1-9.1-a has 0 matching curves [status -1] [fixed 8/7/25]
+2.0.1991.1-9.3-a has 0 matching curves [status -1] [fixed 8/7/25]
+
+2.0.1191.1-12.2-b has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.1191.1-12.2-c has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.1391.1-14.2-a has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.1391.1-14.2-b has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.1391.1-14.3-a has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.1391.1-14.3-b has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.991.1-52.3-b has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+2.0.991.1-52.4-b has 0 matching curves [found but not uploaded] [uploaded 8/7/25]
+
+========================================================================
+
 Counts for fields to 700:
 Total missing: 209
 
@@ -170,9 +198,11 @@ Class number >1: 132 to disc 700 (total 209)
 2.0.959.1-60.8-a/b/c/d
 2.0.959.1-64.1-a/b/c (No curve has given traces)
 2.0.959.1-64.7-a/b/c (No curve has given traces)
-2.0.959.1-90.3-a/b running
+2.0.959.1-90.3-a/b
 2.0.959.1-90.4-a/b
 2.0.959.1-90.9-a/b
+2.0.959.1-90.10-a
+2.0.959.1-90.10-b
 
 2.0.991.1-52.3-b *** later found, processed
 2.0.991.1-52.4-b *** later found, processed
@@ -481,9 +511,9 @@ Fields to 700: the other 193 ( = 209-16) missing curves really do not exist.
 
 ---------------------------------------------------------------------------
 
-Fields 700-2500:  159 = 51+108 newforms have no curve (status != 1)
+Fields 700-2500:  167 = 55+112 newforms have no curve (status != 1)
 
-Status 0 (no curve found) 51 newforms:
+Status 0 (no curve found) 55 newforms:
 
 2.0.719.1-42.3-b
 2.0.719.1-42.6-b
@@ -526,10 +556,14 @@ Status 0 (no curve found) 51 newforms:
 2.0.959.1-90.4-b
 2.0.959.1-90.9-a
 2.0.959.1-90.9-b
+2.0.959.1-90.10-a
+2.0.959.1-90.10-b
 2.0.1304.1-9.1-a
 2.0.1304.1-9.3-a
 2.0.1559.1-12.3-a
 2.0.1559.1-12.4-a
+2.0.1731.1-9.1-a
+2.0.1731.1-9.1-b
 2.0.2039.1-12.3-a
 2.0.2039.1-12.4-a
 2.0.2104.1-9.1-a
@@ -537,7 +571,7 @@ Status 0 (no curve found) 51 newforms:
 2.0.2159.1-4.2-a
 2.0.2159.1-4.2-d
 
-Status -1 (no curve has given traces) for 108 neweforms:
+Status -1 (no curve has given traces) for 112 newforms:
 
 2.0.776.1-9.1-a
 2.0.776.1-9.3-a
@@ -609,6 +643,8 @@ Status -1 (no curve has given traces) for 108 neweforms:
 2.0.1528.1-9.1-b
 2.0.1608.1-9.1-a
 2.0.1608.1-9.1-b
+2.0.1727.1-9.1-b
+2.0.1727.1-9.3-b
 2.0.1767.1-9.1-a
 2.0.1767.1-9.1-b
 2.0.1767.1-9.1-c
@@ -617,6 +653,8 @@ Status -1 (no curve has given traces) for 108 neweforms:
 2.0.1803.1-4.1-b
 2.0.1912.1-9.1-a
 2.0.1912.1-9.1-b
+2.0.1991.1-9.1-a
+2.0.1991.1-9.3-a
 2.0.2019.1-4.1-a
 2.0.2019.1-4.1-b
 2.0.2159.1-4.2-b
@@ -648,10 +686,8 @@ Status -1 (no curve has given traces) for 108 neweforms:
 2.0.2488.1-9.1-a
 2.0.2488.1-9.1-b
 
-2.0.991.1-52.3-b *** later found, processed
-2.0.991.1-52.4-b *** later found, processed
-2.0.1191.1-12.2-b/c *** later found, processed
-2.0.1391.1-14.2-a/b *** later found, processed
-2.0.1391.1-14.3-a/b *** later found, processed
-
-
+2.0.991.1-52.3-b *** later found, processed, uploaded
+2.0.991.1-52.4-b *** later found, processed, uploaded
+2.0.1191.1-12.2-b/c *** later found, processed, uploaded
+2.0.1391.1-14.2-a/b *** later found, processed, uploaded
+2.0.1391.1-14.3-a/b *** later found, processed, uploaded

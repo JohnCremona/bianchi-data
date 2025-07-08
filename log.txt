@@ -104,11 +104,13 @@ odd class numbers >1: d = 23, 31, 47, 59, 71, 79, 83
 
 31: 1-5000 complete, 5163 newforms, all curves found, processed, uploaded.
   reached 5120.19
+NB newforms.31.1-5120 has 232 newforms not uploaded to LMFDB
 
 47: 1-1000 complete, 1288 newforms, all curves found, processed, uploaded.
 
 59: 1-1000 complete, 564 newforms, all 564 curves found, processed, uploaded.
   1001-1200 complete, 109 newforms.  No curve search yet.
+NB newforms.59.1-1200 has 109 newforms not uploaded to LMFDB
 
 71: 1-1000 complete, 1774 newforms, all curves found, processed, uploaded.
 
